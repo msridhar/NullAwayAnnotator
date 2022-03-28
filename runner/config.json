@@ -1,14 +1,1 @@
-{
-  "PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx",
-  "BUILD_COMMAND": "./gradlew :gdx:build -x test",
-  "ANNOTATION": {
-    "INITIALIZER": "com.badlogic.gdx.Initializer",
-    "NONNULL": "javax.annotation.Nonnull",
-    "NULLABLE": "javax.annotation.Nullable"
-  },
-  "FORMAT": false,
-  "OUTPUT_DIR": "/tmp/NullAwayFix",
-  "NULLAWAY_CONFIG_PATH": "/tmp/NullAwayFix/config.xml",
-  "CSS_CONFIG_PATH": "/tmp/NullAwayFix/css.xml",
-  "DEPTH": 4
-}
+{"PROJECT_PATH": "/home/nima/Developer/AutoFixer/Evaluation/Projects/lottie-android", "BUILD_COMMAND": "./gradlew :lottie:build -x test", "ANNOTATION": {"INITIALIZER": "com.airbnb.lottie.Initializer", "NONNULL": "javax.annotation.Nonnull", "NULLABLE": "androidx.annotation.Nullable"}, "FORMAT": false, "OUTPUT_DIR": "/tmp/NullAwayFix", "NULLAWAY_CONFIG_PATH": "/tmp/NullAwayFix/config.xml", "CSS_CONFIG_PATH": "/tmp/NullAwayFix/css.xml", "DEPTH": 0}
