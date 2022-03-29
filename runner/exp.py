@@ -14,11 +14,11 @@ for proj in projects['projects']:
     config['PROJECT_PATH'] = path
     config['BUILD_COMMAND'] = proj['build']
     config['ANNOTATION']['NULLABLE'] = proj['annot']['nullable']
-    config['ANNOTATION']['INITIALIZER'] = proj['init']['init']
+    config['ANNOTATION']['INITIALIZER'] = proj['annot']['init']
     with open("config.json", "w") as f:
         json.dump(config, f)
 
-    for i in range(0, 1):
+    for i in range(0, 11):
         branch = "deep_{}".format(i)
         COMMAND = "cd {} && {}".format(config['PROJECT_PATH'], "{}")
         os.system(COMMAND.format("git reset --hard"))
