@@ -5,7 +5,7 @@ import time
 f = open("config.json", "r")
 data = json.load(f)
 
-for i in range(1, 11):
+for i in range(0, 1):
     print("START")
     branch = "deep_{}".format(i)
     COMMAND = "cd {} && {}".format(data['PROJECT_PATH'], "{}")
@@ -22,7 +22,7 @@ for i in range(1, 11):
     os.system("python3 run.py run")
     duration = time.time() - start
 
-    with open("elapsed_time.txt", "w") as f:
+    with open("{}/elapsed_time.txt".format(data['PROJECT_PATH']), "w") as f:
         f.write(str(duration))
 
     os.system("cd /tmp && zip -r annotator.zip NullAwayFix/")
@@ -31,3 +31,4 @@ for i in range(1, 11):
     os.system(COMMAND.format("git add ."))
     os.system(COMMAND.format("git commit -m \"Final Result\""))
     os.system(COMMAND.format("git push --set-upstream origin {}".format(branch)))
+    exit()
