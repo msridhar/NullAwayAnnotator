@@ -14,7 +14,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": true
+            "active": false
         },
         {
             "name": "Mockito",
@@ -30,7 +30,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Conductor",
@@ -62,7 +62,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -78,7 +78,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Gson",
@@ -94,7 +94,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Jadx",
@@ -110,7 +110,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -126,7 +126,7 @@
             },
             "branch": "gc_5",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -158,7 +158,7 @@
             },
             "branch": "gc_5",
             "preprocess": false,
-            "active": true
+            "active": false
         },
         {
             "name": "SpringBoot",
@@ -174,7 +174,7 @@
             },
             "branch": "gc_2",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
@@ -190,7 +190,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Glide",
@@ -206,7 +206,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "UCrop",
@@ -222,7 +222,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "Eureka",
@@ -238,7 +238,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         }
     ]
 }
