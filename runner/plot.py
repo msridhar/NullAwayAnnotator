@@ -13,6 +13,8 @@ def read_errors_num():
 
 
 for proj in projects['projects']:
+    if not proj['active']:
+        continue
     print("Working on {}".format(proj['name']))
     COMMAND = "cd {} && {}".format(root.format(proj['path']), "{}")
     errors = {}

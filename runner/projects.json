@@ -149,7 +149,7 @@
             "path": "retrofit",
             "root": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :retrofit:compileJava",
             "format": "",
             "annot": {
                 "init": "retrofit2.Initializer",
@@ -206,14 +206,14 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "UCrop",
             "path": "uCrop",
             "root": "uCrop",
             "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
-            "build": "./gradlew library:build",
+            "build": "./gradlew :ucrop:compileDebugJavaWithJavac",
             "format": "",
             "annot": {
                 "init": "com.yalantis.ucrop.Initializer",
