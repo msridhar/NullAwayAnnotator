@@ -117,7 +117,7 @@
             "path": "zuul",
             "root": "zuul",
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :zuul-core:compileJava",
             "format": "",
             "annot": {
                 "init": "com.netflix.Initializer",
@@ -165,7 +165,7 @@
             "path": "spring-boot",
             "root": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
-            "build": "./gradlew spring-boot-project:spring-boot:compileJava -x test",
+            "build": "./gradlew spring-boot-project:spring-boot:compileJava",
             "format": "",
             "annot": {
                 "init": "org.springframework.boot.Initializer",
@@ -206,7 +206,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "UCrop",
@@ -222,7 +222,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "Eureka",
@@ -238,7 +238,7 @@
             },
             "branch": "gc_3",
             "preprocess": true,
-            "active": true
+            "active": false
         }
     ]
 }
