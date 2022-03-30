@@ -1,5 +1,6 @@
 {
     "MPAndroid": {
+        "dummy": 489,
         "nullaway": 174,
         "deep_0": 62,
         "deep_1": 63,
@@ -14,6 +15,7 @@
         "deep_10": 54
     },
     "Mockito": {
+        "dummy": 113,
         "nullaway": 205,
         "deep_0": 56,
         "deep_1": 50,
@@ -28,6 +30,7 @@
         "deep_10": 44
     },
     "Conductor": {
+        "dummy": 163,
         "nullaway": 138,
         "deep_0": 82,
         "deep_1": 81,
@@ -42,6 +45,7 @@
         "deep_10": 81
     },
     "LitiEngine": {
+        "dummy": 551,
         "nullaway": 480,
         "deep_0": 207,
         "deep_1": 195,
@@ -56,6 +60,7 @@
         "deep_10": 174
     },
     "EventBus": {
+        "dummy": 18,
         "nullaway": 49,
         "deep_0": 10,
         "deep_1": 9,
@@ -70,6 +75,7 @@
         "deep_10": 9
     },
     "Gson": {
+        "dummy": 192,
         "nullaway": 161,
         "deep_0": 92,
         "deep_1": 85,
@@ -84,6 +90,7 @@
         "deep_10": 84
     },
     "Jadx": {
+        "dummy": 796,
         "nullaway": 583,
         "deep_0": 138,
         "deep_1": 137,
@@ -98,6 +105,7 @@
         "deep_10": 153
     },
     "Zull": {
+        "dummy": 174,
         "nullaway": 204,
         "deep_0": 86,
         "deep_1": 82,
@@ -112,6 +120,7 @@
         "deep_10": 78
     },
     "LottieAndroid": {
+        "dummy": 243,
         "nullaway": 331,
         "deep_0": 139,
         "deep_1": 121,
@@ -126,6 +135,7 @@
         "deep_10": 119
     },
     "Retrofit": {
+        "dummy": 13,
         "nullaway": 26,
         "deep_0": 13,
         "deep_1": 13,
@@ -140,6 +150,7 @@
         "deep_10": 13
     },
     "SpringBoot": {
+        "dummy": 192,
         "nullaway": 699,
         "deep_0": 153,
         "deep_1": 122,
@@ -154,6 +165,7 @@
         "deep_10": 79
     },
     "LibGdx": {
+        "dummy": 2379,
         "nullaway": 1489,
         "deep_0": 532,
         "deep_1": 494,
@@ -168,6 +180,7 @@
         "deep_10": 482
     },
     "Glide": {
+        "dummy": 205,
         "nullaway": 286,
         "deep_0": 126,
         "deep_1": 125,
@@ -181,6 +194,7 @@
         "deep_9": 121
     },
     "UCrop": {
+        "dummy": 78,
         "nullaway": 51,
         "deep_0": 24,
         "deep_1": 25,
@@ -195,6 +209,7 @@
         "deep_10": 25
     },
     "Eureka": {
+        "dummy": 70,
         "nullaway": 74,
         "deep_0": 32,
         "deep_1": 32,
