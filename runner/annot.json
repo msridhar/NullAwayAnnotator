@@ -1,0 +1,752 @@
+{
+  "MPAndroid": {
+    "dummy": {
+      "nullable": 328,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 165,
+      "initializer": 1
+    },
+    "deep_1": {
+      "nullable": 166,
+      "initializer": 1
+    },
+    "deep_2": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_3": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_4": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_5": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_6": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_7": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_8": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_9": {
+      "nullable": 185,
+      "initializer": 1
+    },
+    "deep_10": {
+      "nullable": 185,
+      "initializer": 1
+    }
+  },
+  "Mockito": {
+    "dummy": {
+      "nullable": 409,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 197,
+      "initializer": 8
+    },
+    "deep_1": {
+      "nullable": 236,
+      "initializer": 8
+    },
+    "deep_2": {
+      "nullable": 245,
+      "initializer": 8
+    },
+    "deep_3": {
+      "nullable": 260,
+      "initializer": 8
+    },
+    "deep_4": {
+      "nullable": 260,
+      "initializer": 8
+    },
+    "deep_5": {
+      "nullable": 260,
+      "initializer": 8
+    },
+    "deep_6": {
+      "nullable": 260,
+      "initializer": 8
+    },
+    "deep_7": {
+      "nullable": 263,
+      "initializer": 8
+    },
+    "deep_8": {
+      "nullable": 263,
+      "initializer": 8
+    },
+    "deep_9": {
+      "nullable": 263,
+      "initializer": 8
+    },
+    "deep_10": {
+      "nullable": 263,
+      "initializer": 8
+    }
+  },
+  "Conductor": {
+    "dummy": {
+      "nullable": 157,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 103,
+      "initializer": 0
+    },
+    "deep_1": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_2": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_3": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_4": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_5": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_6": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_7": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_8": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_9": {
+      "nullable": 105,
+      "initializer": 0
+    },
+    "deep_10": {
+      "nullable": 105,
+      "initializer": 0
+    }
+  },
+  "LitiEngine": {
+    "dummy": {
+      "nullable": 1143,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 572,
+      "initializer": 1
+    },
+    "deep_1": {
+      "nullable": 630,
+      "initializer": 1
+    },
+    "deep_2": {
+      "nullable": 712,
+      "initializer": 1
+    },
+    "deep_3": {
+      "nullable": 754,
+      "initializer": 1
+    },
+    "deep_4": {
+      "nullable": 769,
+      "initializer": 1
+    },
+    "deep_5": {
+      "nullable": 777,
+      "initializer": 1
+    },
+    "deep_6": {
+      "nullable": 777,
+      "initializer": 1
+    },
+    "deep_7": {
+      "nullable": 777,
+      "initializer": 1
+    },
+    "deep_8": {
+      "nullable": 777,
+      "initializer": 1
+    },
+    "deep_9": {
+      "nullable": 777,
+      "initializer": 1
+    },
+    "deep_10": {
+      "nullable": 777,
+      "initializer": 1
+    }
+  },
+  "EventBus": {
+    "dummy": {
+      "nullable": 66,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 55,
+      "initializer": 4
+    },
+    "deep_1": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_2": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_3": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_4": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_5": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_6": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_7": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_8": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_9": {
+      "nullable": 58,
+      "initializer": 4
+    },
+    "deep_10": {
+      "nullable": 58,
+      "initializer": 4
+    }
+  },
+  "Gson": {
+    "dummy": {
+      "nullable": 146,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 101,
+      "initializer": 2
+    },
+    "deep_1": {
+      "nullable": 120,
+      "initializer": 2
+    },
+    "deep_2": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_3": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_4": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_5": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_6": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_7": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_8": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_9": {
+      "nullable": 123,
+      "initializer": 2
+    },
+    "deep_10": {
+      "nullable": 123,
+      "initializer": 2
+    }
+  },
+  "Jadx": {
+    "dummy": {
+      "nullable": 1028,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 442,
+      "initializer": 47
+    },
+    "deep_1": {
+      "nullable": 537,
+      "initializer": 47
+    },
+    "deep_2": {
+      "nullable": 586,
+      "initializer": 47
+    },
+    "deep_3": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_4": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_5": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_6": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_7": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_8": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_9": {
+      "nullable": 631,
+      "initializer": 47
+    },
+    "deep_10": {
+      "nullable": 631,
+      "initializer": 47
+    }
+  },
+  "Zuul": {
+    "dummy": {
+      "nullable": 364,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 210,
+      "initializer": 1
+    },
+    "deep_1": {
+      "nullable": 266,
+      "initializer": 19
+    },
+    "deep_2": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_3": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_4": {
+      "nullable": 232,
+      "initializer": 1
+    },
+    "deep_5": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_6": {
+      "nullable": 239,
+      "initializer": 1
+    },
+    "deep_7": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_8": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_9": {
+      "nullable": 173,
+      "initializer": 19
+    },
+    "deep_10": {
+      "nullable": 239,
+      "initializer": 1
+    }
+  },
+  "LottieAndroid": {
+    "dummy": {
+      "nullable": 601,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 482,
+      "initializer": 6
+    },
+    "deep_1": {
+      "nullable": 506,
+      "initializer": 6
+    },
+    "deep_2": {
+      "nullable": 511,
+      "initializer": 6
+    },
+    "deep_3": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_4": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_5": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_6": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_7": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_8": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_9": {
+      "nullable": 516,
+      "initializer": 6
+    },
+    "deep_10": {
+      "nullable": 516,
+      "initializer": 6
+    }
+  },
+  "Retrofit": {
+    "dummy": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_1": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_2": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_3": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_4": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_5": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_6": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_7": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_8": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_9": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "deep_10": {
+      "nullable": 16,
+      "initializer": 0
+    }
+  },
+  "SpringBoot": {
+    "dummy": {
+      "nullable": 1472,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 724,
+      "initializer": 75
+    },
+    "deep_1": {
+      "nullable": 831,
+      "initializer": 75
+    },
+    "deep_2": {
+      "nullable": 883,
+      "initializer": 75
+    },
+    "deep_3": {
+      "nullable": 0,
+      "initializer": 0
+    },
+    "deep_4": {
+      "nullable": 968,
+      "initializer": 75
+    },
+    "deep_5": {
+      "nullable": 598,
+      "initializer": 136
+    },
+    "deep_6": {
+      "nullable": 997,
+      "initializer": 75
+    },
+    "deep_7": {
+      "nullable": 598,
+      "initializer": 136
+    },
+    "deep_8": {
+      "nullable": 598,
+      "initializer": 136
+    },
+    "deep_9": {
+      "nullable": 598,
+      "initializer": 136
+    },
+    "deep_10": {
+      "nullable": 997,
+      "initializer": 75
+    }
+  },
+  "LibGdx": {
+    "dummy": {
+      "nullable": 2071,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 850,
+      "initializer": 74
+    },
+    "deep_1": {
+      "nullable": 900,
+      "initializer": 74
+    },
+    "deep_2": {
+      "nullable": 925,
+      "initializer": 74
+    },
+    "deep_3": {
+      "nullable": 936,
+      "initializer": 74
+    },
+    "deep_4": {
+      "nullable": 936,
+      "initializer": 74
+    },
+    "deep_5": {
+      "nullable": 962,
+      "initializer": 74
+    },
+    "deep_6": {
+      "nullable": 962,
+      "initializer": 74
+    },
+    "deep_7": {
+      "nullable": 962,
+      "initializer": 74
+    },
+    "deep_8": {
+      "nullable": 962,
+      "initializer": 74
+    },
+    "deep_9": {
+      "nullable": 962,
+      "initializer": 74
+    },
+    "deep_10": {
+      "nullable": 962,
+      "initializer": 74
+    }
+  },
+  "Glide": {
+    "dummy": {
+      "nullable": 385,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 224,
+      "initializer": 4
+    },
+    "deep_1": {
+      "nullable": 225,
+      "initializer": 4
+    },
+    "deep_2": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_3": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_4": {
+      "nullable": 240,
+      "initializer": 4
+    },
+    "deep_5": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_6": {
+      "nullable": 240,
+      "initializer": 4
+    },
+    "deep_7": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_8": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_9": {
+      "nullable": 238,
+      "initializer": 4
+    },
+    "deep_10": {
+      "nullable": 0,
+      "initializer": 0
+    }
+  },
+  "UCrop": {
+    "dummy": {
+      "nullable": 74,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 60,
+      "initializer": 3
+    },
+    "deep_1": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_2": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_3": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_4": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_5": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_6": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_7": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_8": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_9": {
+      "nullable": 64,
+      "initializer": 3
+    },
+    "deep_10": {
+      "nullable": 64,
+      "initializer": 3
+    }
+  },
+  "Eureka": {
+    "dummy": {
+      "nullable": 207,
+      "initializer": 0
+    },
+    "deep_0": {
+      "nullable": 82,
+      "initializer": 1
+    },
+    "deep_1": {
+      "nullable": 82,
+      "initializer": 1
+    },
+    "deep_2": {
+      "nullable": 82,
+      "initializer": 1
+    },
+    "deep_3": {
+      "nullable": 82,
+      "initializer": 1
+    },
+    "deep_4": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_5": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_6": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_7": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_8": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_9": {
+      "nullable": 98,
+      "initializer": 1
+    },
+    "deep_10": {
+      "nullable": 98,
+      "initializer": 1
+    }
+  }
+}

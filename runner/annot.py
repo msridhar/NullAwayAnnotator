@@ -10,17 +10,26 @@ branches = ["dummy"] + ["deep_{}".format(i) for i in range(0, 11)]
 
 
 def count_annot(proj, annot):
-    for file in glob.iglob(root.format(proj['path']) + '/**/*.java', recursive=True):
-        print(file)
-    exit()
+    ans = 0
+    path = proj['path']
+    if proj['submodule'] != "":
+        for dir in proj['submodule'].split(":"):
+            path = os.path.join(path, dir)
+    for file in glob.iglob(root.format(path) + '/**/*.java', recursive=True):
+        with open(file, "r") as f:
+            lines = f.readlines()
+            for l in lines:
+                ans += l.count("@" + annot)
+    return ans
 
 
 def read_annots(proj):
     init_annot_full_name = proj['annot']['init']
     nullable_annot_full_name = proj['annot']['nullable']
-    init_annot = init_annot_full_name[init_annot_full_name.rfind("."):]
-    nullable_annot = nullable_annot_full_name[nullable_annot_full_name.rfind("."):]
+    init_annot = init_annot_full_name[init_annot_full_name.rfind(".") + 1:]
+    nullable_annot = nullable_annot_full_name[nullable_annot_full_name.rfind(".") + 1:]
     return count_annot(proj, init_annot), count_annot(proj, nullable_annot)
+
 
 for proj in projects['projects']:
     print("Working on {}".format(proj['name']))
@@ -39,5 +48,5 @@ for proj in projects['projects']:
         annots[branch]['nullable'] = nullable - base_nullable
         annots[branch]['initializer'] = init - base_init
     infos[proj['name']] = annots
-    with open("error.json", "w") as f:
+    with open("annot.json", "w") as f:
         json.dump(infos, f)
