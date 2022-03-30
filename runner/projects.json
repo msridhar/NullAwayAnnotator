@@ -3,9 +3,9 @@
         {
             "name": "MPAndroid",
             "path": "MPAndroidChart",
-            "root": "MPAndroidChart",
+            "submodule": "MPChartLib",
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :MPChartLib:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.github.mikephil.charting.Initializer",
                 "nullable": "androidx.annotation.Nullable",
@@ -16,9 +16,9 @@
         {
             "name": "Mockito",
             "path": "mockito",
-            "root": "mockito",
+            "submodule": "",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :conductor-core:compileJava",
             "annot": {
                 "init": "org.mockito.Initializer",
                 "nullable": "javax.annotation.Nullable",
@@ -29,7 +29,7 @@
         {
             "name": "Conductor",
             "path": "conductor",
-            "root": "conductor",
+            "submodule": "core",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
             "build": "./gradlew :conductor-core:compileJava",
             "annot": {
@@ -42,9 +42,9 @@
         {
             "name": "LitiEngine",
             "path": "litiengine",
-            "root": "litiengine",
+            "submodule": "",
             "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew compileJava",
             "annot": {
                 "init": "de.gurkenlabs.litiengine.Initializer",
                 "nullable": "javax.annotation.Nullable",
@@ -55,9 +55,9 @@
         {
             "name": "EventBus",
             "path": "EventBus",
-            "root": "EventBus",
+            "submodule": "EventBus",
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :eventbus:compileJava",
             "annot": {
                 "init": "org.greenrobot.eventbus.Initializer",
                 "nullable": "javax.annotation.Nullable",
@@ -68,9 +68,9 @@
         {
             "name": "Gson",
             "path": "gson",
-            "root": "gson",
+            "submodule": "gson",
             "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew :gson:compileJava",
             "annot": {
                 "init": "com.google.gson.Initializer",
                 "nullable": "javax.annotation.Nullable",
@@ -81,9 +81,9 @@
         {
             "name": "Jadx",
             "path": "jadx",
-            "root": "jadx",
+            "submodule": "jadx-core",
             "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
-            "build": "./gradlew build -x test",
+            "build": "./gradlew jadx-core:compileJava\n",
             "annot": {
                 "init": "jadx.Initializer",
                 "nullable": "org.jetbrains.annotations.Nullable",
@@ -94,7 +94,7 @@
         {
             "name": "Zuul",
             "path": "zuul",
-            "root": "zuul",
+            "submodule": "zuul-core",
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
             "build": "./gradlew :zuul-core:compileJava",
             "annot": {
@@ -107,9 +107,9 @@
         {
             "name": "LottieAndroid",
             "path": "lottie-android",
-            "root": "lottie-android",
+            "submodule": "lottie",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
-            "build": "./gradlew lottie:build -x test",
+            "build": "./gradlew :lottie:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.airbnb.lottie.Initializer",
                 "nullable": "androidx.annotation.Nullable",
@@ -120,7 +120,7 @@
         {
             "name": "Retrofit",
             "path": "retrofit",
-            "root": "retrofit",
+            "submodule": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
             "build": "./gradlew :retrofit:compileJava",
             "annot": {
@@ -133,7 +133,7 @@
         {
             "name": "SpringBoot",
             "path": "spring-boot",
-            "root": "spring-boot",
+            "submodule": "spring-boot-project:spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
             "build": "./gradlew spring-boot-project:spring-boot:compileJava",
             "annot": {
@@ -146,7 +146,7 @@
         {
             "name": "LibGdx",
             "path": "libgdx",
-            "root": "libgdx",
+            "submodule": "gdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
             "build": "./gradlew gdx:compileJava",
             "annot": {
@@ -159,9 +159,9 @@
         {
             "name": "Glide",
             "path": "glide",
-            "root": "glide",
+            "submodule": "library",
             "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
-            "build": "./gradlew library:build",
+            "build": "./gradlew :library:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.bumptech.glide.Initializer",
                 "nullable": "androidx.annotation.Nullable",
@@ -172,7 +172,7 @@
         {
             "name": "UCrop",
             "path": "uCrop",
-            "root": "uCrop",
+            "submodule": "ucrop",
             "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
             "build": "./gradlew :ucrop:compileDebugJavaWithJavac",
             "annot": {
@@ -185,9 +185,9 @@
         {
             "name": "Eureka",
             "path": "eureka",
-            "root": "eureka",
+            "submodule": "eureka-core",
             "git": "https://{}:{}@github.com/nimakarimipour/eureka.git",
-            "build": "./gradlew build",
+            "build": "./gradlew :eureka-core:compileJava",
             "annot": {
                 "init": "com.netflix.eureka.Initializer",
                 "nullable": "javax.annotation.Nullable",
