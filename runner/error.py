@@ -36,5 +36,5 @@ for proj in projects['projects']:
         os.system("{} > /dev/null 2>&1".format(COMMAND.format(proj['build'])))
         errors[branch] = read_errors_num()
     infos[proj['name']] = errors
-    with open("data1.json", "w") as f:
+    with open("error.json", "w") as f:
         json.dump(infos, f)

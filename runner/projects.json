@@ -6,14 +6,11 @@
             "root": "MPAndroidChart",
             "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "com.github.mikephil.charting.Initializer",
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "androidx.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": false,
             "active": false
         },
         {
@@ -22,14 +19,11 @@
             "root": "mockito",
             "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "org.mockito.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -38,14 +32,11 @@
             "root": "conductor",
             "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
             "build": "./gradlew :conductor-core:compileJava",
-            "format": "",
             "annot": {
                 "init": "com.netflix.conductor.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -54,14 +45,11 @@
             "root": "litiengine",
             "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "de.gurkenlabs.litiengine.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -70,14 +58,11 @@
             "root": "EventBus",
             "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "org.greenrobot.eventbus.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -86,14 +71,11 @@
             "root": "gson",
             "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "com.google.gson.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -102,14 +84,11 @@
             "root": "jadx",
             "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
             "build": "./gradlew build -x test",
-            "format": "",
             "annot": {
                 "init": "jadx.Initializer",
                 "nullable": "org.jetbrains.annotations.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -118,14 +97,11 @@
             "root": "zuul",
             "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
             "build": "./gradlew :zuul-core:compileJava",
-            "format": "",
             "annot": {
                 "init": "com.netflix.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -134,14 +110,11 @@
             "root": "lottie-android",
             "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
             "build": "./gradlew lottie:build -x test",
-            "format": "",
             "annot": {
                 "init": "com.airbnb.lottie.Initializer",
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": true,
             "active": false
         },
         {
@@ -150,14 +123,11 @@
             "root": "retrofit",
             "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
             "build": "./gradlew :retrofit:compileJava",
-            "format": "",
             "annot": {
                 "init": "retrofit2.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_5",
-            "preprocess": false,
             "active": false
         },
         {
@@ -166,15 +136,12 @@
             "root": "spring-boot",
             "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
             "build": "./gradlew spring-boot-project:spring-boot:compileJava",
-            "format": "",
             "annot": {
                 "init": "org.springframework.boot.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_2",
-            "preprocess": true,
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -182,14 +149,11 @@
             "root": "libgdx",
             "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
             "build": "./gradlew gdx:compileJava",
-            "format": "",
             "annot": {
                 "init": "com.badlogic.gdx.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_3",
-            "preprocess": true,
             "active": false
         },
         {
@@ -198,15 +162,12 @@
             "root": "glide",
             "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
             "build": "./gradlew library:build",
-            "format": "",
             "annot": {
                 "init": "com.bumptech.glide.Initializer",
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_3",
-            "preprocess": true,
-            "active": true
+            "active": false
         },
         {
             "name": "UCrop",
@@ -214,14 +175,11 @@
             "root": "uCrop",
             "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
             "build": "./gradlew :ucrop:compileDebugJavaWithJavac",
-            "format": "",
             "annot": {
                 "init": "com.yalantis.ucrop.Initializer",
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_3",
-            "preprocess": true,
             "active": false
         },
         {
@@ -230,14 +188,11 @@
             "root": "eureka",
             "git": "https://{}:{}@github.com/nimakarimipour/eureka.git",
             "build": "./gradlew build",
-            "format": "",
             "annot": {
                 "init": "com.netflix.eureka.Initializer",
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "branch": "gc_3",
-            "preprocess": true,
             "active": false
         }
     ]

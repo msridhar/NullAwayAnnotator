@@ -1,0 +1,752 @@
+{
+  "MPAndroid": {
+    "dummy": {
+      "total": 6,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 218,
+      "opt": 41
+    },
+    "deep_1": {
+      "total": 218,
+      "opt": 56
+    },
+    "deep_2": {
+      "total": 218,
+      "opt": 64
+    },
+    "deep_3": {
+      "total": 218,
+      "opt": 71
+    },
+    "deep_4": {
+      "total": 218,
+      "opt": 76
+    },
+    "deep_5": {
+      "total": 218,
+      "opt": 78
+    },
+    "deep_6": {
+      "total": 218,
+      "opt": 78
+    },
+    "deep_7": {
+      "total": 218,
+      "opt": 78
+    },
+    "deep_8": {
+      "total": 218,
+      "opt": 78
+    },
+    "deep_9": {
+      "total": 218,
+      "opt": 78
+    },
+    "deep_10": {
+      "total": 218,
+      "opt": 78
+    }
+  },
+  "Mockito": {
+    "dummy": {
+      "total": 14,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 325,
+      "opt": 55
+    },
+    "deep_1": {
+      "total": 332,
+      "opt": 63
+    },
+    "deep_2": {
+      "total": 332,
+      "opt": 70
+    },
+    "deep_3": {
+      "total": 332,
+      "opt": 77
+    },
+    "deep_4": {
+      "total": 332,
+      "opt": 81
+    },
+    "deep_5": {
+      "total": 332,
+      "opt": 84
+    },
+    "deep_6": {
+      "total": 332,
+      "opt": 87
+    },
+    "deep_7": {
+      "total": 329,
+      "opt": 88
+    },
+    "deep_8": {
+      "total": 329,
+      "opt": 90
+    },
+    "deep_9": {
+      "total": 329,
+      "opt": 92
+    },
+    "deep_10": {
+      "total": 329,
+      "opt": 94
+    }
+  },
+  "Conductor": {
+    "dummy": {
+      "total": 7,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 129,
+      "opt": 48
+    },
+    "deep_1": {
+      "total": 129,
+      "opt": 56
+    },
+    "deep_2": {
+      "total": 129,
+      "opt": 61
+    },
+    "deep_3": {
+      "total": 129,
+      "opt": 64
+    },
+    "deep_4": {
+      "total": 129,
+      "opt": 66
+    },
+    "deep_5": {
+      "total": 129,
+      "opt": 67
+    },
+    "deep_6": {
+      "total": 129,
+      "opt": 68
+    },
+    "deep_7": {
+      "total": 129,
+      "opt": 69
+    },
+    "deep_8": {
+      "total": 129,
+      "opt": 70
+    },
+    "deep_9": {
+      "total": 129,
+      "opt": 71
+    },
+    "deep_10": {
+      "total": 129,
+      "opt": 72
+    }
+  },
+  "LitiEngine": {
+    "dummy": {
+      "total": 14,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 694,
+      "opt": 43
+    },
+    "deep_1": {
+      "total": 697,
+      "opt": 53
+    },
+    "deep_2": {
+      "total": 696,
+      "opt": 62
+    },
+    "deep_3": {
+      "total": 694,
+      "opt": 69
+    },
+    "deep_4": {
+      "total": 695,
+      "opt": 74
+    },
+    "deep_5": {
+      "total": 694,
+      "opt": 75
+    },
+    "deep_6": {
+      "total": 694,
+      "opt": 78
+    },
+    "deep_7": {
+      "total": 694,
+      "opt": 82
+    },
+    "deep_8": {
+      "total": 694,
+      "opt": 85
+    },
+    "deep_9": {
+      "total": 694,
+      "opt": 87
+    },
+    "deep_10": {
+      "total": 694,
+      "opt": 89
+    }
+  },
+  "EventBus": {
+    "dummy": {
+      "total": 6,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 60,
+      "opt": 19
+    },
+    "deep_1": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_2": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_3": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_4": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_5": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_6": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_7": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_8": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_9": {
+      "total": 60,
+      "opt": 22
+    },
+    "deep_10": {
+      "total": 60,
+      "opt": 22
+    }
+  },
+  "Gson": {
+    "dummy": {
+      "total": 6,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 322,
+      "opt": 27
+    },
+    "deep_1": {
+      "total": 322,
+      "opt": 34
+    },
+    "deep_2": {
+      "total": 322,
+      "opt": 38
+    },
+    "deep_3": {
+      "total": 322,
+      "opt": 39
+    },
+    "deep_4": {
+      "total": 322,
+      "opt": 40
+    },
+    "deep_5": {
+      "total": 322,
+      "opt": 41
+    },
+    "deep_6": {
+      "total": 322,
+      "opt": 42
+    },
+    "deep_7": {
+      "total": 322,
+      "opt": 43
+    },
+    "deep_8": {
+      "total": 322,
+      "opt": 44
+    },
+    "deep_9": {
+      "total": 322,
+      "opt": 45
+    },
+    "deep_10": {
+      "total": 322,
+      "opt": 46
+    }
+  },
+  "Jadx": {
+    "dummy": {
+      "total": 11,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 536,
+      "opt": 52
+    },
+    "deep_1": {
+      "total": 558,
+      "opt": 66
+    },
+    "deep_2": {
+      "total": 564,
+      "opt": 75
+    },
+    "deep_3": {
+      "total": 578,
+      "opt": 84
+    },
+    "deep_4": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_5": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_6": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_7": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_8": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_9": {
+      "total": 578,
+      "opt": 89
+    },
+    "deep_10": {
+      "total": 578,
+      "opt": 89
+    }
+  },
+  "Zuul": {
+    "dummy": {
+      "total": 10,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_1": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_2": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_3": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_4": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_5": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_6": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_7": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_8": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_9": {
+      "total": 364,
+      "opt": 0
+    },
+    "deep_10": {
+      "total": 364,
+      "opt": 0
+    }
+  },
+  "LottieAndroid": {
+    "dummy": {
+      "total": 9,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 519,
+      "opt": 72
+    },
+    "deep_1": {
+      "total": 518,
+      "opt": 83
+    },
+    "deep_2": {
+      "total": 518,
+      "opt": 90
+    },
+    "deep_3": {
+      "total": 518,
+      "opt": 96
+    },
+    "deep_4": {
+      "total": 518,
+      "opt": 100
+    },
+    "deep_5": {
+      "total": 518,
+      "opt": 102
+    },
+    "deep_6": {
+      "total": 518,
+      "opt": 102
+    },
+    "deep_7": {
+      "total": 518,
+      "opt": 102
+    },
+    "deep_8": {
+      "total": 518,
+      "opt": 102
+    },
+    "deep_9": {
+      "total": 518,
+      "opt": 102
+    },
+    "deep_10": {
+      "total": 518,
+      "opt": 102
+    }
+  },
+  "Retrofit": {
+    "dummy": {
+      "total": 4,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_1": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_2": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_3": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_4": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_5": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_6": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_7": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_8": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_9": {
+      "total": 16,
+      "opt": 10
+    },
+    "deep_10": {
+      "total": 16,
+      "opt": 10
+    }
+  },
+  "SpringBoot": {
+    "dummy": {
+      "total": 20,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 837,
+      "opt": 57
+    },
+    "deep_1": {
+      "total": 846,
+      "opt": 88
+    },
+    "deep_2": {
+      "total": 847,
+      "opt": 96
+    },
+    "deep_3": {
+      "total": -1,
+      "opt": -1
+    },
+    "deep_4": {
+      "total": 838,
+      "opt": 107
+    },
+    "deep_5": {
+      "total": -1,
+      "opt": -1
+    },
+    "deep_6": {
+      "total": 842,
+      "opt": 113
+    },
+    "deep_7": {
+      "total": -1,
+      "opt": -1
+    },
+    "deep_8": {
+      "total": -1,
+      "opt": -1
+    },
+    "deep_9": {
+      "total": -1,
+      "opt": -1
+    },
+    "deep_10": {
+      "total": 842,
+      "opt": 116
+    }
+  },
+  "LibGdx": {
+    "dummy": {
+      "total": 10,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 1311,
+      "opt": 77
+    },
+    "deep_1": {
+      "total": 1312,
+      "opt": 108
+    },
+    "deep_2": {
+      "total": 1303,
+      "opt": 121
+    },
+    "deep_3": {
+      "total": 1299,
+      "opt": 133
+    },
+    "deep_4": {
+      "total": 1299,
+      "opt": 142
+    },
+    "deep_5": {
+      "total": 1299,
+      "opt": 149
+    },
+    "deep_6": {
+      "total": 1299,
+      "opt": 155
+    },
+    "deep_7": {
+      "total": 1299,
+      "opt": 160
+    },
+    "deep_8": {
+      "total": 1299,
+      "opt": 164
+    },
+    "deep_9": {
+      "total": 1299,
+      "opt": 168
+    },
+    "deep_10": {
+      "total": 1299,
+      "opt": 172
+    }
+  },
+  "Glide": {
+    "dummy": {
+      "total": 10,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 295,
+      "opt": 53
+    },
+    "deep_1": {
+      "total": 295,
+      "opt": 65
+    },
+    "deep_2": {
+      "total": 295,
+      "opt": 73
+    },
+    "deep_3": {
+      "total": 295,
+      "opt": 79
+    },
+    "deep_4": {
+      "total": 294,
+      "opt": 83
+    },
+    "deep_5": {
+      "total": 295,
+      "opt": 86
+    },
+    "deep_6": {
+      "total": 294,
+      "opt": 88
+    },
+    "deep_7": {
+      "total": 295,
+      "opt": 89
+    },
+    "deep_8": {
+      "total": 295,
+      "opt": 89
+    },
+    "deep_9": {
+      "total": 295,
+      "opt": 89
+    },
+    "deep_10": {
+      "total": -1,
+      "opt": -1
+    }
+  },
+  "UCrop": {
+    "dummy": {
+      "total": 8,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_1": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_2": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_3": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_4": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_5": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_6": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_7": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_8": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_9": {
+      "total": 88,
+      "opt": 0
+    },
+    "deep_10": {
+      "total": 88,
+      "opt": 0
+    }
+  },
+  "Eureka": {
+    "dummy": {
+      "total": 16,
+      "opt": 0
+    },
+    "deep_0": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_1": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_2": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_3": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_4": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_5": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_6": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_7": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_8": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_9": {
+      "total": 231,
+      "opt": 0
+    },
+    "deep_10": {
+      "total": 231,
+      "opt": 0
+    }
+  }
+}
