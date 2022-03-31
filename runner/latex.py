@@ -34,5 +34,21 @@ def latex_row_compare_errors_dept():
         with open("results/latex_row_compare_errors_dept.txt", "w") as f:
             f.writelines(lines)
 
-latex_row_compare_errors_dept()
 
+def latex_row_num_annot():
+    data = json.load(open("annot.json", "r"))
+    lines = []
+    for name in data.keys():
+        proj = data[name]
+        line = "& \hspace{}1em{} \\texttt{}{}{}".format("{", "}", "{", name, "}")
+        for depth in ['dummy', 'deep_10']:
+            for annot in proj[depth].keys():
+                line += "& {} ".format(proj[depth][annot])
+
+        line += "\\\\\cline{2-14}\n"
+        lines.append(line)
+        with open("results/latex_row_num_annot.txt", "w") as f:
+            f.writelines(lines)
+
+
+latex_row_num_annot()
