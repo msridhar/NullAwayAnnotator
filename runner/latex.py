@@ -1,9 +1,8 @@
 import json
 
-data = json.load(open("build.json", "r"))
-
 
 def latex_row_compare_builds_dept():
+    data = json.load(open("build.json", "r"))
     lines = []
     for name in data.keys():
         proj = data[name]
@@ -20,5 +19,20 @@ def latex_row_compare_builds_dept():
             f.writelines(lines)
 
 
+def latex_row_compare_errors_dept():
+    data = json.load(open("error.json", "r"))
+    lines = []
+    for name in data.keys():
+        proj = data[name]
+        line = "& \hspace{}1em{} \\texttt{}{}{}".format("{", "}", "{", name, "}")
+        for depth in proj.keys():
+            if depth != "dummy":
+                line += "& {} ".format(proj[depth])
 
-latex_row_compare_builds_dept()
+        line += "\\\\\cline{2-14}\n"
+        lines.append(line)
+        with open("results/latex_row_compare_errors_dept.txt", "w") as f:
+            f.writelines(lines)
+
+latex_row_compare_errors_dept()
+
