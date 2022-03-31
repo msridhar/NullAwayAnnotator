@@ -26,8 +26,8 @@ def read_number_of_builds(branch, path):
 
 
 for proj in projects['projects']:
-    # if not proj['active']:
-    #     continue
+    if not proj['active']:
+        continue
     print("Working on {}".format(proj['name']))
     proj_path = root.format(proj['path'])
     COMMAND = "cd {} && {}".format(proj_path, "{}")

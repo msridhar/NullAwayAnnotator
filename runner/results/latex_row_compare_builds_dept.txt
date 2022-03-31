@@ -1,0 +1,15 @@
+& \hspace{1em} \texttt{MPAndroid}& 218 & 41 & 56 & 64 & 71 & 76 & 78 & 78 & 78 & 78 & 78 & 78 \\\cline{2-14}
+& \hspace{1em} \texttt{Mockito}& 325 & 55 & 63 & 70 & 77 & 81 & 84 & 87 & 88 & 90 & 92 & 94 \\\cline{2-14}
+& \hspace{1em} \texttt{Conductor}& 129 & 48 & 56 & 61 & 64 & 66 & 67 & 68 & 69 & 70 & 71 & 72 \\\cline{2-14}
+& \hspace{1em} \texttt{LitiEngine}& 694 & 43 & 53 & 62 & 69 & 74 & 75 & 78 & 82 & 85 & 87 & 89 \\\cline{2-14}
+& \hspace{1em} \texttt{EventBus}& 60 & 19 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 \\\cline{2-14}
+& \hspace{1em} \texttt{Gson}& 322 & 27 & 34 & 38 & 39 & 40 & 41 & 42 & 43 & 44 & 45 & 46 \\\cline{2-14}
+& \hspace{1em} \texttt{Jadx}& 536 & 52 & 66 & 75 & 84 & 89 & 89 & 89 & 89 & 89 & 89 & 89 \\\cline{2-14}
+& \hspace{1em} \texttt{Zuul}& 364 & 31 & 34 & 36 & 37 & 39 & 39 & 39 & 39 & 39 & 39 & 39 \\\cline{2-14}
+& \hspace{1em} \texttt{LottieAndroid}& 519 & 72 & 83 & 90 & 96 & 100 & 102 & 102 & 102 & 102 & 102 & 102 \\\cline{2-14}
+& \hspace{1em} \texttt{Retrofit}& 16 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 \\\cline{2-14}
+& \hspace{1em} \texttt{SpringBoot}& 837 & 57 & 88 & 96 & 92 & 107 & 108 & 116 & 116 & 116 & 116 & 116 \\\cline{2-14}
+& \hspace{1em} \texttt{LibGdx}& 1311 & 77 & 108 & 121 & 133 & 142 & 149 & 155 & 160 & 164 & 168 & 172 \\\cline{2-14}
+& \hspace{1em} \texttt{Glide}& 295 & 53 & 65 & 73 & 79 & 83 & 86 & 88 & 89 & 89 & 89 & -1 \\\cline{2-14}
+& \hspace{1em} \texttt{UCrop}& 88 & 13 & 14 & 16 & 16 & 16 & 16 & 16 & 16 & 16 & 16 & 16 \\\cline{2-14}
+& \hspace{1em} \texttt{Eureka}& 231 & 32 & 34 & 35 & 36 & 36 & 36 & 36 & 36 & 36 & 36 & 36 \\\cline{2-14}

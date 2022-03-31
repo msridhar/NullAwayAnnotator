@@ -356,47 +356,47 @@
     },
     "deep_0": {
       "total": 364,
-      "opt": 0
+      "opt": 31
     },
     "deep_1": {
       "total": 364,
-      "opt": 0
+      "opt": 34
     },
     "deep_2": {
       "total": 364,
-      "opt": 0
+      "opt": 36
     },
     "deep_3": {
       "total": 364,
-      "opt": 0
+      "opt": 37
     },
     "deep_4": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_5": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_6": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_7": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_8": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_9": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     },
     "deep_10": {
       "total": 364,
-      "opt": 0
+      "opt": 39
     }
   },
   "LottieAndroid": {
@@ -518,7 +518,7 @@
     },
     "deep_3": {
       "total": -1,
-      "opt": -1
+      "opt": 92
     },
     "deep_4": {
       "total": 838,
@@ -526,23 +526,23 @@
     },
     "deep_5": {
       "total": -1,
-      "opt": -1
+      "opt": 108
     },
     "deep_6": {
       "total": 842,
-      "opt": 113
+      "opt": 116
     },
     "deep_7": {
       "total": -1,
-      "opt": -1
+      "opt": 116
     },
     "deep_8": {
       "total": -1,
-      "opt": -1
+      "opt": 116
     },
     "deep_9": {
       "total": -1,
-      "opt": -1
+      "opt": 116
     },
     "deep_10": {
       "total": 842,
@@ -646,7 +646,7 @@
     },
     "deep_10": {
       "total": -1,
-      "opt": -1
+      "opt": 89
     }
   },
   "UCrop": {
@@ -656,47 +656,47 @@
     },
     "deep_0": {
       "total": 88,
-      "opt": 0
+      "opt": 13
     },
     "deep_1": {
       "total": 88,
-      "opt": 0
+      "opt": 14
     },
     "deep_2": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_3": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_4": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_5": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_6": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_7": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_8": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_9": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     },
     "deep_10": {
       "total": 88,
-      "opt": 0
+      "opt": 16
     }
   },
   "Eureka": {
@@ -706,47 +706,47 @@
     },
     "deep_0": {
       "total": 231,
-      "opt": 0
+      "opt": 32
     },
     "deep_1": {
       "total": 231,
-      "opt": 0
+      "opt": 34
     },
     "deep_2": {
       "total": 231,
-      "opt": 0
+      "opt": 35
     },
     "deep_3": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_4": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_5": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_6": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_7": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_8": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_9": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     },
     "deep_10": {
       "total": 231,
-      "opt": 0
+      "opt": 36
     }
   }
 }

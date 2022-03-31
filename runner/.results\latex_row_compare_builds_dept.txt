@@ -1,0 +1,15 @@
+& \hspace{1em} \texttt{MPAndroid}& 218 & 0 & 41 & 56 & 64 & 71 & 76 & 78 & 78 & 78 & 78 & 78 & 78 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Mockito}& 325 & 0 & 55 & 63 & 70 & 77 & 81 & 84 & 87 & 88 & 90 & 92 & 94 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Conductor}& 129 & 0 & 48 & 56 & 61 & 64 & 66 & 67 & 68 & 69 & 70 & 71 & 72 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{LitiEngine}& 694 & 0 & 43 & 53 & 62 & 69 & 74 & 75 & 78 & 82 & 85 & 87 & 89 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{EventBus}& 60 & 0 & 19 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 & 22 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Gson}& 322 & 0 & 27 & 34 & 38 & 39 & 40 & 41 & 42 & 43 & 44 & 45 & 46 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Jadx}& 536 & 0 & 52 & 66 & 75 & 84 & 89 & 89 & 89 & 89 & 89 & 89 & 89 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Zuul}& 364 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{LottieAndroid}& 519 & 0 & 72 & 83 & 90 & 96 & 100 & 102 & 102 & 102 & 102 & 102 & 102 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Retrofit}& 16 & 0 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{SpringBoot}& 837 & 0 & 57 & 88 & 96 & -1 & 107 & -1 & 113 & -1 & -1 & -1 & 116 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{LibGdx}& 1311 & 0 & 77 & 108 & 121 & 133 & 142 & 149 & 155 & 160 & 164 & 168 & 172 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Glide}& 295 & 0 & 53 & 65 & 73 & 79 & 83 & 86 & 88 & 89 & 89 & 89 & -1 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{UCrop}& 88 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
+& \hspace{1em} \texttt{Eureka}& 231 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \hspace{1em} &  63\hspace{1em} \\\cline{2-6}
