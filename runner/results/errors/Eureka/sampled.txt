@@ -1,10 +1,10 @@
-/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:486: error: [NullAway] returning @Nullable expression from method with @NonNull return type
         return applications.get();
-/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/PeerReplicationResource.java:: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/PeerReplicationResource.java:178: error: [NullAway] returning @Nullable expression from method with @NonNull return type
             return null;
-/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/RateLimitingFilter.java:: error: [NullAway] initializer method does not guarantee @NonNull field serverConfig (line ) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/RateLimitingFilter.java:118: error: [NullAway] initializer method does not guarantee @NonNull field serverConfig (line ) is initialized along all control-flow paths (remember to check for exceptions or early returns).
     public RateLimitingFilter() {
-/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/util/batcher/AcceptorExecutor.java:: error: [NullAway] dereferenced expression nextHolder is @Nullable
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/util/batcher/AcceptorExecutor.java:329: error: [NullAway] dereferenced expression nextHolder is @Nullable
             long delay = System.currentTimeMillis() - nextHolder.getSubmitTimestamp();
-/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:: error: [NullAway] initializer method does not guarantee @NonNull field responseCache (line ) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:116: error: [NullAway] initializer method does not guarantee @NonNull field responseCache (line ) is initialized along all control-flow paths (remember to check for exceptions or early returns).
     protected AbstractInstanceRegistry(EurekaServerConfig serverConfig, EurekaClientConfig clientConfig, ServerCodecs serverCodecs) {

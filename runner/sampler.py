@@ -29,7 +29,7 @@ def read_errors(path):
             error = l
         else:
             error += l
-            errors.append(re.sub('\d', '', error))
+            errors.append(error)
             error = None
     return errors
 
@@ -65,7 +65,6 @@ def sample_remaining_errors():
                 to_remove.append(e)
         for e in to_remove:
             after.remove(e)
-        print(len(after))
         sampled = random.sample(after, 5)
         with open("results/errors/{}/sampled.txt".format(proj['name']), "w") as f:
             f.writelines(sampled)
