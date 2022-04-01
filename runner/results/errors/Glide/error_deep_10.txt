@@ -1,0 +1,1144 @@
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java:121: error: [NullAway] initializer method does not guarantee @NonNull field config (line 101) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Builder(int width, int height) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java:139: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.config = config;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/GlideSuppliers.java:18: error: [NullAway] @NonNull field GlideSuppliers$1.instance not initialized
+      private volatile T instance;
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/Glide.java:58: error: [NullAway] @NonNull static field glide not initialized
+  private static volatile Glide glide;
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/Glide.java:199: error: [NullAway] assigning @Nullable expression to @NonNull field
+      glide = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/Glide.java:254: error: [NullAway] passing @Nullable parameter 'annotationGeneratedModule' where @NonNull is required
+    Glide glide = builder.build(applicationContext, manifestModules, annotationGeneratedModule);
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/Glide.java:416: error: [NullAway] passing @Nullable parameter 'decodeFormat' where @NonNull is required
+      bitmapPreFiller = new BitmapPreFiller(memoryCache, bitmapPool, decodeFormat);
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/Glide.java:510: error: [NullAway] passing @Nullable parameter 'context' where @NonNull is required
+    return Glide.get(context).getRequestManagerRetriever();
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:60: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*jobs=*/ null,
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:61: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*keyFactory=*/ null,
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:62: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*activeResources=*/ null,
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:63: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*engineJobFactory=*/ null,
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:64: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*decodeJobFactory=*/ null,
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:65: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        /*resourceRecycler=*/ null,
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:222: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:358: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:444: error: [NullAway] initializer method does not guarantee @NonNull field diskCache (line 442) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    LazyDiskCacheProvider(DiskCache.Factory factory) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Engine.java:461: error: [NullAway] assigning @Nullable expression to @NonNull field
+            diskCache = factory.build();
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/BaseTarget.java:30: error: [NullAway] @NonNull field request not initialized
+  private Request request;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/BaseTarget.java:34: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.request = request;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/Option.java:89: error: [NullAway] initializer method does not guarantee @NonNull field keyBytes (line 36) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  private Option(
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/Option.java:92: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.defaultValue = defaultValue;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/Jobs.java:19: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return getJobMap(onlyRetrieveFromCache).get(key);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:81: error: [NullAway] initializer method does not guarantee @NonNull fields glideContext (line 53), signature (line 54), priority (line 55), loadKey (line 56), diskCacheStrategy (line 59), options (line 60), callback (line 61), stage (line 63), runReason (line 64), model (line 67), currentThread (line 69), currentSourceKey (line 70), currentAttemptingKey (line 71), currentData (line 72), currentDataSource (line 73), currentFetcher (line 74), currentGenerator (line 76) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  DecodeJob(DiskCacheProvider diskCacheProvider, Pools.Pool<DecodeJob<?>> pool) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:178: error: [NullAway] assigning @Nullable expression to @NonNull field
+    glideContext = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:179: error: [NullAway] assigning @Nullable expression to @NonNull field
+    signature = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:180: error: [NullAway] assigning @Nullable expression to @NonNull field
+    options = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:181: error: [NullAway] assigning @Nullable expression to @NonNull field
+    priority = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:182: error: [NullAway] assigning @Nullable expression to @NonNull field
+    loadKey = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:183: error: [NullAway] assigning @Nullable expression to @NonNull field
+    callback = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:184: error: [NullAway] assigning @Nullable expression to @NonNull field
+    stage = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:185: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentGenerator = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:186: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentThread = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:187: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentSourceKey = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:188: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentData = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:189: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentDataSource = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:190: error: [NullAway] assigning @Nullable expression to @NonNull field
+    currentFetcher = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:193: error: [NullAway] assigning @Nullable expression to @NonNull field
+    model = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:299: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:380: error: [NullAway] parameter data is @NonNull, but parameter in superclass method com.bumptech.glide.load.engine.DataFetcherGenerator.FetcherReadyCallback.onDataFetcherReady(com.bumptech.glide.load.Key,java.lang.Object,com.bumptech.glide.load.data.DataFetcher<?>,com.bumptech.glide.load.DataSource,com.bumptech.glide.load.Key) is @Nullable
+      Key sourceKey, Object data, DataFetcher<?> fetcher, DataSource dataSource, Key attemptedKey) {
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:482: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:543: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    logWithTimeAndKey(message, startTime, null /*extraArgs*/);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:611: error: [NullAway] passing @Nullable parameter 'appliedTransformation' where @NonNull is required
+                  appliedTransformation,
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:689: error: [NullAway] initializer method does not guarantee @NonNull fields key (line 684), encoder (line 685), toEncode (line 686) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    DeferredEncodeManager() {}
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:716: error: [NullAway] assigning @Nullable expression to @NonNull field
+      key = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:717: error: [NullAway] assigning @Nullable expression to @NonNull field
+      encoder = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:718: error: [NullAway] assigning @Nullable expression to @NonNull field
+      toEncode = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ActiveResources.java:52: error: [NullAway] initializer method does not guarantee @NonNull field listener (line 26) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ActiveResources(
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/executor/GlideExecutor.java:454: error: [NullAway] initializer method does not guarantee @NonNull field name (line 450) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Builder(boolean preventNetworkOperations) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:94: error: [NullAway] initializer method does not guarantee @NonNull fields key (line 45), resource (line 50), dataSource (line 52), exception (line 58), engineResource (line 64), decodeJob (line 68) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  EngineJob(
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:302: error: [NullAway] assigning @Nullable expression to @NonNull field
+    key = null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:303: error: [NullAway] assigning @Nullable expression to @NonNull field
+    engineResource = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:304: error: [NullAway] assigning @Nullable expression to @NonNull field
+    resource = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:310: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeJob = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:311: error: [NullAway] assigning @Nullable expression to @NonNull field
+    exception = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:312: error: [NullAway] assigning @Nullable expression to @NonNull field
+    dataSource = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/EngineJob.java:373: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    engineJobListener.onEngineJobComplete(this, localKey, /*resource=*/ null);
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java:55: error: [NullAway] initializer method does not guarantee @NonNull field recycledAtStackTraceException (line 52) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    DebugStateVerifier() {}
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/pool/StateVerifier.java:69: error: [NullAway] assigning @Nullable expression to @NonNull field
+        recycledAtStackTraceException = null;
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/GlideException.java:38: error: [NullAway] initializer method does not guarantee @NonNull fields key (line 24), dataSource (line 25), dataClass (line 26) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public GlideException(String detailMessage, List<Throwable> causes) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/GlideException.java:45: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    setLoggingDetails(key, dataSource, null);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:29: error: [NullAway] @NonNull field glideContext not initialized
+  private GlideContext glideContext;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:30: error: [NullAway] @NonNull field model not initialized
+  private Object model;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:33: error: [NullAway] @NonNull field resourceClass not initialized
+  private Class<?> resourceClass;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:34: error: [NullAway] @NonNull field diskCacheProvider not initialized
+  private DecodeJob.DiskCacheProvider diskCacheProvider;
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:35: error: [NullAway] @NonNull field options not initialized
+  private Options options;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:36: error: [NullAway] @NonNull field transformations not initialized
+  private Map<Class<?>, Transformation<?>> transformations;
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:37: error: [NullAway] @NonNull field transcodeClass not initialized
+  private Class<Transcode> transcodeClass;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:40: error: [NullAway] @NonNull field signature not initialized
+  private Key signature;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:41: error: [NullAway] @NonNull field priority not initialized
+  private Priority priority;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:42: error: [NullAway] @NonNull field diskCacheStrategy not initialized
+  private DiskCacheStrategy diskCacheStrategy;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:79: error: [NullAway] assigning @Nullable expression to @NonNull field
+    glideContext = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:80: error: [NullAway] assigning @Nullable expression to @NonNull field
+    model = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:81: error: [NullAway] assigning @Nullable expression to @NonNull field
+    signature = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:82: error: [NullAway] assigning @Nullable expression to @NonNull field
+    resourceClass = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:83: error: [NullAway] assigning @Nullable expression to @NonNull field
+    transcodeClass = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:84: error: [NullAway] assigning @Nullable expression to @NonNull field
+    options = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:85: error: [NullAway] assigning @Nullable expression to @NonNull field
+    priority = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:86: error: [NullAway] assigning @Nullable expression to @NonNull field
+    transformations = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:87: error: [NullAway] assigning @Nullable expression to @NonNull field
+    diskCacheStrategy = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeHelper.java:150: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return glideContext.getRegistry().getLoadPath(dataClass, resourceClass, transcodeClass);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodePath.java:61: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return transcoder.transcode(transformed, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/LockedResource.java:42: error: [NullAway] initializer method does not guarantee @NonNull field toWrap (line 28) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  LockedResource() {}
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/LockedResource.java:51: error: [NullAway] assigning @Nullable expression to @NonNull field
+    toWrap = null;
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/provider/LoadPathCache.java:31: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          /*listPool=*/ null);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/provider/LoadPathCache.java:30: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                  /*listPool=*/ null)),
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/MultiModelLoader.java:56: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return !fetchers.isEmpty() && sourceKey != null
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/MultiModelLoader.java:86: error: [NullAway] initializer method does not guarantee @NonNull fields priority (line 81), callback (line 82) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    MultiFetcher(
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/MultiClassKey.java:13: error: [NullAway] initializer method does not guarantee @NonNull fields first (line 9), second (line 10), third (line 11) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MultiClassKey() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/MultiClassKey.java:17: error: [NullAway] initializer method does not guarantee @NonNull fields first (line 9), second (line 10), third (line 11) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MultiClassKey(@NonNull Class<?> first, @NonNull Class<?> second) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/MultiClassKey.java:21: error: [NullAway] initializer method does not guarantee @NonNull fields first (line 9), second (line 10), third (line 11) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MultiClassKey(
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/MultiClassKey.java:33: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.third = third;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:47: error: [NullAway] @NonNull field engine not initialized
+  private Engine engine;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:48: error: [NullAway] @NonNull field bitmapPool not initialized
+  private BitmapPool bitmapPool;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:49: error: [NullAway] @NonNull field arrayPool not initialized
+  private ArrayPool arrayPool;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:50: error: [NullAway] @NonNull field memoryCache not initialized
+  private MemoryCache memoryCache;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:51: error: [NullAway] @NonNull field sourceExecutor not initialized
+  private GlideExecutor sourceExecutor;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:52: error: [NullAway] @NonNull field diskCacheExecutor not initialized
+  private GlideExecutor diskCacheExecutor;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:53: error: [NullAway] @NonNull field diskCacheFactory not initialized
+  private DiskCache.Factory diskCacheFactory;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:54: error: [NullAway] @NonNull field memorySizeCalculator not initialized
+  private MemorySizeCalculator memorySizeCalculator;
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:55: error: [NullAway] @NonNull field connectivityMonitorFactory not initialized
+  private ConnectivityMonitorFactory connectivityMonitorFactory;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:66: error: [NullAway] @NonNull field animationExecutor not initialized
+  private GlideExecutor animationExecutor;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:79: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.bitmapPool = bitmapPool;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:92: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.arrayPool = arrayPool;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:107: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.memoryCache = memoryCache;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:123: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.diskCacheFactory = diskCacheFactory;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:167: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.sourceExecutor = service;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:190: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.diskCacheExecutor = service;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:210: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.animationExecutor = service;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:309: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.memorySizeCalculator = calculator;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/GlideBuilder.java:325: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.connectivityMonitorFactory = factory;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/RequestManagerRetriever.java:83: error: [NullAway] initializer method does not guarantee @NonNull field applicationManager (line 56) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public RequestManagerRetriever(
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/RequestManagerRetriever.java:532: error: [NullAway] dereferenced expression newlyAddedRequestManagerFragment is @Nullable
+      newlyAddedRequestManagerFragment.getGlideLifecycle().onDestroy();
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/RequestManagerRetriever.java:610: error: [NullAway] dereferenced expression newlyAddedSupportRequestManagerFragment is @Nullable
+      newlyAddedSupportRequestManagerFragment.getGlideLifecycle().onDestroy();
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestManager.java:114: error: [NullAway] initializer method does not guarantee @NonNull field requestOptions (line 93) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  RequestManager(
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:796: error: [NullAway] passing @Nullable parameter 'previous' where @NonNull is required
+    if (request.isEquivalentTo(previous)
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:797: error: [NullAway] passing @Nullable parameter 'previous' where @NonNull is required
+        && !isSkipMemoryCacheWithCompletePreviousRequest(options, previous)) {
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:806: error: [NullAway] dereferenced expression previous is @Nullable
+        previous.begin();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:1065: error: [NullAway] passing @Nullable parameter 'targetListener' where @NonNull is required
+            targetListener,
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:1078: error: [NullAway] dereferenced expression errorBuilder is @Nullable
+    int errorOverrideWidth = errorBuilder.getOverrideWidth();
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:1214: error: [NullAway] passing @Nullable parameter 'parentCoordinator' where @NonNull is required
+          parentCoordinator,
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/RequestBuilder.java:1238: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+        model,
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/prefill/BitmapPreFiller.java:24: error: [NullAway] initializer method does not guarantee @NonNull field current (line 22) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public BitmapPreFiller(
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillQueue.java:28: error: [NullAway] unboxing of a @Nullable value
+    if (countForResult == 1) {
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifDrawable.java:140: error: [NullAway] initializer method does not guarantee @NonNull fields paint (line 68), destRect (line 69), animationCallbacks (line 72) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  GifDrawable(GifState state) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:82: error: [NullAway] initializer method does not guarantee @NonNull fields current (line 49), next (line 51), firstFrame (line 52), transformation (line 53), pendingTarget (line 54) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  GifFrameLoader(
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:75: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        null /*handler*/,
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:190: error: [NullAway] assigning @Nullable expression to @NonNull field
+      current = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:194: error: [NullAway] assigning @Nullable expression to @NonNull field
+      next = null;
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:198: error: [NullAway] assigning @Nullable expression to @NonNull field
+      pendingTarget = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:220: error: [NullAway] assigning @Nullable expression to @NonNull field
+      pendingTarget = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:238: error: [NullAway] assigning @Nullable expression to @NonNull field
+      firstFrame = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:247: error: [NullAway] assigning @Nullable expression to @NonNull field
+      pendingTarget = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:325: error: [NullAway] initializer method does not guarantee @NonNull field resource (line 323) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    DelayTarget(Handler handler, int index, long targetTime) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameLoader.java:345: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.resource = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/SupportRequestManagerFragment.java:100: error: [NullAway] passing @Nullable parameter 'fragment.getParentFragmentUsingHint()' where @NonNull is required
+        if (isDescendant(fragment.getParentFragmentUsingHint())) {
+                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java:33: error: [NullAway] initializer method does not guarantee @NonNull fields size (line 21), viewTarget (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ViewPreloadSizeProvider() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java:45: error: [NullAway] initializer method does not guarantee @NonNull field size (line 21) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ViewPreloadSizeProvider(@NonNull View view) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ViewPreloadSizeProvider.java:63: error: [NullAway] assigning @Nullable expression to @NonNull field
+    viewTarget = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionCatchingInputStream.java:49: error: [NullAway] initializer method does not guarantee @NonNull fields wrapped (line 26), exception (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ExceptionCatchingInputStream() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionCatchingInputStream.java:136: error: [NullAway] assigning @Nullable expression to @NonNull field
+    exception = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionCatchingInputStream.java:137: error: [NullAway] assigning @Nullable expression to @NonNull field
+    wrapped = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/pool/GlideTrace.java:11: error: [NullAway] assigning @Nullable expression to @NonNull field
+  private static final AtomicInteger COOKIE_CREATOR = TRACING_ENABLED ? new AtomicInteger() : null;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionPassthroughInputStream.java:54: error: [NullAway] initializer method does not guarantee @NonNull fields wrapped (line 29), exception (line 30) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ExceptionPassthroughInputStream() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionPassthroughInputStream.java:133: error: [NullAway] assigning @Nullable expression to @NonNull field
+    exception = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/util/ExceptionPassthroughInputStream.java:134: error: [NullAway] assigning @Nullable expression to @NonNull field
+    wrapped = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/SingletonConnectivityReceiver.java:33: error: [NullAway] @NonNull static field instance not initialized
+  private static volatile SingletonConnectivityReceiver instance;
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/manager/SingletonConnectivityReceiver.java:58: error: [NullAway] assigning @Nullable expression to @NonNull field
+    instance = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/UrlUriLoader.java:33: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return urlLoader.buildLoadData(glideUrl, width, height, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/FileLoader.java:63: error: [NullAway] initializer method does not guarantee @NonNull field data (line 61) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    FileFetcher(File file, FileOpener<Data> opener) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/stream/MediaStoreImageThumbLoader.java:34: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/stream/BaseGlideUrlLoader.java:54: error: [NullAway] passing @Nullable parameter 'getHeaders(model, width, height, options)' where @NonNull is required
+      result = new GlideUrl(stringURL, getHeaders(model, width, height, options));
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/ModelCache.java:95: error: [NullAway] initializer method does not guarantee @NonNull field model (line 79) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    private ModelKey() {}
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/stream/HttpGlideUrlLoader.java:54: error: [NullAway] unboxing of a @Nullable value
+    int timeout = options.get(TIMEOUT);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/stream/UrlLoader.java:30: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return glideUrlLoader.buildLoadData(new GlideUrl(model), width, height, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/LazyHeaders.java:26: error: [NullAway] initializer method does not guarantee @NonNull field combinedHeaders (line 24) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  LazyHeaders(Map<String, List<LazyHeaderFactory>> headers) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/StringLoader.java:33: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/StringLoader.java:35: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return uriLoader.buildLoadData(uri, width, height, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/ResourceLoader.java:36: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return uri == null ? null : uriLoader.buildLoadData(uri, width, height, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/DataUrlLoader.java:74: error: [NullAway] initializer method does not guarantee @NonNull field data (line 72) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    DataUriFetcher(String dataUri, DataDecoder<Data> reader) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/DefaultOnHeaderDecodedListener.java:49: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeFormat = options.get(Downsampler.DECODE_FORMAT);
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/DefaultOnHeaderDecodedListener.java:50: error: [NullAway] assigning @Nullable expression to @NonNull field
+    strategy = options.get(DownsampleStrategy.OPTION);
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/DefaultOnHeaderDecodedListener.java:53: error: [NullAway] unboxing of a @Nullable value
+            && options.get(Downsampler.ALLOW_HARDWARE_CONFIG);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/DefaultOnHeaderDecodedListener.java:54: error: [NullAway] assigning @Nullable expression to @NonNull field
+    preferredColorSpace = options.get(Downsampler.PREFERRED_COLOR_SPACE);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/HardwareConfigState.java:85: error: [NullAway] @NonNull static field instance not initialized
+  private static volatile HardwareConfigState instance;
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/transition/DrawableCrossFadeFactory.java:23: error: [NullAway] initializer method does not guarantee @NonNull field resourceTransition (line 21) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected DrawableCrossFadeFactory(int duration, boolean isCrossFadeEnabled) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapTransformation.java:93: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java:111: error: [NullAway] assigning @Nullable expression to @NonNull field
+      buf = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java:125: error: [NullAway] assigning @Nullable expression to @NonNull field
+      buf = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream.java:128: error: [NullAway] assigning @Nullable expression to @NonNull field
+    in = null;
+       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/LazyBitmapDrawableResource.java:30: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return (LazyBitmapDrawableResource)
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/LazyBitmapDrawableResource.java:43: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return (LazyBitmapDrawableResource)
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/VideoDecoder.java:156: error: [NullAway] unboxing of a @Nullable value
+    long frameTimeMicros = options.get(TARGET_FRAME);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/VideoDecoder.java:190: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return BitmapResource.obtain(result, bitmapPool);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapDrawableDecoder.java:59: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return LazyBitmapDrawableResource.obtain(resources, bitmapResource);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/DrawableTransformation.java:76: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return (Resource<Drawable>) result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:279: error: [NullAway] unboxing of a @Nullable value
+    boolean fixBitmapToRequestedDimensions = options.get(FIX_BITMAP_SIZE_TO_REQUESTED_DIMENSIONS);
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:281: error: [NullAway] unboxing of a @Nullable value
+        options.get(ALLOW_HARDWARE_CONFIG) != null && options.get(ALLOW_HARDWARE_CONFIG);
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:288: error: [NullAway] passing @Nullable parameter 'downsampleStrategy' where @NonNull is required
+              downsampleStrategy,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:289: error: [NullAway] passing @Nullable parameter 'decodeFormat' where @NonNull is required
+              decodeFormat,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:290: error: [NullAway] passing @Nullable parameter 'preferredColorSpace' where @NonNull is required
+              preferredColorSpace,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:296: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return BitmapResource.obtain(result, bitmapPool);
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:456: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return rotated;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:794: error: [NullAway] assigning @Nullable expression to @NonNull field
+          options.inBitmap = null;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:805: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:853: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return getBitmapString(options.inBitmap);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:948: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeBitmapOptions.inTempStorage = null;
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:952: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeBitmapOptions.inPreferredConfig = null;
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:957: error: [NullAway] assigning @Nullable expression to @NonNull field
+      decodeBitmapOptions.inPreferredColorSpace = null;
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:958: error: [NullAway] assigning @Nullable expression to @NonNull field
+      decodeBitmapOptions.outColorSpace = null;
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:959: error: [NullAway] assigning @Nullable expression to @NonNull field
+      decodeBitmapOptions.outConfig = null;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:963: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeBitmapOptions.outMimeType = null;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/Downsampler.java:964: error: [NullAway] assigning @Nullable expression to @NonNull field
+    decodeBitmapOptions.inBitmap = null;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/bitmap/BitmapEncoder.java:76: error: [NullAway] unboxing of a @Nullable value
+      int quality = options.get(COMPRESSION_QUALITY);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/transcode/DrawableBytesTranscoder.java:39: error: [NullAway] passing @Nullable parameter 'BitmapResource.obtain(((BitmapDrawable) drawable).getBitmap(), bitmapPool)' where @NonNull is required
+          BitmapResource.obtain(((BitmapDrawable) drawable).getBitmap(), bitmapPool), options);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/GifFrameResourceDecoder.java:32: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return BitmapResource.obtain(bitmap, bitmapPool);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/ByteBufferGifDecoder.java:81: error: [NullAway] unboxing of a @Nullable value
+    return !options.get(GifOptions.DISABLE_ANIMATION)
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/ByteBufferGifDecoder.java:90: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return decode(source, width, height, parser, options);
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/StreamGifDecoder.java:41: error: [NullAway] unboxing of a @Nullable value
+    return !options.get(GifOptions.DISABLE_ANIMATION)
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/StreamGifDecoder.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/StreamGifDecoder.java:54: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return byteBufferDecoder.decode(byteBuffer, width, height, options);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/StreamGifDecoder.java:71: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/AssetPathFetcher.java:24: error: [NullAway] initializer method does not guarantee @NonNull field data (line 20) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public AssetPathFetcher(AssetManager assetManager, String assetPath) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/LocalUriFetcher.java:35: error: [NullAway] initializer method does not guarantee @NonNull field data (line 23) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LocalUriFetcher(ContentResolver contentResolver, Uri uri) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/HttpUrlFetcher.java:47: error: [NullAway] initializer method does not guarantee @NonNull fields urlConnection (line 38), stream (line 39) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  HttpUrlFetcher(GlideUrl glideUrl, int timeout, HttpUrlConnectionFactory connectionFactory) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/HttpUrlFetcher.java:58: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      InputStream result = loadDataWithRedirects(glideUrl.toURL(), 0, null, glideUrl.getHeaders());
+                                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/HttpUrlFetcher.java:102: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/HttpUrlFetcher.java:207: error: [NullAway] assigning @Nullable expression to @NonNull field
+    urlConnection = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/mediastore/ThumbFetcher.java:52: error: [NullAway] initializer method does not guarantee @NonNull field inputStream (line 30) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ThumbFetcher(Uri mediaStoreImageUri, ThumbnailStreamOpener opener) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/mediastore/ThumbnailStreamOpener.java:75: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/mediastore/ThumbnailStreamOpener.java:80: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/data/BufferedOutputStream.java:98: error: [NullAway] assigning @Nullable expression to @NonNull field
+      buffer = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:43: error: [NullAway] initializer method does not guarantee @NonNull fields sourceCacheGenerator (line 38), dataToCache (line 39), loadData (line 40), originalKey (line 41) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  SourceGenerator(DecodeHelper<?> helper, FetcherReadyCallback cb) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:54: error: [NullAway] assigning @Nullable expression to @NonNull field
+      dataToCache = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:78: error: [NullAway] assigning @Nullable expression to @NonNull field
+    sourceCacheGenerator = null;
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:80: error: [NullAway] assigning @Nullable expression to @NonNull field
+    loadData = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:101: error: [NullAway] passing @Nullable parameter 'data' where @NonNull is required
+              onDataReadyInternal(toStart, data);
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/SourceGenerator.java:235: error: [NullAway] parameter data is @NonNull, but parameter in superclass method com.bumptech.glide.load.engine.DataFetcherGenerator.FetcherReadyCallback.onDataFetcherReady(com.bumptech.glide.load.Key,java.lang.Object,com.bumptech.glide.load.data.DataFetcher<?>,com.bumptech.glide.load.DataSource,com.bumptech.glide.load.Key) is @Nullable
+      Key sourceKey, Object data, DataFetcher<?> fetcher, DataSource dataSource, Key attemptedKey) {
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DataCacheGenerator.java:39: error: [NullAway] initializer method does not guarantee @NonNull fields sourceKey (line 24), modelLoaders (line 25), loadData (line 27), cacheFile (line 30) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  DataCacheGenerator(List<Key> cacheKeys, DecodeHelper<?> helper, FetcherReadyCallback cb) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DataCacheGenerator.java:60: error: [NullAway] assigning @Nullable expression to @NonNull field
+        cacheFile = helper.getDiskCache().get(originalKey);
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DataCacheGenerator.java:68: error: [NullAway] assigning @Nullable expression to @NonNull field
+      loadData = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DataCacheGenerator.java:72: error: [NullAway] assigning @Nullable expression to @NonNull field
+        loadData =
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DataCacheGenerator.java:99: error: [NullAway] parameter data is @NonNull, but parameter in superclass method com.bumptech.glide.load.data.DataFetcher.DataCallback.onDataReady(T) is @Nullable
+  public void onDataReady(Object data) {
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory.java:65: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheFactory.java:72: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskCacheAdapter.java:11: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java:72: error: [NullAway] initializer method does not guarantee @NonNull field diskLruCache (line 31) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected DiskLruCacheWrapper(File directory, long maxSize) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java:25: error: [NullAway] @NonNull static field wrapper not initialized
+  private static DiskLruCacheWrapper wrapper;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java:105: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/DiskLruCacheWrapper.java:178: error: [NullAway] assigning @Nullable expression to @NonNull field
+    diskLruCache = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/MemoryCacheAdapter.java:11: error: [NullAway] @NonNull field listener not initialized
+  private ResourceRemovedListener listener;
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/LruResourceCache.java:19: error: [NullAway] initializer method does not guarantee @NonNull field listener (line 12) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LruResourceCache(long size) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/InternalCacheDiskCacheFactory.java:33: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+              return null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/ExternalPreferredCacheDiskCacheFactory.java:59: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+              return internalCacheDirectory;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/cache/ExternalCacheDiskCacheFactory.java:38: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+              return null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/SizeStrategy.java:72: error: [NullAway] unboxing of a @Nullable value
+    if (current == 1) {
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/GroupedLinkedMap.java:134: error: [NullAway] initializer method does not guarantee @NonNull field values (line 124) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    LinkedEntry(K key) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/GroupedLinkedMap.java:131: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      this(null);
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/AttributeStrategy.java:27: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return groupedMap.get(key);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/AttributeStrategy.java:32: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return groupedMap.removeLast();
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/AttributeStrategy.java:87: error: [NullAway] initializer method does not guarantee @NonNull field config (line 85) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Key(KeyPool pool) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPool.java:155: error: [NullAway] passing @Nullable parameter 'evicted' where @NonNull is required
+      ArrayAdapterInterface<Object> arrayAdapter = getAdapterFromObject(evicted);
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPool.java:156: error: [NullAway] passing @Nullable parameter 'evicted' where @NonNull is required
+      currentSize -= arrayAdapter.getArrayLength(evicted) * arrayAdapter.getElementSizeInBytes();
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPool.java:157: error: [NullAway] passing @Nullable parameter 'evicted' where @NonNull is required
+      decrementArrayOfSize(arrayAdapter.getArrayLength(evicted), evicted.getClass());
+                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPool.java:157: error: [NullAway] dereferenced expression evicted is @Nullable
+      decrementArrayOfSize(arrayAdapter.getArrayLength(evicted), evicted.getClass());
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruArrayPool.java:243: error: [NullAway] initializer method does not guarantee @NonNull field arrayClass (line 241) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Key(KeyPool pool) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/SizeConfigStrategy.java:203: error: [NullAway] initializer method does not guarantee @NonNull field config (line 201) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Key(KeyPool pool) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruBitmapPool.java:197: error: [NullAway] passing @Nullable parameter 'config' where @NonNull is required
+    assertNotHardwareConfig(config);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruBitmapPool.java:203: error: [NullAway] passing @Nullable parameter 'config' where @NonNull is required
+        Log.d(TAG, "Missing bitmap=" + strategy.logBitmap(width, height, config));
+                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/LruBitmapPool.java:213: error: [NullAway] passing @Nullable parameter 'config' where @NonNull is required
+      Log.v(TAG, "Get bitmap=" + strategy.logBitmap(width, height, config));
+                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ResourceCacheGenerator.java:36: error: [NullAway] initializer method does not guarantee @NonNull fields sourceKey (line 25), modelLoaders (line 26), loadData (line 28), cacheFile (line 31), currentKey (line 34) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ResourceCacheGenerator(DecodeHelper<?> helper, FetcherReadyCallback cb) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ResourceCacheGenerator.java:88: error: [NullAway] assigning @Nullable expression to @NonNull field
+        cacheFile = helper.getDiskCache().get(currentKey);
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ResourceCacheGenerator.java:96: error: [NullAway] assigning @Nullable expression to @NonNull field
+      loadData = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ResourceCacheGenerator.java:100: error: [NullAway] assigning @Nullable expression to @NonNull field
+        loadData =
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/ResourceCacheGenerator.java:128: error: [NullAway] parameter data is @NonNull, but parameter in superclass method com.bumptech.glide.load.data.DataFetcher.DataCallback.onDataReady(T) is @Nullable
+  public void onDataReady(Object data) {
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/transition/ViewAnimationFactory.java:27: error: [NullAway] initializer method does not guarantee @NonNull field transition (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ViewAnimationFactory(
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/transition/ViewPropertyAnimationFactory.java:14: error: [NullAway] initializer method does not guarantee @NonNull field animation (line 12) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ViewPropertyAnimationFactory(ViewPropertyTransition.Animator animator) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/ThumbnailRequestCoordinator.java:26: error: [NullAway] initializer method does not guarantee @NonNull fields full (line 14), thumb (line 15) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ThumbnailRequestCoordinator(Object requestLock, @Nullable RequestCoordinator parent) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/ErrorRequestCoordinator.java:24: error: [NullAway] initializer method does not guarantee @NonNull fields primary (line 15), error (line 16) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ErrorRequestCoordinator(Object requestLock, @Nullable RequestCoordinator parent) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/BitmapImageViewTarget.java:34: error: [NullAway] parameter resource is @NonNull, but parameter in superclass method com.bumptech.glide.request.target.ImageViewTarget.setResource(Z) is @Nullable
+  protected void setResource(Bitmap resource) {
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java:68: error: [NullAway] passing @Nullable parameter 'placeholder' where @NonNull is required
+    setDrawable(placeholder);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java:81: error: [NullAway] passing @Nullable parameter 'errorDrawable' where @NonNull is required
+    setDrawable(errorDrawable);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/ImageViewTarget.java:97: error: [NullAway] passing @Nullable parameter 'placeholder' where @NonNull is required
+    setDrawable(placeholder);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/ThumbnailImageViewTarget.java:42: error: [NullAway] passing @Nullable parameter 'resource' where @NonNull is required
+    Drawable result = getDrawable(resource);
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/NotificationTarget.java:48: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(context, viewId, remoteViews, notification, notificationId, null);
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/AppWidgetTarget.java:59: error: [NullAway] assigning @Nullable expression to @NonNull field
+    componentName = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/target/AppWidgetTarget.java:101: error: [NullAway] assigning @Nullable expression to @NonNull field
+    widgetIds = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java:130: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return doGet(null);
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java:200: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return resource;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/RequestFutureTarget.java:224: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return resource;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:174: error: [NullAway] initializer method does not guarantee @NonNull fields resource (line 96), loadStatus (line 99) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  private SingleRequest(
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:297: error: [NullAway] assigning @Nullable expression to @NonNull field
+      loadStatus = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:334: error: [NullAway] assigning @Nullable expression to @NonNull field
+        resource = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:394: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return errorDrawable;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:405: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return placeholderDrawable;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:416: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return fallbackDrawable;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:470: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+              model,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:493: error: [NullAway] assigning @Nullable expression to @NonNull field
+        loadStatus = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:548: error: [NullAway] assigning @Nullable expression to @NonNull field
+        loadStatus = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:563: error: [NullAway] assigning @Nullable expression to @NonNull field
+          this.resource = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:589: error: [NullAway] assigning @Nullable expression to @NonNull field
+          this.resource = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:648: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+              listener.onResourceReady(result, model, target, dataSource, isFirstResource);
+                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:653: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+              && targetListener.onResourceReady(result, model, target, dataSource, isFirstResource);
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:692: error: [NullAway] assigning @Nullable expression to @NonNull field
+      loadStatus = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:702: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+                listener.onLoadFailed(e, model, target, isFirstReadyResource());
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/request/SingleRequest.java:707: error: [NullAway] passing @Nullable parameter 'model' where @NonNull is required
+                && targetListener.onLoadFailed(e, model, target, isFirstReadyResource());
+                                                  ^
+    (see http://t.uber.com/nullaway )

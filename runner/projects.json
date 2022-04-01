@@ -102,7 +102,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "LottieAndroid",
@@ -141,7 +141,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
@@ -154,7 +154,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Glide",
@@ -180,7 +180,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "Eureka",
@@ -193,7 +193,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         }
     ]
 }

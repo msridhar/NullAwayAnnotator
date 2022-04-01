@@ -1,0 +1,296 @@
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNodes.java:50: error: [NullAway] initializer method does not guarantee @NonNull field taskExecutor (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public PeerEurekaNodes(
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNodes.java:264: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/ASGResource.java:86: error: [NullAway] assigning @Nullable expression to @NonNull field
+            this.awsAsgUtil = null;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/AwsAsgUtil.java:248: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/AwsAsgUtil.java:257: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/AwsAsgUtil.java:313: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/AwsAsgUtil.java:455: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    String localAccountId = getAccountId(instanceInfo, null);
+                                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/Key.java:35: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.regions = regions;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:130: error: [NullAway] initializer method does not guarantee @NonNull field peerEurekaNodes (line 122) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public PeerAwareInstanceRegistryImpl(
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:309: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                                    null,
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:387: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.Cancel, appName, id, null, null, isReplication);
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:387: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.Cancel, appName, id, null, null, isReplication);
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:412: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        replicateToPeers(Action.Register, info.getAppName(), info.getId(), info, null, isReplication);
+                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:423: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.Heartbeat, appName, id, null, null, isReplication);
+                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:423: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.Heartbeat, appName, id, null, null, isReplication);
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:441: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.StatusUpdate, appName, id, null, newStatus, isReplication);
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:453: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.DeleteStatusOverride, appName, id, null, null, isReplication);
+                                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:453: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            replicateToPeers(Action.DeleteStatusOverride, appName, id, null, null, isReplication);
+                                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:523: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java:672: error: [NullAway] passing @Nullable parameter 'overriddenStatus' where @NonNull is required
+                    node.heartbeat(appName, id, infoFromRegistry, overriddenStatus, false);
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNode.java:138: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                new InstanceReplicationTask(targetHost, Action.Register, info, null, true) {
+                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNode.java:274: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                new InstanceReplicationTask(targetHost, Action.StatusUpdate, info, null, false) {
+                                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/PeerEurekaNode.java:298: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                new InstanceReplicationTask(targetHost, Action.DeleteStatusOverride, info, null, false) {
+                                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:116: error: [NullAway] initializer method does not guarantee @NonNull field responseCache (line 111) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    protected AbstractInstanceRegistry(EurekaServerConfig serverConfig, EurekaClientConfig clientConfig, ServerCodecs serverCodecs) {
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:255: error: [NullAway] passing @Nullable parameter 'existingLease' where @NonNull is required
+            InstanceStatus overriddenInstanceStatus = getOverriddenInstanceStatus(registrant, existingLease, isReplication);
+                                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:682: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return app;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AbstractInstanceRegistry.java:1047: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/protocol/ReplicationInstanceResponse.java:58: error: [NullAway] @NonNull field ReplicationInstanceResponse$Builder.responseEntity not initialized
+        private InstanceInfo responseEntity;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/protocol/ReplicationInstance.java:115: error: [NullAway] initializer method does not guarantee @NonNull fields appName (line 107), id (line 108), lastDirtyTimestamp (line 109), overriddenStatus (line 110), status (line 111), instanceInfo (line 112), action (line 113) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        private ReplicationInstanceBuilder() {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/rule/StatusOverrideResult.java:13: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    public static StatusOverrideResult NO_MATCH = new StatusOverrideResult(false, null);
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:147: error: [NullAway] passing @Nullable parameter 'ip' where @NonNull is required
+        EurekaServerIdentity identity = new EurekaServerIdentity(ip);
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:159: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.eurekaHttpClient = newEurekaHttpClient;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:434: error: [NullAway] passing @Nullable parameter 'response' where @NonNull is required
+                closeResponse(response);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:437: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:486: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return applications.get();
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:491: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:496: error: [NullAway] dereferenced expression this.applications.get() is @Nullable
+        return this.applications.get().getRegisteredApplications(appName);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:503: error: [NullAway] dereferenced expression applications.get() is @Nullable
+        for (Application app : applications.get().getRegisteredApplications()) {
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/RemoteRegionRegistry.java:514: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return this.applicationsDelta.get();
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/RateLimitingFilter.java:118: error: [NullAway] initializer method does not guarantee @NonNull field serverConfig (line 110) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public RateLimitingFilter() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/InstanceReplicationTask.java:30: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.instanceInfo = null;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/InstanceReplicationTask.java:31: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.overriddenStatus = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/ReplicationTaskProcessor.java:100: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                logNetworkErrorSample(null, e);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/ReplicationTaskProcessor.java:196: error: [NullAway] dereferenced expression e.getMessage() is @Nullable
+            	String message = e.getMessage().toLowerCase();
+            	                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/ReplicationTaskProcessor.java:215: error: [NullAway] passing @Nullable parameter 'overriddenStatus' where @NonNull is required
+            instanceBuilder.withOverriddenStatus(overriddenStatus);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/cluster/ReplicationTaskProcessor.java:221: error: [NullAway] passing @Nullable parameter 'instanceStatus' where @NonNull is required
+            instanceBuilder.withStatus(instanceStatus);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java:100: error: [NullAway] initializer method does not guarantee @NonNull fields serverContext (line 83), awsBinder (line 84) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public EurekaBootStrap(EurekaClient eurekaClient) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/EurekaBootStrap.java:92: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(null);
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/transport/JerseyReplicationClient.java:183: error: [NullAway] passing @Nullable parameter 'ip' where @NonNull is required
+        EurekaServerIdentity identity = new EurekaServerIdentity(ip);
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/transport/JerseyRemoteRegionClientFactory.java:54: error: [NullAway] initializer method does not guarantee @NonNull field jerseyClient (line 50) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public JerseyRemoteRegionClientFactory(EurekaServerConfig serverConfig,
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/transport/JerseyRemoteRegionClientFactory.java:119: error: [NullAway] passing @Nullable parameter 'ip' where @NonNull is required
+                EurekaServerIdentity identity = new EurekaServerIdentity(ip);
+                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/util/StatusInfo.java:98: error: [NullAway] initializer method does not guarantee @NonNull fields applicationStats (line 94), instanceInfo (line 95), isHeathly (line 96) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    private StatusInfo() {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/util/batcher/AcceptorExecutor.java:329: error: [NullAway] dereferenced expression nextHolder is @Nullable
+            long delay = System.currentTimeMillis() - nextHolder.getSubmitTimestamp();
+                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/DefaultServerCodecs.java:108: error: [NullAway] initializer method does not guarantee @NonNull fields fullJsonCodec (line 102), compactJsonCodec (line 103), fullXmlCodec (line 105), compactXmlCodec (line 106) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        protected Builder() {}
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/PeerReplicationResource.java:87: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    batchResponse.addResponse(new ReplicationInstanceResponse(Status.INTERNAL_SERVER_ERROR.getStatusCode(), null));
+                                                                                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/PeerReplicationResource.java:178: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/ApplicationsResource.java:129: error: [NullAway] dereferenced expression regionsStr is @Nullable
+            regions = regionsStr.toLowerCase().split(",");
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/resources/ApplicationsResource.java:216: error: [NullAway] dereferenced expression regionsStr is @Nullable
+            regions = regionsStr.toLowerCase().split(",");
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/ServerRequestAuthFilter.java:36: error: [NullAway] initializer method does not guarantee @NonNull field serverConfig (line 28) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ServerRequestAuthFilter() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/AwsInstanceRegistry.java:48: error: [NullAway] initializer method does not guarantee @NonNull fields awsAsgUtil (line 43), instanceStatusOverrideRule (line 45) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public AwsInstanceRegistry(EurekaServerConfig serverConfig,
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:216: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:234: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:369: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return payload;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:510: error: [NullAway] initializer method does not guarantee @NonNull field gzipped (line 508) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public Value(String payload) {
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:525: error: [NullAway] assigning @Nullable expression to @NonNull field
+                    gzipped = null;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/registry/ResponseCacheImpl.java:532: error: [NullAway] assigning @Nullable expression to @NonNull field
+                gzipped = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/Route53Binder.java:222: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/Route53Binder.java:238: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/aws/Route53Binder.java:250: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:137: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:155: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/DefaultEurekaServerConfig.java:552: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return remoteRegionUrl;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/GzipEncodingEnforcingFilter.java:87: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            this(null, extraElement);
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/eureka/eureka-core/src/main/java/com/netflix/eureka/EurekaServerContextHolder.java:36: error: [NullAway] @NonNull static field holder not initialized
+    private static EurekaServerContextHolder holder;
+                                             ^
+    (see http://t.uber.com/nullaway )

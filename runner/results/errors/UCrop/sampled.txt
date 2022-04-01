@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:: error: [NullAway] @NonNull field mWrapperStateRotate not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:: error: [NullAway] @NonNull field mLayoutScale not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:: error: [NullAway] @NonNull field mWrapperStateAspectRatio not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:: error: [NullAway] @NonNull field mLayoutRotate not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:: error: [NullAway] @NonNull field mWrapperStateScale not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;

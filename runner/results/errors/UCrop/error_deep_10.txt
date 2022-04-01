@@ -1,0 +1,100 @@
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:98: error: [NullAway] @NonNull field mWrapperStateAspectRatio not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:98: error: [NullAway] @NonNull field mWrapperStateRotate not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:98: error: [NullAway] @NonNull field mWrapperStateScale not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:100: error: [NullAway] @NonNull field mLayoutAspectRatio not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:100: error: [NullAway] @NonNull field mLayoutRotate not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:100: error: [NullAway] @NonNull field mLayoutScale not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java:93: error: [NullAway] dereferenced expression mGestureDetector is @Nullable
+            mGestureDetector.onTouchEvent(event);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java:96: error: [NullAway] dereferenced expression mScaleDetector is @Nullable
+            mScaleDetector.onTouchEvent(event);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java:99: error: [NullAway] dereferenced expression mRotateDetector is @Nullable
+            mRotateDetector.onTouchEvent(event);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:425: error: [NullAway] dereferenced expression mCropGridCorners is @Nullable
+            double distanceToCorner = Math.sqrt(Math.pow(touchX - mCropGridCorners[i], 2) + Math.pow(touchY - mCropGridCorners[i + 1], 2));
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:144: error: [NullAway] dereferenced expression mInputUri is @Nullable
+        String inputUriScheme = mInputUri.getScheme();
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:229: error: [NullAway] passing @Nullable parameter 'result.mBitmapResult' where @NonNull is required
+            mBitmapLoadCallback.onBitmapLoaded(result.mBitmapResult, result.mExifInfo, mInputUri.getPath(), (mOutputUri == null) ? null : mOutputUri.getPath());
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:229: error: [NullAway] passing @Nullable parameter 'result.mExifInfo' where @NonNull is required
+            mBitmapLoadCallback.onBitmapLoaded(result.mBitmapResult, result.mExifInfo, mInputUri.getPath(), (mOutputUri == null) ? null : mOutputUri.getPath());
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:229: error: [NullAway] dereferenced expression mInputUri is @Nullable
+            mBitmapLoadCallback.onBitmapLoaded(result.mBitmapResult, result.mExifInfo, mInputUri.getPath(), (mOutputUri == null) ? null : mOutputUri.getPath());
+                                                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:104: error: [NullAway] dereferenced expression mExifInfo is @Nullable
+        boolean swapSides = mExifInfo.getExifDegrees() == 90 || mExifInfo.getExifDegrees() == 270;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:105: error: [NullAway] dereferenced expression mViewBitmap is @Nullable
+        float scaleX = (swapSides ? options.outHeight : options.outWidth) / (float) mViewBitmap.getWidth();
+                                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:132: error: [NullAway] dereferenced expression mExifInfo is @Nullable
+            boolean cropped = cropCImg(mImageInputPath, mImageOutputPath, cropOffsetX, cropOffsetY, mCroppedImageWidth, mCroppedImageHeight, mCurrentAngle, resizeScale, mCompressFormat.ordinal(), mCompressQuality, mExifInfo.getExifDegrees(), mExifInfo.getExifTranslation());
+                                                                                                                                                                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:138: error: [NullAway] passing @Nullable parameter 'mImageInputPath' where @NonNull is required
+            FileUtils.copyFile(mImageInputPath, mImageOutputPath);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:138: error: [NullAway] passing @Nullable parameter 'mImageOutputPath' where @NonNull is required
+            FileUtils.copyFile(mImageInputPath, mImageOutputPath);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:164: error: [NullAway] passing @Nullable parameter 'mImageOutputPath' where @NonNull is required
+                Uri uri = Uri.fromFile(new File(mImageOutputPath));
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java:58: error: [NullAway] initializer method does not guarantee @NonNull field mProgressLinePaint (line 29) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public HorizontalProgressWheelView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java:68: error: [NullAway] dereferenced expression mProgressMiddleLinePaint is @Nullable
+        mProgressMiddleLinePaint.setColor(mMiddleLineColor);
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java:149: error: [NullAway] initializer method does not guarantee @NonNull fields mGestureCropImageView (line 119), mWrapperStateAspectRatio (line 124), mWrapperStateRotate (line 124), mWrapperStateScale (line 124), mLayoutAspectRatio (line 126), mLayoutRotate (line 126), mLayoutScale (line 126) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void onCreate(Bundle savedInstanceState) {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java:256: error: [NullAway] dereferenced expression mOverlayView is @Nullable
+        mOverlayView.setFreestyleCropEnabled(intent.getBooleanExtra(UCrop.Options.EXTRA_FREE_STYLE_CROP, OverlayView.DEFAULT_FREESTYLE_CROP_MODE != OverlayView.FREESTYLE_CROP_MODE_DISABLE));
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java:382: error: [NullAway] dereferenced expression mUCropView is @Nullable
+            mUCropView.animate().alpha(1).setDuration(300).setInterpolator(new AccelerateInterpolator());
+                      ^
+    (see http://t.uber.com/nullaway )

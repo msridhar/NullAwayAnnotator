@@ -1,0 +1,204 @@
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:83: error: [NullAway] @NonNull field mControlsTransition not initialized
+    private Transition mControlsTransition;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:85: error: [NullAway] @NonNull field mUCropView not initialized
+    private UCropView mUCropView;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:86: error: [NullAway] @NonNull field mGestureCropImageView not initialized
+    private GestureCropImageView mGestureCropImageView;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:87: error: [NullAway] @NonNull field mOverlayView not initialized
+    private OverlayView mOverlayView;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:88: error: [NullAway] @NonNull field mWrapperStateAspectRatio not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:88: error: [NullAway] @NonNull field mWrapperStateRotate not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:88: error: [NullAway] @NonNull field mWrapperStateScale not initialized
+    private ViewGroup mWrapperStateAspectRatio, mWrapperStateRotate, mWrapperStateScale;
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:89: error: [NullAway] @NonNull field mLayoutAspectRatio not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:89: error: [NullAway] @NonNull field mLayoutRotate not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:89: error: [NullAway] @NonNull field mLayoutScale not initialized
+    private ViewGroup mLayoutAspectRatio, mLayoutRotate, mLayoutScale;
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:91: error: [NullAway] @NonNull field mTextViewRotateAngle not initialized
+    private TextView mTextViewRotateAngle, mTextViewScalePercent;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:91: error: [NullAway] @NonNull field mTextViewScalePercent not initialized
+    private TextView mTextViewRotateAngle, mTextViewScalePercent;
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java:27: error: [NullAway] initializer method does not guarantee @NonNull fields mScaleDetector (line 18), mRotateDetector (line 19), mGestureDetector (line 20) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public GestureCropImageView(Context context) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java:35: error: [NullAway] initializer method does not guarantee @NonNull fields mScaleDetector (line 18), mRotateDetector (line 19), mGestureDetector (line 20) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public GestureCropImageView(Context context, AttributeSet attrs, int defStyle) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java:65: error: [NullAway] initializer method does not guarantee @NonNull fields mCropBoundsChangeListener (line 49), mWrapCropBoundsRunnable (line 51) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public CropImageView(Context context, AttributeSet attrs, int defStyle) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java:51: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private Runnable mWrapCropBoundsRunnable, mZoomImageToPositionRunnable = null;
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java:58: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(context, null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java:157: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mCropBoundsChangeListener = cropBoundsChangeListener;
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java:81: error: [NullAway] initializer method does not guarantee @NonNull fields mTransformImageListener (line 45), mInitialImageCorners (line 47), mInitialImageCenter (line 48), mImageInputPath (line 55), mImageOutputPath (line 55), mExifInfo (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public TransformImageView(Context context, AttributeSet attrs, int defStyle) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java:74: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(context, null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java:148: error: [NullAway] assigning @Nullable expression to @NonNull field
+                        mImageOutputPath = imageOutputPath;
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:90: error: [NullAway] initializer method does not guarantee @NonNull fields mCropGridCorners (line 50), mCropGridCenter (line 51), mCallback (line 72) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public OverlayView(Context context, AttributeSet attrs, int defStyle) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:55: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private float[] mGridPoints = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:83: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(context, null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:149: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mGridPoints = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:158: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mGridPoints = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java:266: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mGridPoints = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:124: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:164: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        return getDataColumn(context, contentUri, null, null);
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:164: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        return getDataColumn(context, contentUri, null, null);
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:167: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                        return null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:192: error: [NullAway] passing @Nullable parameter 'contentUri' where @NonNull is required
+                return getDataColumn(context, contentUri, selection, selectionArgs);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:203: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            return getDataColumn(context, uri, null, null);
+                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:203: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            return getDataColumn(context, uri, null, null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:210: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FastBitmapDrawable.java:33: error: [NullAway] initializer method does not guarantee @NonNull field mBitmap (line 29) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public FastBitmapDrawable(Bitmap b) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropHttpClientStore.java:9: error: [NullAway] initializer method does not guarantee @NonNull field client (line 13) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    private UCropHttpClientStore() {}
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:68: error: [NullAway] initializer method does not guarantee @NonNull field mOutputUri (line 45) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public BitmapLoadTask(@NonNull Context context,
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:57: error: [NullAway] initializer method does not guarantee @NonNull field mBitmapWorkerException (line 55) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public BitmapWorkerResult(@NonNull Bitmap bitmapResult, @NonNull ExifInfo exifInfo) {
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:62: error: [NullAway] initializer method does not guarantee @NonNull fields mBitmapResult (line 53), mExifInfo (line 54) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        public BitmapWorkerResult(@NonNull Exception bitmapWorkerException) {
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:74: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mOutputUri = outputUri;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:56: error: [NullAway] initializer method does not guarantee @NonNull field mViewBitmap (line 39) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public BitmapCropTask(@Nullable Bitmap viewBitmap, @NonNull ImageState imageState, @NonNull CropParameters cropParameters,
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:59: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mViewBitmap = viewBitmap;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:75: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mCropCallback = cropCallback;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:93: error: [NullAway] assigning @Nullable expression to @NonNull field
+            mViewBitmap = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java:46: error: [NullAway] initializer method does not guarantee @NonNull field mScrollingListener (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public HorizontalProgressWheelView(Context context, AttributeSet attrs, int defStyleAttr) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java:52: error: [NullAway] initializer method does not guarantee @NonNull fields mScrollingListener (line 25), mProgressLinePaint (line 28), mProgressMiddleLinePaint (line 29) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public HorizontalProgressWheelView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java:39: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(context, null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java:41: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        this(context, null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java:65: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mAspectRatioTitle = aspectRatio.getAspectRatioTitle();
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java:124: error: [NullAway] initializer method does not guarantee @NonNull fields mUCropView (line 104), mGestureCropImageView (line 105), mOverlayView (line 106), mWrapperStateAspectRatio (line 107), mWrapperStateRotate (line 107), mWrapperStateScale (line 107), mLayoutAspectRatio (line 108), mLayoutRotate (line 108), mLayoutScale (line 108), mTextViewRotateAngle (line 110), mTextViewScalePercent (line 110), mControlsTransition (line 113) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public void onCreate(Bundle savedInstanceState) {
+                ^
+    (see http://t.uber.com/nullaway )
