@@ -18,7 +18,7 @@ def make_csv():
     LINUX = "/home/nima/Developer/AutoFixer/Evaluation/Projects/"
     DISP = "{}\n"
     HYPER_LINK = "\"=HYPERLINK(\"\"{}\"\",\"\"{}\"\")\""
-    LINES = ["\"Errors\""]
+    LINES = ["\"Errors\"\n"]
     with open('projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
