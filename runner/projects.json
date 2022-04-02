@@ -4,7 +4,7 @@
             "name": "MPAndroid",
             "path": "MPAndroidChart",
             "submodule": "MPChartLib",
-            "git": "https://{}:{}@github.com/nimakarimipour/MPAndroidChart.git",
+            "cloc": "16102",
             "build": "./gradlew :MPChartLib:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.github.mikephil.charting.Initializer",
@@ -17,7 +17,7 @@
             "name": "Mockito",
             "path": "mockito",
             "submodule": "",
-            "git": "https://{}:{}@github.com/nimakarimipour/mockito.git",
+            "cloc": "17655",
             "build": "./gradlew :conductor-core:compileJava",
             "annot": {
                 "init": "org.mockito.Initializer",
@@ -30,7 +30,7 @@
             "name": "Conductor",
             "path": "conductor",
             "submodule": "core",
-            "git": "https://{}:{}@github.com/nimakarimipour/conductor.git",
+            "cloc": "9215",
             "build": "./gradlew :conductor-core:compileJava",
             "annot": {
                 "init": "com.netflix.conductor.Initializer",
@@ -43,7 +43,7 @@
             "name": "LitiEngine",
             "path": "litiengine",
             "submodule": "",
-            "git": "https://{}:{}@github.com/nimakarimipour/litiengine.git",
+            "cloc": "30177",
             "build": "./gradlew compileJava",
             "annot": {
                 "init": "de.gurkenlabs.litiengine.Initializer",
@@ -56,7 +56,7 @@
             "name": "EventBus",
             "path": "EventBus",
             "submodule": "EventBus",
-            "git": "https://{}:{}@github.com/nimakarimipour/EventBus.git",
+            "cloc": "1908",
             "build": "./gradlew :eventbus:compileJava",
             "annot": {
                 "init": "org.greenrobot.eventbus.Initializer",
@@ -69,7 +69,7 @@
             "name": "Gson",
             "path": "gson",
             "submodule": "gson",
-            "git": "https://{}:{}@github.com/nimakarimipour/gson.git",
+            "cloc": "8080",
             "build": "./gradlew :gson:compileJava",
             "annot": {
                 "init": "com.google.gson.Initializer",
@@ -82,7 +82,7 @@
             "name": "Jadx",
             "path": "jadx",
             "submodule": "jadx-core",
-            "git": "https://{}:{}@github.com/nimakarimipour/jadx.git",
+            "cloc": "39843",
             "build": "./gradlew jadx-core:compileJava\n",
             "annot": {
                 "init": "jadx.Initializer",
@@ -95,7 +95,7 @@
             "name": "Zuul",
             "path": "zuul",
             "submodule": "zuul-core",
-            "git": "https://{}:{}@github.com/nimakarimipour/zuul.git",
+            "cloc": "15203",
             "build": "./gradlew :zuul-core:compileJava",
             "annot": {
                 "init": "com.netflix.Initializer",
@@ -108,7 +108,7 @@
             "name": "LottieAndroid",
             "path": "lottie-android",
             "submodule": "lottie",
-            "git": "https://{}:{}@github.com/nimakarimipour/lottie-android.git",
+            "cloc": "15057",
             "build": "./gradlew :lottie:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.airbnb.lottie.Initializer",
@@ -121,7 +121,7 @@
             "name": "Retrofit",
             "path": "retrofit",
             "submodule": "retrofit",
-            "git": "https://{}:{}@github.com/nimakarimipour/retrofit.git",
+            "cloc": "h3646",
             "build": "./gradlew :retrofit:compileJava",
             "annot": {
                 "init": "retrofit2.Initializer",
@@ -134,7 +134,7 @@
             "name": "SpringBoot",
             "path": "spring-boot",
             "submodule": "spring-boot-project:spring-boot",
-            "git": "https://{}:{}@github.com/nimakarimipour/spring-boot.git",
+            "cloc": "35161",
             "build": "./gradlew spring-boot-project:spring-boot:compileJava",
             "annot": {
                 "init": "org.springframework.boot.Initializer",
@@ -147,7 +147,7 @@
             "name": "LibGdx",
             "path": "libgdx",
             "submodule": "gdx",
-            "git": "https://{}:{}@github.com/nimakarimipour/libgdx.git",
+            "cloc": "92160",
             "build": "./gradlew gdx:compileJava",
             "annot": {
                 "init": "com.badlogic.gdx.Initializer",
@@ -160,7 +160,7 @@
             "name": "Glide",
             "path": "glide",
             "submodule": "library",
-            "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
+            "cloc": "24608",
             "build": "./gradlew :library:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.bumptech.glide.Initializer",
@@ -173,7 +173,7 @@
             "name": "UCrop",
             "path": "uCrop",
             "submodule": "ucrop",
-            "git": "https://{}:{}@github.com/nimakarimipour/uCrop.git",
+            "cloc": "4151",
             "build": "./gradlew :ucrop:compileDebugJavaWithJavac",
             "annot": {
                 "init": "com.yalantis.ucrop.Initializer",
@@ -186,7 +186,7 @@
             "name": "Eureka",
             "path": "eureka",
             "submodule": "eureka-core",
-            "git": "https://{}:{}@github.com/nimakarimipour/eureka.git",
+            "cloc": "8025",
             "build": "./gradlew :eureka-core:compileJava",
             "annot": {
                 "init": "com.netflix.eureka.Initializer",
