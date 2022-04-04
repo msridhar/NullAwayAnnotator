@@ -38,5 +38,3 @@ def make_csv():
     with open('results/errors/data.csv', "w") as f:
         f.writelines(LINES)
 
-
-make_csv()

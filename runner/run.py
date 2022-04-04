@@ -26,9 +26,9 @@ import json
 import shutil
 import time
 import xmltodict
-import tools
-from tools import delete
-from tools import uprint
+import google_sheet
+from google_sheet import delete
+from google_sheet import uprint
 from os.path import join
 
 if not (len(sys.argv) in [2, 3]):
