@@ -2,14 +2,14 @@ import json
 
 
 def comp_exhaustive_selective_csv():
-    data = json.load(open("error.json", "r"))
+    data = json.load(open("../numbers/error.json", "r"))
     lines = ["Project,Selective,Exhaustive\n"]
     LINE = "{},{},{}\n"
     for proj in data.keys():
         info = data[proj]
         lines.append(LINE.format(proj, str(round(info['deep_10'] / info['nullaway'], 3)),
                                  str(round(info['dummy'] / info['nullaway'], 3))))
-    with open("results/comp_exhaustive_selective.csv", "w") as f:
+    with open("../results/comp_exhaustive_selective.csv", "w") as f:
         f.writelines(lines)
 
 
@@ -19,7 +19,7 @@ def make_csv():
     DISP = "{}\n"
     HYPER_LINK = "\"=HYPERLINK(\"\"{}\"\",\"\"{}\"\")\""
     LINES = ["\"Errors\"\n"]
-    with open('projects.json') as f:
+    with open('../projects.json') as f:
         projects = json.load(f)
         for project in projects['projects']:
             if not project['active']:

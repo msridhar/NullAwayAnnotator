@@ -2,7 +2,7 @@ import json
 
 
 def latex_row_compare_builds_dept():
-    data = json.load(open("build.json", "r"))
+    data = json.load(open("../numbers/build.json", "r"))
     lines = []
     for name in data.keys():
         proj = data[name]
@@ -15,12 +15,12 @@ def latex_row_compare_builds_dept():
 
         line += "\\\\\cline{2-14}\n"
         lines.append(line)
-        with open("results/latex_row_compare_builds_dept.txt", "w") as f:
+        with open("../results/latex_row_compare_builds_dept.txt", "w") as f:
             f.writelines(lines)
 
 
 def latex_row_compare_errors_dept():
-    data = json.load(open("error.json", "r"))
+    data = json.load(open("../numbers/error.json", "r"))
     lines = []
     for name in data.keys():
         proj = data[name]
@@ -31,12 +31,12 @@ def latex_row_compare_errors_dept():
 
         line += "\\\\\cline{2-14}\n"
         lines.append(line)
-        with open("results/latex_row_compare_errors_dept.txt", "w") as f:
+        with open("../results/latex_row_compare_errors_dept.txt", "w") as f:
             f.writelines(lines)
 
 
 def latex_row_num_annot():
-    data = json.load(open("annot.json", "r"))
+    data = json.load(open("../numbers/annot.json", "r"))
     lines = []
     for name in data.keys():
         proj = data[name]
@@ -47,7 +47,7 @@ def latex_row_num_annot():
 
         line += "\\\\\cline{2-14}\n"
         lines.append(line)
-        with open("results/latex_row_num_annot.txt", "w") as f:
+        with open("../results/latex_row_num_annot.txt", "w") as f:
             f.writelines(lines)
 
 

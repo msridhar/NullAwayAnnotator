@@ -1,6 +1,6 @@
 import os
 import json
-import time
+from exp.numbers import time
 
 config = json.load(open("config.json", "r"))
 projects = json.load(open("projects.json", "r"))

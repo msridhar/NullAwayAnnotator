@@ -2,8 +2,8 @@ import os
 import json
 import glob
 
-config = json.load(open("config.json", "r"))
-projects = json.load(open("projects.json", "r"))
+config = json.load(open("../config.json", "r"))
+projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
 branches = ["dummy"] + ["deep_{}".format(i) for i in range(0, 11)]
