@@ -29,6 +29,7 @@ import edu.ucr.cs.riple.core.metadata.method.MethodInheritanceTree;
 import edu.ucr.cs.riple.core.metadata.trackers.RegionTracker;
 import edu.ucr.cs.riple.core.util.Utility;
 import edu.ucr.cs.riple.injector.Fix;
+import java.util.Collections;
 import java.util.List;
 
 public class Node extends AbstractNode {
@@ -49,7 +50,8 @@ public class Node extends AbstractNode {
       this.effect =
           localEffect
               - this.fix.referred
-              + Utility.calculateParamInheritanceViolationError(tree, this.fix);
+              + Utility.calculateParamInheritanceViolationError(
+                  tree, this.fix, Collections.emptyList());
     }
     if (fix.location.equals(FixType.METHOD.name)) {
       this.effect =
@@ -57,10 +59,22 @@ public class Node extends AbstractNode {
               + Utility.calculateMethodInheritanceViolationError(tree, this.fix, fixesInOneRound)
               - 1;
     }
-
     if (fix.location.equals(FixType.FIELD.name)) {
       this.effect = localEffect - 1;
     }
+  }
+
+  /**
+   * Generates suggested fixes due to making a parameter {@code Nullable} for all overriding
+   * methods.
+   *
+   * @param mit Method Inheritance Tree.
+   * @return List of Fixes
+   */
+  @Override
+  public List<Fix> generateSubMethodParameterInheritanceFixes(
+      MethodInheritanceTree mit, List<Fix> fixesInOneRound) {
+    return generateSubMethodParameterInheritanceFixesByFix(fix, mit);
   }
 
   @Override

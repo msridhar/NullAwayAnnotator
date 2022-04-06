@@ -87,7 +87,7 @@ public class Annotator {
     }
   }
 
-  private List<Fix> init(String buildCommand, boolean useCache) {
+  private List<Fix> init(String buildCommand, boolean useCache, boolean optimized) {
     System.out.println("Initializing Explorers.");
     this.buildCommand = buildCommand;
     this.finishedReports = new ArrayList<>();
@@ -115,19 +115,20 @@ public class Annotator {
     Bank<Error> errorBank = new Bank<>(errorPath, Error::new);
     Bank<FixEntity> fixBank = new Bank<>(fixPath, FixEntity::new);
     this.explorers = new ArrayList<>();
-    this.deepExplorer = new DeepExplorer(this, errorBank, fixBank);
     if (depth < 0) {
       this.explorers.add(new DummyExplorer(this, null, null));
-    } else {
+    }
+    if (optimized) {
       this.explorers.add(new ParameterExplorer(this, allFixes, errorBank, fixBank));
       this.explorers.add(new FieldExplorer(this, allFixes, errorBank, fixBank));
       this.explorers.add(new MethodExplorer(this, allFixes, errorBank, fixBank));
-      this.explorers.add(new BasicExplorer(this, errorBank, fixBank));
+      this.deepExplorer = new DeepExplorer(this, errorBank, fixBank);
     }
+    this.explorers.add(new BasicExplorer(this, errorBank, fixBank));
     return allFixes;
   }
 
-  public void start(String buildCommand, Path configPath, boolean useCache) {
+  public void start(String buildCommand, Path configPath, boolean useCache, boolean optimized) {
     log.time = System.currentTimeMillis();
     System.out.println("Annotator Started.");
     this.nullAwayConfigPath = configPath;
@@ -137,7 +138,7 @@ public class Annotator {
                 .orElse("/tmp/NullAwayFix"));
     this.fixPath = this.dir.resolve("fixes.tsv");
     this.errorPath = this.dir.resolve("errors.tsv");
-    List<Fix> fixes = init(buildCommand, useCache);
+    List<Fix> fixes = init(buildCommand, useCache, optimized);
     fixes.forEach(
         fix -> {
           if (finishedReports
@@ -147,7 +148,9 @@ public class Annotator {
           }
         });
     log.deep = System.currentTimeMillis();
-    this.deepExplorer.start(finishedReports);
+    if (optimized) {
+      this.deepExplorer.start(finishedReports);
+    }
     log.deep = System.currentTimeMillis() - log.deep;
     log.time = System.currentTimeMillis() - log.time;
     Utility.writeReports(dir, finishedReports);

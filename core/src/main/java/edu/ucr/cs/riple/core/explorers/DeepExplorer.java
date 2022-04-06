@@ -32,6 +32,7 @@ import edu.ucr.cs.riple.core.metadata.graph.SuperNode;
 import edu.ucr.cs.riple.core.metadata.index.Bank;
 import edu.ucr.cs.riple.core.metadata.index.Error;
 import edu.ucr.cs.riple.core.metadata.index.FixEntity;
+import edu.ucr.cs.riple.core.metadata.index.Result;
 import edu.ucr.cs.riple.core.metadata.trackers.CompoundTracker;
 import edu.ucr.cs.riple.core.metadata.trackers.Region;
 import edu.ucr.cs.riple.core.util.Utility;
@@ -129,9 +130,11 @@ public class DeepExplorer extends BasicExplorer {
       group.forEach(
           superNode -> {
             int totalEffect = 0;
+            List<Fix> localTriggered = new ArrayList<>();
             for (Region region : superNode.regions) {
-              totalEffect += errorBank.compareByMethod(region.clazz, region.method, false).size;
-              superNode.updateTriggered(
+              Result<Error> res = errorBank.compareByMethod(region.clazz, region.method, false);
+              totalEffect += res.size;
+              localTriggered.addAll(
                   fixBank
                       .compareByMethod(region.clazz, region.method, false)
                       .dif
@@ -139,6 +142,10 @@ public class DeepExplorer extends BasicExplorer {
                       .map(fixEntity -> fixEntity.fix)
                       .collect(Collectors.toList()));
             }
+            localTriggered.addAll(
+                superNode.generateSubMethodParameterInheritanceFixes(
+                    annotator.methodInheritanceTree, fixes));
+            superNode.updateTriggered(localTriggered);
             superNode.setEffect(totalEffect, annotator.methodInheritanceTree, fixes);
           });
       annotator.remove(fixes);

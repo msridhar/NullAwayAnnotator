@@ -93,6 +93,8 @@ public class CSS extends BugChecker
       paramAnnotations.add(SymbolUtil.paramHasNullableAnnotation(methodSymbol, i, config));
     }
     methodInfo.setParamAnnotations(paramAnnotations);
+    methodInfo.setURI(state.getPath().getCompilationUnit().getSourceFile().toUri());
+    methodInfo.setParameterNames(tree.getParameters());
     config.serializer.serializeMethodInfo(methodInfo);
     return Description.NO_MATCH;
   }

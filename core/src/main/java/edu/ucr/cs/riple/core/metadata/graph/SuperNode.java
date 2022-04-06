@@ -28,8 +28,8 @@ import edu.ucr.cs.riple.core.FixType;
 import edu.ucr.cs.riple.core.Report;
 import edu.ucr.cs.riple.core.metadata.method.MethodInheritanceTree;
 import edu.ucr.cs.riple.core.metadata.trackers.RegionTracker;
-import edu.ucr.cs.riple.core.util.Utility;
 import edu.ucr.cs.riple.injector.Fix;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
@@ -58,19 +58,26 @@ public class SuperNode extends AbstractNode {
   // call sites too.
   @Override
   public void setEffect(int effect, MethodInheritanceTree tree, List<Fix> fixes) {
-    final int[] total = {effect};
-    followUps.forEach(
-        fix -> {
-          if (fix.location.equals(FixType.PARAMETER.name)) {
-            total[0] += Utility.calculateParamInheritanceViolationError(tree, fix);
-          }
-        });
-    this.effect = total[0];
+    this.effect = effect;
   }
 
   @Override
   public int hashCode() {
     return Objects.hash(super.hashCode(), followUps, report, root);
+  }
+
+  @Override
+  public List<Fix> generateSubMethodParameterInheritanceFixes(
+      MethodInheritanceTree mit, List<Fix> fixesInOneRound) {
+    List<Fix> ans = new ArrayList<>();
+    followUps.forEach(
+        fix -> {
+          if (fix.location.equals(FixType.PARAMETER.name)) {
+            ans.addAll(generateSubMethodParameterInheritanceFixesByFix(fix, mit));
+          }
+        });
+    ans.removeAll(fixesInOneRound);
+    return ans;
   }
 
   @Override

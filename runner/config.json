@@ -1,1 +1,15 @@
-{"PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/eureka", "BUILD_COMMAND": "./gradlew build", "ANNOTATION": {"INITIALIZER": "com.netflix.eureka.Initializer", "NONNULL": "javax.annotation.Nonnull", "NULLABLE": "javax.annotation.Nullable"}, "FORMAT": false, "OUTPUT_DIR": "/tmp/NullAwayFix", "NULLAWAY_CONFIG_PATH": "/tmp/NullAwayFix/config.xml", "CSS_CONFIG_PATH": "/tmp/NullAwayFix/css.xml", "DEPTH": -1}
+{
+  "PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx",
+  "BUILD_COMMAND": "./gradlew gdx:compileJava",
+  "ANNOTATION": {
+    "INITIALIZER": "com.badlogic.gdx.Initializer",
+    "NONNULL": "javax.annotation.Nonnull",
+    "NULLABLE": "javax.annotation.Nullable"
+  },
+  "FORMAT": false,
+  "OUTPUT_DIR": "/tmp/NullAwayFix",
+  "NULLAWAY_CONFIG_PATH": "/tmp/NullAwayFix/config.xml",
+  "CSS_CONFIG_PATH": "/tmp/NullAwayFix/css.xml",
+  "OPTIMIZED": true,
+  "DEPTH": 5
+}

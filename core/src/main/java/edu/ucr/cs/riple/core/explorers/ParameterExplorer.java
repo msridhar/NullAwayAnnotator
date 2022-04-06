@@ -35,6 +35,8 @@ import edu.ucr.cs.riple.core.metadata.index.Result;
 import edu.ucr.cs.riple.core.metadata.method.MethodInheritanceTree;
 import edu.ucr.cs.riple.core.util.Utility;
 import edu.ucr.cs.riple.injector.Fix;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import me.tongfei.progressbar.ProgressBar;
@@ -82,15 +84,18 @@ public class ParameterExplorer extends AdvancedExplorer {
             errorBank.compareByMethod(node.fix.className, node.fix.method, false);
         node.setEffect(errorComparison.size, annotator.methodInheritanceTree, null);
         node.analyzeStatus(errorComparison.dif);
-        if (annotator.depth > 0) {
-          node.updateTriggered(
-              fixBank
-                  .compareByMethod(node.fix.className, node.fix.method, false)
-                  .dif
-                  .stream()
-                  .map(fixEntity -> fixEntity.fix)
-                  .collect(Collectors.toList()));
-        }
+        List<Fix> triggered =
+            new ArrayList<>(
+                node.generateSubMethodParameterInheritanceFixes(
+                    annotator.methodInheritanceTree, Collections.emptyList()));
+        triggered.addAll(
+            fixBank
+                .compareByMethod(node.fix.className, node.fix.method, false)
+                .dif
+                .stream()
+                .map(fixEntity -> fixEntity.fix)
+                .collect(Collectors.toList()));
+        node.updateTriggered(triggered);
       }
     }
     pb.close();

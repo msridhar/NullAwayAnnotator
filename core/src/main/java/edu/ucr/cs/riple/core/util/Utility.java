@@ -123,6 +123,18 @@ public class Utility {
         Arrays.stream(content.split(",")).map(Boolean::parseBoolean).collect(Collectors.toList()));
   }
 
+  public static String[] convertStringToStringArray(String content) {
+    if (content == null) {
+      return new String[0];
+    }
+    content = content.substring(1, content.length() - 1);
+    if (content.length() == 0) {
+      return new String[0];
+    }
+    content = content.replaceAll("\\s", "");
+    return Arrays.stream(content.split(",")).toArray(String[]::new);
+  }
+
   public static List<Fix> readAllFixes(Path path) {
     List<Fix> fixes = new ArrayList<>();
     try {
@@ -245,7 +257,20 @@ public class Utility {
     return 0;
   }
 
-  public static int calculateParamInheritanceViolationError(MethodInheritanceTree mit, Fix fix) {
+  public static boolean correspondingFixExists(
+      String clazz, String method, String param, String location, List<Fix> fixes) {
+    return fixes
+        .stream()
+        .anyMatch(
+            fix ->
+                fix.location.equals(location)
+                    && fix.className.equals(clazz)
+                    && fix.method.equals(method)
+                    && fix.param.equals(param));
+  }
+
+  public static int calculateParamInheritanceViolationError(
+      MethodInheritanceTree mit, Fix fix, List<Fix> fixesInOneRound) {
     int index = Integer.parseInt(fix.index);
     MethodNode methodNode = mit.findNode(fix.method, fix.className);
     if (methodNode == null) {
@@ -258,18 +283,25 @@ public class Utility {
     int effect = 0;
     for (MethodNode subMethod : mit.getSubMethods(fix.method, fix.className, false)) {
       if (!thisMethodFlag[index]) {
-        if (!subMethod.annotFlags[index]) {
+        if (!subMethod.annotFlags[index]
+            && !correspondingFixExists(
+                subMethod.clazz,
+                subMethod.method,
+                subMethod.parameterNames[index],
+                FixType.PARAMETER.name,
+                fixesInOneRound)) {
           effect++;
         }
       }
     }
     List<MethodNode> superMethods = mit.getSuperMethods(fix.method, fix.className, false);
-    if (superMethods.size() != 0) {
-      MethodNode superMethod = superMethods.get(0);
-      if (!thisMethodFlag[index]) {
-        if (superMethod.annotFlags[index]) {
-          effect--;
-        }
+    if (superMethods == null || superMethods.size() == 0) {
+      return effect;
+    }
+    MethodNode superMethod = superMethods.get(0);
+    if (superMethod != null && !thisMethodFlag[index]) {
+      if (superMethod.annotFlags[index]) {
+        effect--;
       }
     }
     return effect;
