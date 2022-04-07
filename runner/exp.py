@@ -24,12 +24,15 @@ for proj in projects['projects']:
         json.dump(config, f)
 
     for i in range(0, 11):
+        if i % 2 == 1:
+            continue
         branch = "c_ftf{}".format(i)
         COMMAND = "cd {} && {}".format(config['PROJECT_PATH'], "{}")
         os.system(COMMAND.format("git reset --hard"))
         os.system(COMMAND.format("git fetch"))
         os.system(COMMAND.format("git pull"))
         os.system(COMMAND.format("git checkout nullaway"))
+        os.system(COMMAND.format("git pull"))
         os.system(COMMAND.format("git branch -D {}".format(branch)))
         os.system(COMMAND.format("git push origin --delete {}".format(branch)))
         os.system(COMMAND.format("git checkout -b {}".format(branch)))
