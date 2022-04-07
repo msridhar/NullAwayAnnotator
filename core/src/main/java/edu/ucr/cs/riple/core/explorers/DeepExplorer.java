@@ -55,20 +55,28 @@ public class DeepExplorer extends BasicExplorer {
     this.fixGraph = new FixGraph<>(SuperNode::new);
   }
 
-  private boolean init(List<Report> reports) {
+  private boolean init(List<Report> reports, boolean bailout) {
     this.fixGraph.clear();
     Set<Report> filteredReports =
         reports
             .stream()
-            .filter(report -> (report.effectiveNess > 0 && !report.finished))
+            .filter(report -> (!bailout || report.effectiveNess > 0) && !report.finished)
             .collect(Collectors.toSet());
     filteredReports.forEach(
         report -> {
           Fix fix = report.fix;
           SuperNode node = fixGraph.findOrCreate(fix);
+          node.setRootSource(
+              fixBank.getAllSources(
+                  o -> {
+                    if (o.fix.equals(fix)) {
+                      return 0;
+                    }
+                    return -10;
+                  }));
           node.report = report;
           node.triggered = report.triggered;
-          node.followUps.addAll(report.followups);
+          node.tree.addAll(report.followups);
           node.mergeTriggered();
           node.updateUsages(tracker);
           node.changed = false;
@@ -76,7 +84,7 @@ public class DeepExplorer extends BasicExplorer {
     return filteredReports.size() > 0;
   }
 
-  public void start(List<Report> reports) {
+  public void start(boolean bailout, List<Report> reports) {
     if (annotator.depth == 0) {
       reports.forEach(report -> report.finished = true);
       return;
@@ -84,7 +92,7 @@ public class DeepExplorer extends BasicExplorer {
     System.out.println("Deep explorer is active...\nMax Depth level: " + annotator.depth);
     for (int i = 0; i < annotator.depth; i++) {
       System.out.print("Analyzing at level " + (i + 1) + ", ");
-      if (!init(reports)) {
+      if (!init(reports, bailout)) {
         break;
       }
       explore();
@@ -93,7 +101,7 @@ public class DeepExplorer extends BasicExplorer {
           superNode -> {
             Report report = superNode.report;
             report.effectiveNess = superNode.effect;
-            report.followups = superNode.followUps;
+            report.followups = superNode.tree;
             report.triggered = superNode.triggered;
             report.finished = !superNode.changed;
           });

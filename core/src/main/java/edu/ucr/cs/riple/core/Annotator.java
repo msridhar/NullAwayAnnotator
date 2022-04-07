@@ -128,13 +128,18 @@ public class Annotator {
     return allFixes;
   }
 
-  public void start(String buildCommand, Path configPath, boolean useCache, boolean optimized) {
+  public void start(
+      String buildCommand,
+      Path nullawayConfigPath,
+      boolean useCache,
+      boolean optimized,
+      boolean bailout) {
     log.time = System.currentTimeMillis();
     System.out.println("Annotator Started.");
-    this.nullAwayConfigPath = configPath;
+    this.nullAwayConfigPath = nullawayConfigPath;
     this.dir =
         Paths.get(
-            XMLUtil.getValueFromTag(configPath, "/serialization/path", String.class)
+            XMLUtil.getValueFromTag(nullawayConfigPath, "/serialization/path", String.class)
                 .orElse("/tmp/NullAwayFix"));
     this.fixPath = this.dir.resolve("fixes.tsv");
     this.errorPath = this.dir.resolve("errors.tsv");
@@ -149,7 +154,7 @@ public class Annotator {
         });
     log.deep = System.currentTimeMillis();
     if (optimized) {
-      this.deepExplorer.start(finishedReports);
+      this.deepExplorer.start(bailout, finishedReports);
     }
     log.deep = System.currentTimeMillis() - log.deep;
     log.time = System.currentTimeMillis() - log.time;
