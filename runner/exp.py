@@ -1,10 +1,12 @@
 import os
 import json
-from exp.numbers import time
+import time
 
 config = json.load(open("config.json", "r"))
 projects = json.load(open("projects.json", "r"))
 root = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}"
+
+# t: only_root, t: cache, t: bailout
 
 for proj in projects['projects']:
     if not proj['active']:
@@ -15,11 +17,14 @@ for proj in projects['projects']:
     config['BUILD_COMMAND'] = proj['build']
     config['ANNOTATION']['NULLABLE'] = proj['annot']['nullable']
     config['ANNOTATION']['INITIALIZER'] = proj['annot']['init']
+    config['CACHE'] = True
+    config['OPTIMIZED'] = True
+    config['BAILOUT'] = False
     with open("config.json", "w") as f:
         json.dump(config, f)
 
     for i in range(0, 11):
-        branch = "deep_{}".format(i)
+        branch = "c_ftf{}".format(i)
         COMMAND = "cd {} && {}".format(config['PROJECT_PATH'], "{}")
         os.system(COMMAND.format("git reset --hard"))
         os.system(COMMAND.format("git fetch"))
