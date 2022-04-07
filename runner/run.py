@@ -24,10 +24,11 @@ import os
 import sys
 import json
 import shutil
-from exp.numbers import time
+import time
 import xmltodict
-from exp.googlesheet.google_sheet import delete
-from exp.googlesheet.google_sheet import uprint
+import tools
+from tools import delete
+from tools import uprint
 from os.path import join
 
 if not (len(sys.argv) in [2, 3]):
