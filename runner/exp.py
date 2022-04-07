@@ -9,15 +9,13 @@ root = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}"
 # t: only_root, t: cache, t: bailout
 
 for proj in projects['projects']:
-    if not proj['active']:
-        continue
     print("Working on {}".format(proj['name']))
     path = root.format(proj['path'])
     config['PROJECT_PATH'] = path
     config['BUILD_COMMAND'] = proj['build']
     config['ANNOTATION']['NULLABLE'] = proj['annot']['nullable']
     config['ANNOTATION']['INITIALIZER'] = proj['annot']['init']
-    config['CACHE'] = True
+    config['CACHE'] = False
     config['OPTIMIZED'] = True
     config['BAILOUT'] = False
     with open("config.json", "w") as f:
@@ -26,7 +24,7 @@ for proj in projects['projects']:
     for i in range(0, 11):
         if i % 2 == 1:
             continue
-        branch = "c_ftf{}".format(i)
+        branch = "c_fff{}".format(i)
         COMMAND = "cd {} && {}".format(config['PROJECT_PATH'], "{}")
         os.system(COMMAND.format("git reset --hard"))
         os.system(COMMAND.format("git fetch"))
