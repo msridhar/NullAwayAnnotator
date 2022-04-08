@@ -19,7 +19,7 @@ def execute(command):
 
 def clone_project(project):
     command = "cd {} && git clone https://{}:{}@github.com/nimakarimipour/{}.git"
-    if not os.path.isdir(root.format(project['name'])):
+    if not os.path.isdir(root.format(project['path'])):
         os.system(command.format(root, GIT_USERNAME, GIT_KEY, project['path']))
     os.system("cd {} && {}".format(root.format(project['path']), project['build']))
 
@@ -27,8 +27,8 @@ def clone_project(project):
 for proj in projects['projects']:
     if not proj['active']:
         continue
-    clone_project(proj)
     print("Working on {}".format(proj['name']))
+    clone_project(proj)
     path = root.format(proj['path'])
     config['PROJECT_PATH'] = path
     config['BUILD_COMMAND'] = proj['build']
