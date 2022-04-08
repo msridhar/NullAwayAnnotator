@@ -9,6 +9,7 @@ GIT_KEY = str(sys.argv[2])
 config = json.load(open("config.json", "r"))
 projects = json.load(open("projects.json", "r"))
 root = "/tmp/projects/{}"
+os.makedirs(root.format(""))
 
 
 def execute(command):
@@ -20,7 +21,7 @@ def execute(command):
 def clone_project(project):
     command = "cd {} && git clone https://{}:{}@github.com/nimakarimipour/{}.git"
     if not os.path.isdir(root.format(project['path'])):
-        os.system(command.format(root, GIT_USERNAME, GIT_KEY, project['path']))
+        os.system(command.format(root.format(""), GIT_USERNAME, GIT_KEY, project['path']))
     os.system("cd {} && {}".format(root.format(project['path']), project['build']))
 
 
