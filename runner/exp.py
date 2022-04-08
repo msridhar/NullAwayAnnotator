@@ -24,9 +24,7 @@ for proj in projects['projects']:
     with open("config.json", "w") as f:
         json.dump(config, f)
 
-    for i in range(0, 11):
-        if i % 2 == 1:
-            continue
+    for i in [0, 3, 6, 10]:
         branch = "c_ttt{}".format(i)
         COMMAND = "cd {} && {}".format(config['PROJECT_PATH'], "{}")
         os.system(COMMAND.format("git reset --hard"))
