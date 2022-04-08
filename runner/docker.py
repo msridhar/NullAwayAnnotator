@@ -58,6 +58,7 @@ for proj in projects['projects']:
         os.system(COMMAND.format("git branch -D {}".format(branch)))
         os.system(COMMAND.format("git push {} --delete {}".format(password, branch)))
         os.system(COMMAND.format("git checkout -b {}".format(branch)))
+        os.system(COMMAND.format("git push --set-upstream {} {}".format(password, branch)))
         config["DEPTH"] = i
         with open("config.json", "w") as f:
             json.dump(config, f)
@@ -74,4 +75,4 @@ for proj in projects['projects']:
 
         os.system(COMMAND.format("git add ."))
         os.system(COMMAND.format("git commit -m \"Final Result\""))
-        os.system(COMMAND.format("git push {} --set-upstream origin {}".format(password, branch)))
+        os.system(COMMAND.format("git push {}".format(password)))
