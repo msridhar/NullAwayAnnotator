@@ -45,7 +45,7 @@ for proj in projects['projects']:
     password = "https://{}:{}@github.com/nimakarimipour/{}.git".format(GIT_USERNAME, GIT_KEY, proj['path'])
 
     for i in range(0, 11):
-        if i % 2 == 1:
+        if i != 5:
             continue
         # t: only_root, t: cache, t: bailout
         branch = "c_ttt{}".format(i)
