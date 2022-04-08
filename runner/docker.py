@@ -26,7 +26,7 @@ def clone_project(project):
 
 
 for proj in projects['projects']:
-    if not proj['active']:
+    if proj['path'] != 'libgdx':
         continue
     print("Working on {}".format(proj['name']))
     clone_project(proj)
