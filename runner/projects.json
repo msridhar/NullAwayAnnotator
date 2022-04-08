@@ -11,7 +11,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "androidx.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -37,7 +37,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -50,7 +50,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
@@ -89,7 +89,7 @@
                 "nullable": "org.jetbrains.annotations.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -141,7 +141,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",
@@ -167,7 +167,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "UCrop",
@@ -193,7 +193,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         }
     ]
 }
