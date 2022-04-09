@@ -4,12 +4,12 @@ import time
 
 config = json.load(open("config.json", "r"))
 projects = json.load(open("projects.json", "r"))
-root = "/home/nima/Developer/AutoFixer/Evaluation/Projects/{}"
+root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 
 # t: only_root, t: cache, t: bailout
 
 for proj in projects['projects']:
-    if not proj['active']:
+    if proj['path'] != 'libgdx':
         continue
     print("Working on {}".format(proj['name']))
     path = root.format(proj['path'])
