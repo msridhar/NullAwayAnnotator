@@ -27,11 +27,11 @@ import shutil
 import filecmp
 
 PROJECT_PATH = "{}/tests".format(os.getcwd())
-ALL_TESTS_PATH = "../tests/units/"
+ALL_TESTS_PATH = "units/"
 
-data = json.load(open('../tests/config.json'))
+data = json.load(open('config.json'))
 data['PROJECT_PATH'] = PROJECT_PATH
-with open('../tests/config.json', 'w') as outfile:
+with open('config.json', 'w') as outfile:
     json.dump(data, outfile, indent=4)
 
 
@@ -66,26 +66,26 @@ def show_tests():
 
 
 def test(name: str):
-    if not name in show_tests():
+    if name not in show_tests():
         print("No test found with name: {}".format(name))
         return
-    TEST_DIR = ALL_TESTS_PATH + name + "/{}"
+    test_dir = ALL_TESTS_PATH + name + "/{}"
     try:
-        shutil.rmtree(TEST_DIR.format("out/"))
-    except OSError as e:
+        shutil.rmtree(test_dir.format("out/"))
+    except OSError:
         print("Error in test{}".format(name))
-    os.system("cp -R {} {}".format(TEST_DIR.format("src/"), TEST_DIR.format("tmp/")))
+    os.system("cp -R {} {}".format(test_dir.format("src/"), test_dir.format("tmp/")))
 
-    data = json.load(open('../tests/config.json'))
-    data['PROJECT_PATH'] = PROJECT_PATH
-    data['BUILD_COMMAND'] = "./gradlew :units:{}:build -x test".format(name)
-    with open('../tests/config.json', 'w') as outfile:
-        json.dump(data, outfile, indent=4)
+    config = json.load(open('config.json'))
+    config['PROJECT_PATH'] = PROJECT_PATH
+    config['BUILD_COMMAND'] = "./gradlew :units:{}:build -x test".format(name)
+    with open('config.json', 'w') as outfile:
+        json.dump(config, outfile, indent=4)
     os.system("python3 run.py loop tests/config.json")
-    os.renames(TEST_DIR.format("src/"), TEST_DIR.format("out/"))
-    os.renames(TEST_DIR.format("tmp/"), TEST_DIR.format("src/"))
+    os.renames(test_dir.format("src/"), test_dir.format("out/"))
+    os.renames(test_dir.format("tmp/"), test_dir.format("src/"))
     os.system("cd {} && ./gradlew goJF".format(PROJECT_PATH))
-    status, difs = compare_dirs(TEST_DIR.format("out/main/"), TEST_DIR.format("expected/main/"))
+    status, difs = compare_dirs(test_dir.format("out/main/"), test_dir.format("expected/main/"))
     if status:
         print_status("{} - TEST WAS SUCCESSFUL".format(name), True)
     else:
