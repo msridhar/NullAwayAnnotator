@@ -76,19 +76,29 @@ public class Annotator {
   public static final Log log = new Log();
 
   public static class Log {
-    int total;
+    public int total;
     int requested;
     long time;
     long deep;
+    long buildTime = 0;
 
     @Override
     public String toString() {
-      return "total=" + total + ", requested=" + requested + ", time=" + time + ", deep=" + deep;
+      return "total="
+          + total
+          + ", requested="
+          + requested
+          + ", time="
+          + time
+          + ", deep="
+          + deep
+          + ", buildTime="
+          + buildTime;
     }
   }
 
   private List<Fix> init(String buildCommand, boolean useCache, boolean optimized) {
-    System.out.println("Initializing Explorers.");
+    System.out.println("Making the first build.");
     this.buildCommand = buildCommand;
     this.finishedReports = new ArrayList<>();
     FixSerializationConfig.Builder builder =
@@ -118,7 +128,8 @@ public class Annotator {
     if (depth < 0) {
       this.explorers.add(new DummyExplorer(this, null, null));
     }
-    if (optimized) {
+    if (optimized && depth > -1) {
+      System.out.println("Initializing Explorers.");
       this.explorers.add(new ParameterExplorer(this, allFixes, errorBank, fixBank));
       this.explorers.add(new FieldExplorer(this, allFixes, errorBank, fixBank));
       this.explorers.add(new MethodExplorer(this, allFixes, errorBank, fixBank));
@@ -154,8 +165,8 @@ public class Annotator {
           }
         });
     log.deep = System.currentTimeMillis();
-    if (optimized) {
-      this.deepExplorer.start(bailout, finishedReports);
+    if (optimized && depth > -1) {
+      this.deepExplorer.start(bailout, finishedReports, log);
     }
     log.deep = System.currentTimeMillis() - log.deep;
     log.time = System.currentTimeMillis() - log.time;
@@ -217,7 +228,9 @@ public class Annotator {
     }
     writer.writeAsXML(nullAwayConfigPath.toString());
     try {
+      long start = System.currentTimeMillis();
       Utility.executeCommand(buildCommand);
+      log.buildTime += System.currentTimeMillis() - start;
     } catch (Exception e) {
       throw new RuntimeException("Could not run command: " + buildCommand);
     }
