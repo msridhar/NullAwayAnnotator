@@ -18,7 +18,7 @@
             "path": "mockito",
             "submodule": "",
             "cloc": "17655",
-            "build": "./gradlew :conductor-core:compileJava",
+            "build": "./gradlew :compileJava",
             "annot": {
                 "init": "org.mockito.Initializer",
                 "nullable": "javax.annotation.Nullable",
@@ -37,7 +37,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "LitiEngine",
@@ -50,7 +50,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "EventBus",
@@ -89,7 +89,7 @@
                 "nullable": "org.jetbrains.annotations.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "Zuul",
@@ -141,7 +141,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "LibGdx",
@@ -180,7 +180,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": true
+            "active": false
         },
         {
             "name": "Eureka",

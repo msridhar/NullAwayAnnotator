@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{"PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx", "BUILD_COMMAND": "./gradlew gdx:compileJava", "ANNOTATION": {"INITIALIZER": "com.badlogic.gdx.Initializer", "NONNULL": "javax.annotation.Nonnull", "NULLABLE": "javax.annotation.Nullable"}, "FORMAT": false, "OUTPUT_DIR": "/tmp/NullAwayFix", "NULLAWAY_CONFIG_PATH": "/tmp/NullAwayFix/config.xml", "CSS_CONFIG_PATH": "/tmp/NullAwayFix/css.xml", "CHAIN": false, "OPTIMIZED": true, "CACHE": true, "BAILOUT": true, "DEPTH": 10}
-=======
 {
   "PROJECT_PATH": "/Users/nima/Developer/NullAwayFixer/Projects/libgdx",
   "BUILD_COMMAND": "./gradlew :gdx:compileJava",
@@ -19,4 +16,3 @@
   "BAILOUT": true,
   "DEPTH": 8
 }
->>>>>>> master
