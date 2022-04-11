@@ -5,7 +5,7 @@ config = json.load(open("../config.json", "r"))
 projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
-branches = ["dummy", "nullaway"] + ["deep_{}".format(i) for i in range(0, 11)]
+branches = ["nullaway"] + ["c_ttt{}".format(i) for i in range(0, 11)]
 
 
 def read_errors_num():
@@ -36,5 +36,5 @@ for proj in projects['projects']:
         os.system("{} > /dev/null 2>&1".format(COMMAND.format(proj['build'])))
         errors[branch] = read_errors_num()
     infos[proj['name']] = errors
-    with open("error.json", "w") as f:
+    with open("error3.json", "w") as f:
         json.dump(infos, f)
