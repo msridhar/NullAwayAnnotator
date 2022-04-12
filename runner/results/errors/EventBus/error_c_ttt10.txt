@@ -1,0 +1,40 @@
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethod.java:41: error: [NullAway] initializer method does not guarantee @NonNull field methodString (line 39) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public SubscriberMethod(Method method, Class<?> eventType, ThreadMode threadMode, int priority, boolean sticky) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:317: error: [NullAway] dereferenced expression postingState.subscription is @Nullable
+        } else if (postingState.subscription.subscriberMethod.threadMode != ThreadMode.POSTING) {
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:461: error: [NullAway] dereferenced expression mainThreadPoster is @Nullable
+                    mainThreadPoster.enqueue(subscription, event);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:529: error: [NullAway] dereferenced expression subscription is @Nullable
+        if (subscription.active) {
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/EventBus.java:557: error: [NullAway] dereferenced expression event is @Nullable
+                logger.log(Level.SEVERE, "Could not dispatch event: " + event.getClass() + " to subscribing class " + subscription.subscriber.getClass(), cause);
+                                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:238: error: [NullAway] assigning @Nullable expression to @NonNull field
+            clazz = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:281: error: [NullAway] assigning @Nullable expression to @NonNull field
+                clazz = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:288: error: [NullAway] assigning @Nullable expression to @NonNull field
+                    clazz = null;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:183: error: [NullAway] @NonNull static field factory not initialized
+    public static ErrorDialogFragmentFactory<?> factory;
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:143: error: [NullAway] dereferenced expression eventBus is @Nullable
+            eventBus.unregister(this);
+                    ^
+    (see http://t.uber.com/nullaway )

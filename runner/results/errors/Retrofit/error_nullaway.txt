@@ -1,0 +1,120 @@
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:197: error: [NullAway] dereferenced expression urlBuilder is @Nullable
+      urlBuilder.addEncodedQueryParameter(name, value);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:200: error: [NullAway] dereferenced expression urlBuilder is @Nullable
+      urlBuilder.addQueryParameter(name, value);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:207: error: [NullAway] dereferenced expression formBuilder is @Nullable
+      formBuilder.addEncoded(name, value);
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:209: error: [NullAway] dereferenced expression formBuilder is @Nullable
+      formBuilder.add(name, value);
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:215: error: [NullAway] dereferenced expression multipartBuilder is @Nullable
+    multipartBuilder.addPart(headers, body);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:220: error: [NullAway] dereferenced expression multipartBuilder is @Nullable
+    multipartBuilder.addPart(part);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:191: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return KotlinExtensions.awaitResponse(call, continuation);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:193: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return KotlinExtensions.suspendAndThrow(e, continuation);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:229: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return isNullable
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:233: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return KotlinExtensions.suspendAndThrow(e, continuation);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:85: error: [NullAway] assigning @Nullable expression to @NonNull field
+    httpMethod = builder.httpMethod;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:92: error: [NullAway] assigning @Nullable expression to @NonNull field
+    parameterHandlers = builder.parameterHandlers;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:377: error: [NullAway] passing @Nullable parameter 'httpMethod' where @NonNull is required
+          throw parameterError(method, p, "@Url cannot be used with @%s URL", httpMethod);
+                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:410: error: [NullAway] passing @Nullable parameter 'httpMethod' where @NonNull is required
+              method, p, "@Path can only be used with relative url on @%s", httpMethod);
+                                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:791: error: [NullAway] dereferenced expression parameterHandlers is @Nullable
+          ParameterHandler<?> otherHandler = parameterHandlers[i];
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:828: error: [NullAway] dereferenced expression relativeUrlParamNames is @Nullable
+      if (!relativeUrlParamNames.contains(name)) {
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:829: error: [NullAway] passing @Nullable parameter 'relativeUrl' where @NonNull is required
+        throw parameterError(method, p, "URL \"%s\" does not contain \"{%s}\".", relativeUrl, name);
+                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:116: error: [NullAway] passing @Nullable parameter 'valueConverter.convert(value)' where @NonNull is required
+      builder.addPathParam(name, valueConverter.convert(value), encoded);
+                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:154: error: [NullAway] passing @Nullable parameter 'nameConverter.convert(value)' where @NonNull is required
+      builder.addQueryParam(nameConverter.convert(value), null, encoded);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:234: error: [NullAway] passing @Nullable parameter 'valueConverter.convert(headerValue)' where @NonNull is required
+        builder.addHeader(headerName, valueConverter.convert(headerValue));
+                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:351: error: [NullAway] passing @Nullable parameter 'body' where @NonNull is required
+      builder.addPart(headers, body);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:406: error: [NullAway] passing @Nullable parameter 'valueConverter.convert(entryValue)' where @NonNull is required
+        builder.addPart(headers, valueConverter.convert(entryValue));
+                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java:433: error: [NullAway] passing @Nullable parameter 'body' where @NonNull is required
+      builder.setBody(body);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:144: error: [NullAway] dereferenced expression call is @Nullable
+      call.cancel();
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:147: error: [NullAway] dereferenced expression call is @Nullable
+    call.enqueue(
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:287: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return contentType;
+      ^
+    (see http://t.uber.com/nullaway )
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':retrofit:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s

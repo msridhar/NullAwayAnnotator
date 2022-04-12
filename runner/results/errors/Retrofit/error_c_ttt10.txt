@@ -1,0 +1,68 @@
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:138: error: [NullAway] dereferenced expression input is @Nullable
+        for (int i = 0, limit = input.length(); i < limit; i += Character.charCount(codePoint)) {
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:190: error: [NullAway] dereferenced expression urlBuilder is @Nullable
+            urlBuilder.addEncodedQueryParameter(name, value);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:193: error: [NullAway] dereferenced expression urlBuilder is @Nullable
+            urlBuilder.addQueryParameter(name, value);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:201: error: [NullAway] dereferenced expression formBuilder is @Nullable
+            formBuilder.addEncoded(name, value);
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:203: error: [NullAway] dereferenced expression formBuilder is @Nullable
+            formBuilder.add(name, value);
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:210: error: [NullAway] dereferenced expression multipartBuilder is @Nullable
+        multipartBuilder.addPart(headers, body);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:216: error: [NullAway] dereferenced expression multipartBuilder is @Nullable
+        multipartBuilder.addPart(part);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/HttpServiceMethod.java:71: error: [NullAway] dereferenced expression requestFactory.httpMethod is @Nullable
+        if (requestFactory.httpMethod.equals("HEAD") && !Void.class.equals(responseType)) {
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:116: error: [NullAway] dereferenced expression handlers is @Nullable
+        if (argumentCount != handlers.length) {
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:663: error: [NullAway] dereferenced expression parameterHandlers is @Nullable
+                    ParameterHandler<?> otherHandler = parameterHandlers[i];
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:685: error: [NullAway] dereferenced expression relativeUrlParamNames is @Nullable
+            if (!relativeUrlParamNames.contains(name)) {
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:143: error: [NullAway] dereferenced expression call is @Nullable
+            call.cancel();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:145: error: [NullAway] dereferenced expression call is @Nullable
+        call.enqueue(new okhttp3.Callback() {
+            ^
+    (see http://t.uber.com/nullaway )
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':retrofit:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s

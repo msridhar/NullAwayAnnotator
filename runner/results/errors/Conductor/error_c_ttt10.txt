@@ -1,0 +1,276 @@
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/metrics/Monitors.java:136: error: [NullAway] dereferenced expression additionalTags is @Nullable
+        for (int j = 0; j < additionalTags.length - 1; j++) {
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/metrics/WorkflowMonitor.java:59: error: [NullAway] initializer method does not guarantee @NonNull fields taskDefs (line 53), workflowDefs (line 55) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public WorkflowMonitor(MetadataDAO metadataDAO, QueueDAO queueDAO, ExecutionDAOFacade executionDAOFacade, @Value("${conductor.workflow-monitor.metadataRefreshInterval:10}") int metadataRefreshInterval, @Value("${conductor.workflow-monitor.statsFrequency:60s}") Duration statsFrequency, SystemTaskRegistry systemTaskRegistry) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:243: error: [NullAway] passing @Nullable parameter 'parentWorkflowId' where @NonNull is required
+        workflow.setParentWorkflowId(parentWorkflowId);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:244: error: [NullAway] passing @Nullable parameter 'parentWorkflowTaskId' where @NonNull is required
+        workflow.setParentWorkflowTaskId(parentWorkflowTaskId);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:247: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setUpdatedBy(null);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:248: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setUpdateTime(null);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:249: error: [NullAway] passing @Nullable parameter 'event' where @NonNull is required
+        workflow.setEvent(event);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:250: error: [NullAway] passing @Nullable parameter 'taskToDomain' where @NonNull is required
+        workflow.setTaskToDomain(taskToDomain);
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:256: error: [NullAway] passing @Nullable parameter 'externalInputPayloadStoragePath' where @NonNull is required
+            workflow.setExternalInputPayloadStoragePath(externalInputPayloadStoragePath);
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:353: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setReasonForIncompletion(null);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:359: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setOutput(null);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:360: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        workflow.setExternalOutputPayloadStoragePath(null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:497: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        taskToBeRetried.setSubWorkflowId(null);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:498: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        taskToBeRetried.setReasonForIncompletion(null);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:602: error: [NullAway] passing @Nullable parameter 'reason' where @NonNull is required
+            workflow.setReasonForIncompletion(reason);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:727: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    }, null, null, 2, postponeTaskMessageDesc, postponeTaskMessageOperation);
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:727: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    }, null, null, 2, postponeTaskMessageDesc, postponeTaskMessageOperation);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:746: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 2, updateTaskDesc, updateTaskOperation);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:746: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 2, updateTaskDesc, updateTaskOperation);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1149: error: [NullAway] passing @Nullable parameter 'getActiveDomain(task.getTaskType(), domains)' where @NonNull is required
+                        task.setDomain(getActiveDomain(task.getTaskType(), domains));
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1158: error: [NullAway] passing @Nullable parameter 'getActiveDomain(task.getTaskType(), taskDomainstr.split(","))' where @NonNull is required
+                        task.setDomain(getActiveDomain(task.getTaskType(), taskDomainstr.split(",")));
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1281: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 3, description, operation));
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1281: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 3, description, operation));
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1324: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            workflow.setReasonForIncompletion(null);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1361: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            workflow.setReasonForIncompletion(null);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1385: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            rerunFromTask.setOutputData(null);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/WorkflowExecutor.java:1388: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            rerunFromTask.setExternalOutputPayloadStoragePath(null);
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/events/queue/Message.java:30: error: [NullAway] initializer method does not guarantee @NonNull field id (line 23) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Message() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:391: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        rescheduled.setReasonForIncompletion(null);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:392: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        rescheduled.setSubWorkflowId(null);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:424: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            workflowInstance.setExternalInputPayloadStoragePath(null);
+                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:434: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            task.setExternalOutputPayloadStoragePath(null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:439: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            task.setExternalInputPayloadStoragePath(null);
+                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/DeciderService.java:596: error: [NullAway] dereferenced expression taskMappers.get(taskType) is @Nullable
+        List<Task> tasks = taskMappers.get(taskType).getMappedTasks(taskMapperContext).stream().filter(task -> !tasksInWorkflow.contains(task.getReferenceTaskName())).collect(Collectors.toList());
+                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ParametersUtils.java:192: error: [NullAway] dereferenced expression paramString is @Nullable
+        String[] values = paramString.split("(?=(?<!\\$)\\$\\{)|(?<=\\})");
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ParametersUtils.java:199: error: [NullAway] passing @Nullable parameter 'taskId' where @NonNull is required
+                    String sysValue = EnvUtils.getSystemParametersValue(paramPath, taskId);
+                                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:140: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        ((Task) entity).setInputData(null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:148: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        ((Task) entity).setOutputData(null);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:155: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        ((Workflow) entity).setInput(null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:162: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                        ((Workflow) entity).setOutput(null);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:190: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            task.setInputData(null);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/utils/ExternalPayloadStorageUtils.java:192: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            task.setOutputData(null);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/mapper/TaskMapperContext.java:183: error: [NullAway] initializer method does not guarantee @NonNull fields workflowInstance (line 166), taskToSchedule (line 171), taskInput (line 173), retryTaskId (line 177), taskId (line 179), deciderService (line 181) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        private Builder() {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/mapper/TaskMapperContext.java:266: error: [NullAway] assigning @Nullable expression to @NonNull field
+            retryTaskId = val;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/storage/DummyPayloadStorage.java:27: error: [NullAway] method returns @Nullable, but superclass method com.netflix.conductor.common.utils.ExternalPayloadStorage.getLocation(com.netflix.conductor.common.utils.ExternalPayloadStorage.Operation,com.netflix.conductor.common.utils.ExternalPayloadStorage.PayloadType,java.lang.String) returns @NonNull
+    public ExternalStorageLocation getLocation(Operation operation, PayloadType payloadType, String path) {
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/storage/DummyPayloadStorage.java:37: error: [NullAway] method returns @Nullable, but superclass method com.netflix.conductor.common.utils.ExternalPayloadStorage.download(java.lang.String) returns @NonNull
+    public InputStream download(String path) {
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Join.java:44: error: [NullAway] dereferenced expression joinOn is @Nullable
+            joinOn = joinOn.stream().map(name -> TaskUtils.appendIteration(name, task.getIteration())).collect(
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Join.java:47: error: [NullAway] enhanced-for expression joinOn is @Nullable
+        for (String joinOnRef : joinOn) {
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/ExclusiveJoin.java:50: error: [NullAway] dereferenced expression joinOn is @Nullable
+            joinOn = joinOn.stream().map(name -> TaskUtils.appendIteration(name, task.getIteration())).collect(
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/ExclusiveJoin.java:54: error: [NullAway] enhanced-for expression joinOn is @Nullable
+        for (String joinOnRef : joinOn) {
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/ExclusiveJoin.java:108: error: [NullAway] dereferenced expression exclusiveTask is @Nullable
+                task.setOutputData(exclusiveTask.getOutputData());
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Lambda.java:89: error: [NullAway] passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+            task.setReasonForIncompletion(e.getMessage());
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/SystemTaskExecutor.java:113: error: [NullAway] passing @Nullable parameter 'systemTask' where @NonNull is required
+                            workflowExecutor.executeSystemTask(systemTask, taskId, callbackTime), executorService);
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/ExecutionService.java:221: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return workflowExecutor.getTask(taskId);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Event.java:96: error: [NullAway] dereferenced expression getQueue(workflow, task) is @Nullable
+        getQueue(workflow, task).ack(Collections.singletonList(message));
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/Event.java:113: error: [NullAway] dereferenced expression sinkValue is @Nullable
+        if (sinkValue.startsWith("conductor")) {
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/SubWorkflow.java:50: error: [NullAway] dereferenced expression input.get("subWorkflowName") is @Nullable
+        String name = input.get("subWorkflowName").toString();
+                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/SubWorkflow.java:104: error: [NullAway] passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+            task.setReasonForIncompletion(e.getMessage());
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/tasks/SystemTaskWorkerCoordinator.java:127: error: [NullAway] dereferenced expression systemTaskExecutor is @Nullable
+        systemTaskExecutor.pollAndExecute(queueName);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/execution/mapper/SubWorkflowTaskMapper.java:65: error: [NullAway] dereferenced expression resolvedParams.get("name") is @Nullable
+        String subWorkflowName = resolvedParams.get("name").toString();
+                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/core/events/DefaultEventProcessor.java:205: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            Map<String, Object> output = new RetryUtil<Map<String, Object>>().retryOnException(() -> actionProcessor.execute(action, payload, eventExecution.getEvent(), eventExecution.getMessageId()), this::isTransientException, null, RETRY_COUNT, description, methodName);
+                                                                                                                                                                                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/validations/ValidationContext.java:32: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return metadataDAO;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/WorkflowServiceImpl.java:245: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    WorkflowDef workflowDef = metadataService.getWorkflowDef(workflowName, null);
+                                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/MetadataServiceImpl.java:54: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            taskDefinition.setUpdatedBy(null);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/MetadataServiceImpl.java:55: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            taskDefinition.setUpdateTime(null);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java:67: error: [NullAway] method returns @Nullable, but superclass method com.netflix.conductor.service.TaskService.poll(@javax.validation.constraints.NotEmpty(message="TaskType cannot be null or empty.") java.lang.String,java.lang.String,java.lang.String) returns @NonNull
+    public Task poll(String taskType, String workerId, String domain) {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java:114: error: [NullAway] method returns @Nullable, but superclass method com.netflix.conductor.service.TaskService.getPendingTaskForWorkflow(@javax.validation.constraints.NotEmpty(message="WorkflowId cannot be null or empty.") java.lang.String,@javax.validation.constraints.NotEmpty(message="TaskReferenceName cannot be null or empty.") java.lang.String) returns @NonNull
+    public Task getPendingTaskForWorkflow(String workflowId, String taskReferenceName) {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java:158: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 3, ackTaskDesc, ackTaskOperation);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/conductor/core/src/main/java/com/netflix/conductor/service/TaskServiceImpl.java:158: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            }, null, null, 3, ackTaskDesc, ackTaskOperation);
+                     ^
+    (see http://t.uber.com/nullaway )

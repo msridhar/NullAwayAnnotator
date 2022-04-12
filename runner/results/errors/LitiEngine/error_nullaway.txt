@@ -1,0 +1,1934 @@
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/configuration/Configuration.java:71: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/configuration/Configuration.java:87: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/configuration/ClientConfiguration.java:24: error: [NullAway] initializer method does not guarantee @NonNull fields country (line 11), language (line 13) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ClientConfiguration() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:41: error: [NullAway] @NonNull static field graphicsConfig not initialized
+  private static GraphicsConfiguration graphicsConfig;
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:286: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:330: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:477: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:508: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:553: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:556: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:570: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:579: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:596: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/Imaging.java:606: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Spritesheet.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Spritesheet.java:144: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Spritesheet.java:152: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Spritesheet.java:159: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/ImageSerializer.java:29: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/ImageSerializer.java:36: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/ImageSerializer.java:46: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/URLAdapter.java:25: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null);
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/URLAdapter.java:44: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/URLAdapter.java:57: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/Codec.java:105: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/Codec.java:119: error: [NullAway] passing @Nullable parameter 'image' where @NonNull is required
+    return Imaging.toCompatibleImage(image);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/Codec.java:128: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/Codec.java:144: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return imageString;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/XmlUtilities.java:87: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/XmlUtilities.java:93: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/XmlUtilities.java:104: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/XmlUtilities.java:112: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:39: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:76: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:84: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:96: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:144: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:160: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ColorHelper.java:168: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ReflectionUtilities.java:46: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ReflectionUtilities.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ReflectionUtilities.java:59: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ReflectionUtilities.java:98: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return method;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ReflectionUtilities.java:147: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/geom/GeometricUtilities.java:232: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return p;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/geom/GeometricUtilities.java:251: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/geom/GeometricUtilities.java:367: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/geom/GeometricUtilities.java:591: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/TimeUtilities.java:7: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    UNDEFINED(null),
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ArrayUtilities.java:557: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/MovementController.java:131: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/MovementController.java:134: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getActiveForces().stream().filter(x -> x.getIdentifier() != null && x.getIdentifier().equals(identifier)).findFirst().orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/EntityNavigator.java:41: error: [NullAway] initializer method does not guarantee @NonNull field path (line 30) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntityNavigator(final IMobileEntity entity, final PathFinder pathFinder) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/EntityNavigator.java:118: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.path = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/Path.java:30: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.start = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/Path.java:31: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.target = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/attributes/Attribute.java:158: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.get() == null ? null : this.get().toString();
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/attributes/AttributeModifier.java:124: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityActionMap.java:17: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityAction.java:9: error: [NullAway] initializer method does not guarantee @NonNull field description (line 7) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  EntityAction(String name, Runnable action) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:152: error: [NullAway] initializer method does not guarantee @NonNull fields ambientLight (line 104), staticShadowLayer (line 105), map (line 108) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  private Environment() {
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:255: error: [NullAway] dereferenced expression this.renderListeners.get(renderType) is @Nullable
+    this.renderListeners.get(renderType).add(listener);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:327: error: [NullAway] dereferenced expression this.miscEntities.get(entity.getRenderType()) is @Nullable
+    this.miscEntities.get(entity.getRenderType()).put(entity.getMapId(), entity);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:423: error: [NullAway] dereferenced expression this.renderables.get(renderType) is @Nullable
+    this.renderables.get(renderType).add(renderable);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:476: error: [NullAway] dereferenced expression this.miscEntities.get(renderType) is @Nullable
+      this.miscEntities.get(renderType).clear();
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:477: error: [NullAway] dereferenced expression this.renderListeners.get(renderType) is @Nullable
+      this.renderListeners.get(renderType).clear();
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:478: error: [NullAway] dereferenced expression this.renderables.get(renderType) is @Nullable
+      this.renderables.get(renderType).clear();
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:496: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.ambientLight = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:497: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.staticShadowLayer = null;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:623: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.allEntities.get(mapId);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:663: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:678: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:687: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:704: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:1187: error: [NullAway] dereferenced expression this.miscEntities.get(renderType) is @Nullable
+    return Collections.unmodifiableCollection(this.miscEntities.get(renderType).values());
+                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2067: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.interact(source, null);
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2092: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2408: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2413: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2421: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2468: error: [NullAway] dereferenced expression this.miscEntities.get(renderType) is @Nullable
+    Game.graphics().renderEntities(g, this.miscEntities.get(renderType).values(), renderType == RenderType.NORMAL);
+                                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/Environment.java:2715: error: [NullAway] enhanced-for expression this.renderListeners.get(type) is @Nullable
+    for (EnvironmentRenderedListener listener : this.renderListeners.get(type)) {
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/Force.java:28: error: [NullAway] initializer method does not guarantee @NonNull field identifier (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Force(final Point2D location, final float strength, final float size) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/Emitter.java:198: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/Emitter.java:201: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.renderables.get(type);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/Emitter.java:383: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+          return null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:68: error: [NullAway] initializer method does not guarantee @NonNull fields environment (line 43), boundingBox (line 48), name (line 54) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected Entity() {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:309: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    EntityMessageEvent event = this.fireMessageReceived(sender, ANY_MESSAGE, message, null);
+                                                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:312: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:318: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.boundingBox = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:336: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.boundingBox = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:363: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.boundingBox = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:370: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.boundingBox = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:410: error: [NullAway] dereferenced expression this.getEnvironment().getEntitiesByTag().get(tag) is @Nullable
+    this.getEnvironment().getEntitiesByTag().get(tag).remove(this);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Entity.java:512: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.environment = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/CollisionEntity.java:50: error: [NullAway] initializer method does not guarantee @NonNull field collisionBox (line 48) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected CollisionEntity() {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/CombatEntity.java:48: error: [NullAway] initializer method does not guarantee @NonNull field target (line 42) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CombatEntity() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/CombatEntity.java:170: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.hit(damage, null);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Creature.java:63: error: [NullAway] initializer method does not guarantee @NonNull fields velocity (line 40), spritesheetName (line 43) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Creature(String spritesheetName) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Creature.java:52: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null);
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:36: error: [NullAway] initializer method does not guarantee @NonNull field area (line 26) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public StaticShadow(StaticShadowType shadowType, int offset) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:48: error: [NullAway] initializer method does not guarantee @NonNull field area (line 26) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public StaticShadow(StaticShadowType shadowType) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:110: error: [NullAway] initializer method does not guarantee @NonNull fields area (line 26), shadowType (line 19) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public StaticShadow(int id, String name, double x, double y, float width, float height, StaticShadowType shadowType) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:123: error: [NullAway] initializer method does not guarantee @NonNull fields area (line 26), shadowType (line 19) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public StaticShadow(CollisionBox collisionBox) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:39: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.origin = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:51: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.origin = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:69: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(0, null, x, y, width, height, shadowType);
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:89: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(id, null, x, y, width, height, shadowType);
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:113: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.origin = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:124: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    super(0, null, collisionBox.getX(), collisionBox.getY(), collisionBox.getWidth(), collisionBox.getHeight());
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:136: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:142: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:148: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:154: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:160: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:166: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:193: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/StaticShadow.java:269: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.area = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/MapArea.java:30: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(0, null, x, y, width, height);
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/LightSource.java:81: error: [NullAway] initializer method does not guarantee @NonNull field lightShape (line 64) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LightSource(final int intensity, final Color lightColor, final Type shapeType, boolean activated) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/LightSource.java:220: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/LightSource.java:228: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:33: error: [NullAway] initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundSource() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:43: error: [NullAway] initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundSource(Sound sound) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:54: error: [NullAway] initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundSource(String name) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/SoundSource.java:66: error: [NullAway] initializer method does not guarantee @NonNull fields sound (line 27), playback (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundSource(double x, double y) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Spawnpoint.java:39: error: [NullAway] initializer method does not guarantee @NonNull fields direction (line 21), spawnInfo (line 24), spawnPivotType (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Spawnpoint() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Spawnpoint.java:89: error: [NullAway] initializer method does not guarantee @NonNull fields direction (line 21), spawnInfo (line 24), spawnPivotType (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Spawnpoint(int mapId, Point2D location) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Spawnpoint.java:132: error: [NullAway] initializer method does not guarantee @NonNull fields direction (line 21), spawnInfo (line 24), spawnPivotType (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Spawnpoint(Direction direction) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/Trigger.java:70: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(activation, null, message);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:68: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:73: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return layer.orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:78: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return layer.orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:177: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/ILayerList.java:192: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:74: error: [NullAway] initializer method does not guarantee @NonNull fields gid (line 26), name (line 29), type (line 32), x (line 35), y (line 39), tile (line 51), polyline (line 54), polygon (line 57), point (line 60), ellipse (line 63), text (line 66), layer (line 69) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapObject() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:83: error: [NullAway] initializer method does not guarantee @NonNull fields gid (line 26), name (line 29), x (line 35), y (line 39), tile (line 51), polyline (line 54), polygon (line 57), point (line 60), ellipse (line 63), text (line 66), layer (line 69) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapObject(String type) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:96: error: [NullAway] initializer method does not guarantee @NonNull fields gid (line 26), name (line 29), type (line 32), x (line 35), y (line 39), tile (line 51), polyline (line 54), polygon (line 57), layer (line 69) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapObject(MapObject original) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:100: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.polyline = (original.getPolyline() != null && !original.getPolyline().getPoints().isEmpty()) ? new PolyShape(original.getPolyline()) : null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:101: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.polygon = (original.getPolygon() != null && !original.getPolygon().getPoints().isEmpty()) ? new PolyShape(original.getPolygon()) : null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:221: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:254: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.name = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:400: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.gid = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:404: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.name = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObject.java:408: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.polyline = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:55: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:67: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getProperties().get(propertyName);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:79: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.getStringValue(propertyName, null);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:187: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.getColorValue(propertyName, null);
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:207: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.getEnumValue(propertyName, enumType, null);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyProvider.java:227: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.getFileValue(propertyName, null);
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:19: error: [NullAway] @NonNull field fontfamily not initialized
+  private String fontfamily;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:22: error: [NullAway] @NonNull field pixelsize not initialized
+  private Integer pixelsize;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:25: error: [NullAway] @NonNull field wrap not initialized
+  private Integer wrap;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:29: error: [NullAway] @NonNull field color not initialized
+  private Color color;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:32: error: [NullAway] @NonNull field bold not initialized
+  private Integer bold;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:35: error: [NullAway] @NonNull field italic not initialized
+  private Integer italic;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:38: error: [NullAway] @NonNull field underline not initialized
+  private Integer underline;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:41: error: [NullAway] @NonNull field strikeout not initialized
+  private Integer strikeout;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:44: error: [NullAway] @NonNull field kerning not initialized
+  private Integer kerning;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:47: error: [NullAway] @NonNull field halign not initialized
+  private Align halign;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:50: error: [NullAway] @NonNull field valign not initialized
+  private Valign valign;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Text.java:53: error: [NullAway] @NonNull field text not initialized
+  private String text;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java:39: error: [NullAway] initializer method does not guarantee @NonNull fields color (line 27), decodedColor (line 30) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapObjectLayer() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java:49: error: [NullAway] initializer method does not guarantee @NonNull fields color (line 27), decodedColor (line 30) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapObjectLayer(MapObjectLayer original) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java:83: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      ((MapObject) mapObject).setLayer(null);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java:115: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapObjectLayer.java:134: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.decodedColor = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:47: error: [NullAway] initializer method does not guarantee @NonNull fields name (line 21), width (line 24), height (line 27), opacity (line 30), visible (line 33), offsetx (line 37), offsety (line 40), parentMap (line 43), renderType (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Layer() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:57: error: [NullAway] initializer method does not guarantee @NonNull fields name (line 21), width (line 24), height (line 27), opacity (line 30), visible (line 33), parentMap (line 43), renderType (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Layer(Layer layerToBeCopied) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:221: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.offsetx = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:225: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.offsety = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:229: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.width = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:233: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.height = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Layer.java:237: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.opacity = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java:128: error: [NullAway] initializer method does not guarantee @NonNull fields tiledversion (line 55), orientation (line 58), mapOrientation (line 61), renderorder (line 64), hexsidelength (line 82), staggeraxis (line 85), staggerindex (line 88), backgroundcolor (line 91), nextLayerId (line 95), nextObjectId (line 98), name (line 101), tilesets (line 104), layers (line 107), path (line 115) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TmxMap() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java:132: error: [NullAway] initializer method does not guarantee @NonNull fields orientation (line 58), hexsidelength (line 82), staggeraxis (line 85), staggerindex (line 88), backgroundcolor (line 91), nextLayerId (line 95), nextObjectId (line 98), name (line 101), tilesets (line 104), layers (line 107), path (line 115) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TmxMap(IMapOrientation orientation) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java:225: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java:340: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      ((Layer) layer).setMap(null);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TmxMap.java:349: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      ((Layer) removed).setMap(null);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:90: error: [NullAway] initializer method does not guarantee @NonNull fields image (line 45), margin (line 48), name (line 51), tilewidth (line 54), tileheight (line 57), tileoffset (line 60), tilecount (line 63), columns (line 66), spacing (line 69), source (line 72), allTiles (line 82), sourceTileset (line 85), spriteSheet (line 88) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Tileset() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:94: error: [NullAway] initializer method does not guarantee @NonNull fields image (line 45), margin (line 48), name (line 51), tilewidth (line 54), tileheight (line 57), tileoffset (line 60), tilecount (line 63), columns (line 66), spacing (line 69), allTiles (line 82), spriteSheet (line 88) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Tileset(Tileset source) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:77: error: [NullAway] assigning @Nullable expression to @NonNull field
+  private List<Terrain> terrainTypes = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:80: error: [NullAway] assigning @Nullable expression to @NonNull field
+  private List<TilesetEntry> tiles = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:91: error: [NullAway] assigning @Nullable expression to @NonNull field
+    Resources.images().addClearedListener(() -> this.spriteSheet = null);
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:169: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+          return null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:275: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:409: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.tilewidth = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:410: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.tileheight = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:411: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.tilecount = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:412: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.columns = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:424: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.margin = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:428: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.spacing = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tileset.java:432: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      this.setProperties(null);
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapImage.java:38: error: [NullAway] initializer method does not guarantee @NonNull fields source (line 19), transparentcolor (line 22), absolutePath (line 32) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapImage() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/MapImage.java:48: error: [NullAway] initializer method does not guarantee @NonNull fields source (line 19), transparentcolor (line 22), absolutePath (line 32) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MapImage(MapImage original) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Terrain.java:14: error: [NullAway] @NonNull field name not initialized
+  private String name;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TilesetEntry.java:50: error: [NullAway] initializer method does not guarantee @NonNull fields tileset (line 24), terrains (line 27), id (line 29), terrain (line 32), animation (line 35), image (line 38), type (line 41), collisionData (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TilesetEntry() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TilesetEntry.java:61: error: [NullAway] initializer method does not guarantee @NonNull fields terrains (line 27), terrain (line 32), animation (line 35), image (line 38), type (line 41), collisionData (line 44) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TilesetEntry(Tileset tileset, int id) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileAnimation.java:16: error: [NullAway] @NonNull field frames not initialized
+  private List<ITileAnimationFrame> frames;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/Sound.java:46: error: [NullAway] initializer method does not guarantee @NonNull fields format (line 19), stream (line 23), streamData (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Sound(InputStream is, String name) throws IOException, UnsupportedAudioFileException {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SFXPlayback.java:23: error: [NullAway] initializer method does not guarantee @NonNull field panControl (line 16) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  SFXPlayback(Sound sound, Supplier<Point2D> source, boolean loop, int range, float volumeModifier) throws LineUnavailableException {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SFXPlayback.java:27: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.panControl = this.line.isControlSupported(FloatControl.Type.PAN) ? (FloatControl) this.line.getControl(FloatControl.Type.PAN) : null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundPlayback.java:173: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      SoundEvent event = new SoundEvent(this, null);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundPlayback.java:255: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        SoundEvent event = new SoundEvent(this, null);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/abilities/Ability.java:48: error: [NullAway] initializer method does not guarantee @NonNull field currentExecution (line 40) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected Ability(final Creature executor) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/abilities/Ability.java:118: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/RelativeEntityComparator.java:8: error: [NullAway] initializer method does not guarantee @NonNull field relativeEntity (line 6) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected RelativeEntityComparator() {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityHitEvent.java:20: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.executor = ability != null ? ability.getExecutor() : null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/particles/Particle.java:79: error: [NullAway] initializer method does not guarantee @NonNull field color (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Particle(final float width, final float height) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/xml/EmitterData.java:209: error: [NullAway] initializer method does not guarantee @NonNull fields colors (line 114), name (line 163), texts (line 178), spritesheet (line 194) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EmitterData() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:17: error: [NullAway] initializer method does not guarantee @NonNull field animationController (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  EntityControllers() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:43: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:50: error: [NullAway] dereferenced expression controller is @Nullable
+      controller.detach();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:52: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.animationController = null;
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:63: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.animationController = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:69: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.animationController = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/EntityControllers.java:94: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapObjectType.java:18: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapObjectType.java:24: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/Animation.java:135: error: [NullAway] initializer method does not guarantee @NonNull fields currentFrame (line 34), firstFrame (line 36) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Animation(final String name, final Spritesheet spritesheet, final boolean loop, final int... keyFrameDurations) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/Mouse.java:62: error: [NullAway] initializer method does not guarantee @NonNull field updateLocation (line 53) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  Mouse() throws AWTException {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/Mouse.java:88: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.updateLocation = null;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/GamepadManager.java:161: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/GamepadManager.java:183: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/Input.java:21: error: [NullAway] @NonNull static field gamePadManager not initialized
+  private static GamepadManager gamePadManager;
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/Input.java:22: error: [NullAway] @NonNull static field keyboard not initialized
+  private static IKeyboard keyboard;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/input/Input.java:23: error: [NullAway] @NonNull static field mouse not initialized
+  private static IMouse mouse;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/tweening/Tween.java:31: error: [NullAway] initializer method does not guarantee @NonNull field equation (line 13) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Tween(final Tweenable target, final TweenType type, final int duration) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/tweening/TweenEngine.java:37: error: [NullAway] dereferenced expression this.getTweens().get(target) is @Nullable
+      this.getTweens().get(target).put(type, tween);
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/tweening/TweenEngine.java:57: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getTweens().get(target).get(type);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/tweening/TweenEngine.java:118: error: [NullAway] dereferenced expression this.getTweens().get(target) is @Nullable
+      this.getTweens().get(target).remove(type);
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/ResourceBundle.java:90: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/ResourceBundle.java:111: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/SpritesheetResource.java:35: error: [NullAway] initializer method does not guarantee @NonNull fields imageformat (line 26), image (line 29), keyframes (line 32) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SpritesheetResource() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/SpritesheetResource.java:52: error: [NullAway] initializer method does not guarantee @NonNull fields imageformat (line 26), image (line 29), keyframes (line 32) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  private SpritesheetResource(int width, int height, String name) {
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/SpritesheetResource.java:110: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.keyframes = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/NamedResource.java:8: error: [NullAway] @NonNull field name not initialized
+  private String name;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/SoundResource.java:22: error: [NullAway] initializer method does not guarantee @NonNull field data (line 16) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundResource() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Sounds.java:44: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Sounds.java:59: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/ResourcesContainer.java:260: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/ResourcesContainer.java:266: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/ResourcesContainer.java:379: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:65: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.loadedSpritesheets.get(name); // this already returns null if absent
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:99: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:103: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Spritesheets.java:113: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Fonts.java:20: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Fonts.java:29: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Fonts.java:38: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Fonts.java:60: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Fonts.java:66: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Maps.java:112: error: [NullAway] passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+      throw new TmxException(e.getMessage(), e);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Maps.java:116: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Maps.java:125: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Maps.java:193: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Strings.java:40: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Strings.java:48: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Strings.java:56: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Blueprints.java:37: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:258: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:288: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:318: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return scanner.hasNext() ? scanner.next() : null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:321: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:348: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Resources.java:357: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/Images.java:52: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:37: error: [NullAway] initializer method does not guarantee @NonNull fields rawImagePath (line 23), sprites (line 32), absoluteImagePath (line 35) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  TextureAtlas() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:83: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:86: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getSprites().stream().filter(x -> x.getName().equals(name)).findFirst().orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/resources/TextureAtlas.java:132: error: [NullAway] initializer method does not guarantee @NonNull fields name (line 107), rotated (line 128) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Sprite() {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameRandom.java:103: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameRandom.java:192: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameRandom.java:202: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameRandom.java:786: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/abilities/effects/SoundEffect.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/abilities/effects/ForceEffect.java:12: error: [NullAway] initializer method does not guarantee @NonNull field appliedForce (line 10) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected ForceEffect(final Ability ability, final float strength, final EffectTarget... targets) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/abilities/effects/ForceEffect.java:49: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.appliedForce = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:86: error: [NullAway] @NonNull static field gameLoop not initialized
+  private static GameLoop gameLoop;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:87: error: [NullAway] @NonNull static field screenManager not initialized
+  private static ScreenManager screenManager;
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:88: error: [NullAway] @NonNull static field gameWindow not initialized
+  private static GameWindow gameWindow;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:608: error: [NullAway] passing @Nullable parameter '(GameInfo) null' where @NonNull is required
+      setInfo((GameInfo) null);
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:652: error: [NullAway] assigning @Nullable expression to @NonNull field
+    gameLoop = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:653: error: [NullAway] assigning @Nullable expression to @NonNull field
+    screenManager = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:654: error: [NullAway] assigning @Nullable expression to @NonNull field
+    gameWindow = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:65: error: [NullAway] initializer method does not guarantee @NonNull fields listenerLocation (line 51), music (line 54) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SoundEngine() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:113: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return playMusic(track, null, false, true);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:126: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return playMusic(track, null, restart, true);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:141: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return playMusic(track, null, restart, stop);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:166: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:651: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:678: error: [NullAway] assigning @Nullable expression to @NonNull field
+      music = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:719: error: [NullAway] assigning @Nullable expression to @NonNull field
+        music = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:734: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:739: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:46: error: [NullAway] initializer method does not guarantee @NonNull field environmentBounds (line 34) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public PhysicsEngine() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:82: error: [NullAway] dereferenced expression this.collisionEntities.get(entity.getCollisionType()) is @Nullable
+      this.collisionEntities.get(entity.getCollisionType()).add(entity);
+                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:88: error: [NullAway] dereferenced expression this.collisionEntities.get(Collision.ANY) is @Nullable
+    this.collisionEntities.get(Collision.ANY).add(entity);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:106: error: [NullAway] dereferenced expression this.collisionEntities.get(entity.getCollisionType()) is @Nullable
+      this.collisionEntities.get(entity.getCollisionType()).remove(entity);
+                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:112: error: [NullAway] dereferenced expression this.collisionEntities.get(Collision.ANY) is @Nullable
+    this.collisionEntities.get(Collision.ANY).remove(entity);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:125: error: [NullAway] dereferenced expression this.collisionEntities.get(type) is @Nullable
+      this.collisionEntities.get(type).clear();
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:126: error: [NullAway] dereferenced expression this.collisionBoxes.get(type) is @Nullable
+      this.collisionBoxes.get(type).clear();
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:129: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setBounds(null);
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:209: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.collides(line, Collision.ANY, null);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:224: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return this.collides(line, collision, null);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:298: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return collides(rect, collision, null);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:346: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return collides(location, collision, null);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:497: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return raycast(line, collision, null);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:508: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return raycast(line, Collision.ANY, null);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:521: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return raycast(line, collision, null);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:552: error: [NullAway] enhanced-for expression this.collisionEntities.get(collision) is @Nullable
+    for (final ICollisionEntity collisionEntity : this.collisionEntities.get(collision)) {
+                                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:568: error: [NullAway] passing @Nullable parameter 'closestPoint' where @NonNull is required
+        return new RaycastHit(closestPoint, collisionEntity, closestDist);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:572: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:711: error: [NullAway] dereferenced expression this.collisionBoxes.get(type) is @Nullable
+      this.collisionBoxes.get(type).clear();
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:712: error: [NullAway] dereferenced expression this.collisionEntities.get(type) is @Nullable
+      this.collisionBoxes.get(type).addAll(this.collisionEntities.get(type).stream().map(ICollisionEntity::getCollisionBox).collect(Collectors.toList()));
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:770: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return result;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:901: error: [NullAway] passing @Nullable parameter 'involvedEntities' where @NonNull is required
+    CollisionEvent event = new CollisionEvent(collider, involvedEntities);
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/PhysicsEngine.java:906: error: [NullAway] enhanced-for expression involvedEntities is @Nullable
+    for (ICollisionEntity involved : involvedEntities) {
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameInfo.java:57: error: [NullAway] initializer method does not guarantee @NonNull field publisher (line 48) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public GameInfo() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameInfo.java:109: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameInfo.java:116: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/screens/ScreenManager.java:48: error: [NullAway] initializer method does not guarantee @NonNull field currentScreen (line 36) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ScreenManager() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/screens/ScreenManager.java:105: error: [NullAway] passing @Nullable parameter '(Screen) null' where @NonNull is required
+        this.display((Screen) null);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/screens/ScreenManager.java:178: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return opt.orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameWindow.java:60: error: [NullAway] initializer method does not guarantee @NonNull fields resolution (line 57), screenLocation (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  GameWindow() {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/GameWindow.java:381: error: [NullAway] assigning @Nullable expression to @NonNull field
+        screenLocation = null;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:62: error: [NullAway] initializer method does not guarantee @NonNull fields environment (line 51), camera (line 52) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public GameWorld() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:282: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setCamera(null);
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:313: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:330: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:467: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.environment = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:487: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:510: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/GameWorld.java:598: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/RenderComponent.java:50: error: [NullAway] initializer method does not guarantee @NonNull field currentBufferStrategy (line 36) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public RenderComponent(final Dimension size) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/MouseCursor.java:56: error: [NullAway] initializer method does not guarantee @NonNull fields image (line 32), transform (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public MouseCursor() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java:108: error: [NullAway] initializer method does not guarantee @NonNull fields font (line 63), hoverSound (line 67), name (line 72), tag (line 74), text (line 75), textShadowColor (line 81) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected GuiComponent(final double x, final double y, final double width, final double height) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java:35: error: [NullAway] @NonNull static field ICON_FONT not initialized
+  protected static final Font ICON_FONT;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiComponent.java:40: error: [NullAway] assigning @Nullable expression to @NonNull field
+    ICON_FONT = icon != null ? icon.deriveFont(16f) : null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/Appearance.java:24: error: [NullAway] initializer method does not guarantee @NonNull fields foreColor (line 15), backgroundColor1 (line 16), backgroundColor2 (line 17), borderColor (line 18), borderStyle (line 19) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Appearance() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/Appearance.java:79: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubbleAppearance.java:11: error: [NullAway] initializer method does not guarantee @NonNull field borderColor (line 7) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SpeechBubbleAppearance() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubbleAppearance.java:15: error: [NullAway] initializer method does not guarantee @NonNull field borderColor (line 7) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SpeechBubbleAppearance(Color foreColor) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubbleAppearance.java:19: error: [NullAway] initializer method does not guarantee @NonNull field borderColor (line 7) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SpeechBubbleAppearance(Color foreColor, Color backColor) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java:34: error: [NullAway] initializer method does not guarantee @NonNull fields scaledImage (line 26), spritesheet (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ImageComponent(final double x, final double y, final Image image) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java:39: error: [NullAway] initializer method does not guarantee @NonNull fields scaledImage (line 26), spritesheet (line 28), baseImage (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ImageComponent(final double x, final double y, final double width, final double height) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java:43: error: [NullAway] initializer method does not guarantee @NonNull fields scaledImage (line 26), spritesheet (line 28), baseImage (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ImageComponent(final double x, final double y, final double width, final double height, final String text) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java:52: error: [NullAway] initializer method does not guarantee @NonNull fields scaledImage (line 26), spritesheet (line 28), baseImage (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ImageComponent(final double x, final double y, final double width, final double height, final Image image) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponent.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ImageComponentList.java:88: error: [NullAway] passing @Nullable parameter 'img' where @NonNull is required
+          final ImageComponent cell = this.createNewEntry(this.getX() + i * (this.getColumnWidth() + this.xOffset), this.getY() + j * (this.getRowHeight() + this.yOffset), this.getColumnWidth(), this.getRowHeight(), this.getBackground(), "", img);
+                                                                                                                                                                                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/VerticalSlider.java:58: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setSliderComponent(new ImageComponent(this.getRelativeSliderPosition().getX(), this.getRelativeSliderPosition().getY(), this.getWidth(), sliderHeight, this.getSliderSpritesheet(), "", null));
+                                                                                                                                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/Slider.java:25: error: [NullAway] initializer method does not guarantee @NonNull fields button1 (line 12), button2 (line 13), sliderComponent (line 14), buttonSprite (line 16), sliderSprite (line 17) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected Slider(final double x, final double y, final double width, final double height, final float minValue, final float maxValue, final float stepSize) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/TextFieldComponent.java:32: error: [NullAway] initializer method does not guarantee @NonNull fields format (line 26), fullText (line 28) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TextFieldComponent(final double x, final double y, final double width, final double height, final String text) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/Menu.java:20: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(x, y, width, height, null, items);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/Menu.java:24: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    super(x, y, width, height, items.length, 1, null, background);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/HorizontalSlider.java:29: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setButton1(new ImageComponent(this.getX(), this.getY(), this.getHeight(), this.getHeight(), this.getButtonSpritesheet(), ARROW_LEFT.getText(), null));
+                                                                                                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/HorizontalSlider.java:31: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setButton2(new ImageComponent(this.getX() + this.getWidth() - this.getHeight(), this.getY(), this.getHeight(), this.getHeight(), this.getButtonSpritesheet(), ARROW_RIGHT.getText(), null));
+                                                                                                                                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/HorizontalSlider.java:37: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setSliderComponent(new ImageComponent(this.getRelativeSliderPosition().getX(), this.getRelativeSliderPosition().getY(), sliderWidth, this.getHeight(), this.getSliderSpritesheet(), "", null));
+                                                                                                                                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/CheckBox.java:16: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    super(x, y, width, height, spritesheet, "", null);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:112: error: [NullAway] initializer method does not guarantee @NonNull fields buttonSprite (line 23), entrySprite (line 24), selectedComponent (line 36), verticalSlider (line 44), horizontalSlider (line 45) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ListField(final double x, final double y, final double width, final double height, final Object[][] content, final int shownRows, final int shownColumns) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:133: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.selectedComponent = null;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:185: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:220: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:287: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.selectedComponent = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:528: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          entryComponent = new ImageComponent(this.getX() + (columnWidth * column), this.getY() + (rowHeight * row), columnWidth, rowHeight, this.entrySprite, "", null);
+                                                                                                                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/ListField.java:532: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          entryComponent = new ImageComponent(this.getX() + (columnWidth * column), this.getY() + (rowHeight * row), columnWidth, rowHeight, this.entrySprite, this.getContent()[column][row].toString(), null);
+                                                                                                                                                                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/GuiProperties.java:16: error: [NullAway] @NonNull static field defaultFont not initialized
+  private static Font defaultFont;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubble.java:58: error: [NullAway] initializer method does not guarantee @NonNull fields font (line 45), typeSound (line 55), entityCenter (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  private SpeechBubble(final IEntity entity, final String text, SpeechBubbleAppearance appearance, Font font) {
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubble.java:94: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return new SpeechBubble(entity, text, null, GuiProperties.getDefaultFont());
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/SpeechBubble.java:185: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.currentText = null;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:29: error: [NullAway] initializer method does not guarantee @NonNull fields contentList (line 19), dropDownButton (line 21), chosenElementComponent (line 22), entrySprite (line 23), buttonSprite (line 24) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public DropdownListField(final double x, final double y, final double width, final double height, final Object[] content, final int elementsShown) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:79: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:102: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.chosenElementComponent = new ImageComponent(this.getX(), this.getY(), this.getWidth(), this.getHeight() / this.getNumberOfShownElements(), this.getEntrySprite(), "", null);
+                                                                                                                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:106: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.dropDownButton = new ImageComponent(this.getX() - buttonWidth, this.getY(), buttonWidth, buttonHeight, this.getButtonSprite(), ARROW_DOWN.getText(), null);
+                                                                                                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/NumberAdjuster.java:20: error: [NullAway] initializer method does not guarantee @NonNull field currentValue (line 17) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public NumberAdjuster(final double x, final double y, final double width, final double height,  final double lowerBound, final double upperBound, final double startValue, final double stepSize) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/MapObjectLoader.java:112: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      String value = mapObject.getStringValue(property.name(), null);
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java:25: error: [NullAway] initializer method does not guarantee @NonNull fields spawnpoints (line 22), customSpawnpoints (line 23) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntitySpawner(final int interval, final int amount) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java:65: error: [NullAway] initializer method does not guarantee @NonNull field spawnpoints (line 22) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntitySpawner(final int amount, Function<IEntitySpawner<T>, List<Spawnpoint>> spawnpointCallback) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java:36: error: [NullAway] initializer method does not guarantee @NonNull field customSpawnpoints (line 23) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntitySpawner(final List<Spawnpoint> spawnpoints, final int amount, SpawnMode spawnMode) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/EntitySpawner.java:57: error: [NullAway] initializer method does not guarantee @NonNull field customSpawnpoints (line 23) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntitySpawner(final List<Spawnpoint> spawnpoints, final int interval, final int amount, SpawnMode spawnMode) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/PropMapObjectLoader.java:113: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/CreatureMapObjectLoader.java:119: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/CustomMapObjectLoader.java:56: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return inv;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:26: error: [NullAway] @NonNull field layers not initialized
+  private List<ILayer> layers;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:71: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      ((Layer) layer).setMap(null);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/GroupLayer.java:80: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      ((Layer) removed).setMap(null);
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:23: error: [NullAway] initializer method does not guarantee @NonNull field location (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CustomProperty() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:34: error: [NullAway] initializer method does not guarantee @NonNull field location (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CustomProperty(String value) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:47: error: [NullAway] initializer method does not guarantee @NonNull field location (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CustomProperty(String type, String value) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:85: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:91: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:97: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:103: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:109: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:115: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:121: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.location = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomProperty.java:187: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/ImageLayer.java:16: error: [NullAway] @NonNull field image not initialized
+  private MapImage image;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/ImageLayer.java:20: error: [NullAway] @NonNull field trans not initialized
+  private Color trans;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/DecimalFloatAdapter.java:19: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tile.java:43: error: [NullAway] initializer method does not guarantee @NonNull fields gid (line 28), tileCoordinate (line 31), tilesetEntry (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Tile() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tile.java:72: error: [NullAway] initializer method does not guarantee @NonNull fields tileCoordinate (line 31), tilesetEntry (line 33) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Tile(int gidBitmask) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tile.java:124: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/Tile.java:221: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.gid = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java:61: error: [NullAway] initializer method does not guarantee @NonNull fields name (line 50), type (line 52), value (line 54), contents (line 56), location (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Property() {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java:64: error: [NullAway] initializer method does not guarantee @NonNull fields value (line 54), contents (line 56), location (line 58) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Property(String name, String type) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java:82: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.type = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java:112: error: [NullAway] initializer method does not guarantee @NonNull field properties (line 109) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    PropertyList() {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/CustomPropertyAdapter.java:136: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:98: error: [NullAway] initializer method does not guarantee @NonNull fields encoding (line 58), compression (line 61), rawValue (line 64), value (line 68), chunks (line 71), tiles (line 74) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TileData() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:102: error: [NullAway] initializer method does not guarantee @NonNull fields rawValue (line 64), value (line 68), chunks (line 71) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TileData(List<Tile> tiles, int width, int height, String encoding, String compression) throws TmxException {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:47: error: [NullAway] assigning @Nullable expression to @NonNull field
+    public static final String NONE = null;
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:175: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:184: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileData.java:398: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.value = v;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileChunk.java:26: error: [NullAway] @NonNull field value not initialized
+  private String value;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:28: error: [NullAway] initializer method does not guarantee @NonNull fields tileList (line 21), tiles (line 23) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TileLayer() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:38: error: [NullAway] initializer method does not guarantee @NonNull fields tileList (line 21), tiles (line 23) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TileLayer(TileData data) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:19: error: [NullAway] assigning @Nullable expression to @NonNull field
+  private TileData data = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return tile.isPresent() ? tile.get() : null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:57: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/BooleanIntegerAdapter.java:8: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return s == null ? null : s == 1;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/BooleanIntegerAdapter.java:14: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapRenderer.java:71: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    renderLayers(g, map, map, viewport, null, renderTypes, 1f);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:145: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:153: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:161: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:178: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return tile;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:193: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:205: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return match;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:210: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:215: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:253: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapUtilities.java:290: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapOrientations.java:88: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/MapOrientations.java:110: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return tile == null ? null : this.getBounds(tile.x, tile.y, map);
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/physics/StickyForce.java:32: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.forceEntiy = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Camera.java:54: error: [NullAway] initializer method does not guarantee @NonNull field targetFocus (line 44) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public Camera() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/Camera.java:223: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.targetFocus = null;
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:35: error: [NullAway] initializer method does not guarantee @NonNull fields affineTransform (line 23), currentAnimation (line 25), defaultAnimation (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public AnimationController() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:162: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:186: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:191: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:211: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:230: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:233: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getAll().stream().findFirst().orElse(null);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:294: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.currentAnimation = null;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:298: error: [NullAway] passing @Nullable parameter 'this.getAll().stream().findFirst().orElse(null)' where @NonNull is required
+      this.setDefault(this.getAll().stream().findFirst().orElse(null));
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:326: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.currentAnimation = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:362: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.currentAnimation = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/AnimationController.java:376: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/EntityAnimationController.java:29: error: [NullAway] initializer method does not guarantee @NonNull field spritePrefix (line 18) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public EntityAnimationController(final T entity) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/PropAnimationController.java:80: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/PropAnimationController.java:96: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/PropAnimationController.java:137: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/PropAnimationController.java:145: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/CreatureAnimationController.java:53: error: [NullAway] initializer method does not guarantee @NonNull field randomDeathSprite (line 39) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CreatureAnimationController(T creature, boolean useFlippedSpritesAsFallback) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/CreatureAnimationController.java:94: error: [NullAway] initializer method does not guarantee @NonNull field randomDeathSprite (line 39) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CreatureAnimationController(T creature, boolean useFlippedSpritesAsFallback, Animation defaultAnimation, final Animation... animations) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/CreatureAnimationController.java:196: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/animation/CreatureAnimationController.java:301: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return this.getDefault() != null ? this.getDefault().getName() : null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/RotationImageEffect.java:28: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/EntityEmitter.java:73: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/particles/SpriteParticle.java:21: error: [NullAway] initializer method does not guarantee @NonNull fields animation (line 15), currentImage (line 18) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public SpriteParticle(final Spritesheet spritesheet) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/particles/TextParticle.java:17: error: [NullAway] initializer method does not guarantee @NonNull field font (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TextParticle(final String text) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/xml/EmitterLoader.java:44: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/graphics/emitters/xml/EmitterLoader.java:63: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/Transition.java:7: error: [NullAway] initializer method does not guarantee @NonNull field state (line 5) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected Transition(final int priority) {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/StateMachine.java:11: error: [NullAway] initializer method does not guarantee @NonNull field currentState (line 9) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  protected StateMachine() {
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarNode.java:19: error: [NullAway] initializer method does not guarantee @NonNull field predecessor (line 16) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public AStarNode(final boolean walkable, final Rectangle bound, final int gridX, final int gridY) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarNode.java:119: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setPredecessor(null);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarPathFinder.java:47: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarPathFinder.java:67: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarPathFinder.java:103: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarGrid.java:112: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/entities/behavior/AStarGrid.java:222: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+480 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s

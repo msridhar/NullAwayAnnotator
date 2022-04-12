@@ -11,7 +11,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "androidx.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Mockito",
@@ -37,7 +37,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "LitiEngine",
@@ -50,7 +50,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "EventBus",
@@ -63,7 +63,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Gson",
@@ -76,7 +76,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Jadx",
@@ -89,7 +89,7 @@
                 "nullable": "org.jetbrains.annotations.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Zuul",
@@ -102,7 +102,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "LottieAndroid",
@@ -115,7 +115,7 @@
                 "nullable": "androidx.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Retrofit",
@@ -128,7 +128,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "SpringBoot",
@@ -141,7 +141,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "LibGdx",

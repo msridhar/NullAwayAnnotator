@@ -1,0 +1,332 @@
+warning: unknown enum constant DataSourceType.GAUGE
+  reason: class file for com.netflix.servo.annotations.DataSourceType not found
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.COUNTER
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.GAUGE
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+warning: unknown enum constant DataSourceType.INFORMATIONAL
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/channel/config/ChannelConfigKey.java:47: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return defaultValue;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/SourceAddressChannelHandler.java:126: error: [NullAway] dereferenced expression socketAddress is @Nullable
+        InetAddress address = socketAddress.getAddress();
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/SourceAddressChannelHandler.java:164: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/context/SessionContext.java:249: error: [NullAway] dereferenced expression sb is @Nullable
+        if (sb.length() > 0)
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/context/SessionContext.java:335: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return (Map<String, Object>) this.get(KEY_EVENT_PROPS);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/common/SurgicalDebugFilter.java:75: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        DynamicStringProperty routeVip = new DynamicStringProperty(ZuulConstants.ZUUL_DEBUG_VIP, null);
+                                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/common/SurgicalDebugFilter.java:76: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        DynamicStringProperty routeHost = new DynamicStringProperty(ZuulConstants.ZUUL_DEBUG_HOST, null);
+                                                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/common/GZipResponseFilter.java:126: error: [NullAway] dereferenced expression gzipper is @Nullable
+        gzipper.write(chunk);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/BaseZuulChannelInitializer.java:329: error: [NullAway] dereferenced expression zuulFilters is @Nullable
+        final ZuulFilter<T, T>[] filters = new ZuulFilter[zuulFilters.size() + 2];
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ClientRequestReceiver.java:224: error: [NullAway] dereferenced expression zuulRequest is @Nullable
+            zuulRequest.getHeaders().remove(HttpHeaderNames.EXPECT.toString());
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:197: error: [NullAway] initializer method does not guarantee @NonNull fields zuulResponse (line 142), currentRequestAttempt (line 162), currentRequestStat (line 166) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public ProxyEndpoint(final HttpRequestMessage inMesg, final ChannelHandlerContext ctx, @Nullable final FilterRunner<HttpResponseMessage, ?> filters, MethodBinding<?> methodBinding, NettyRequestAttemptFactory requestAttemptFactory) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:202: error: [NullAway] assigning @Nullable expression to @NonNull field
+        origin = getOrigin(zuulRequest);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:300: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            originalReadTimeout = requestConfig.getProperty(ReadTimeout, null);
+                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:327: error: [NullAway] method returns @Nullable, but superclass method com.netflix.zuul.filters.ZuulFilter.getDefaultOutput(I) returns @NonNull
+    public HttpResponseMessage getDefaultOutput(final HttpRequestMessage input) {
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:419: error: [NullAway] dereferenced expression requestAttempts is @Nullable
+            requestAttempts.add(currentRequestAttempt);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:450: error: [NullAway] passing @Nullable parameter 'readTimeout' where @NonNull is required
+        requestConfig.set(ReadTimeout, readTimeout);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:486: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                            requestConfig.setProperty(ReadTimeout, null);
+                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:494: error: [NullAway] unboxing of a @Nullable value
+                    onOriginConnectSucceeded(connectResult.getNow(), readTimeout);
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:524: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        Integer originTimeout = parseReadTimeout(origin.getClientConfig().getProperty(IClientConfigKey.Keys.ReadTimeout, null));
+                                                                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:525: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        Integer requestTimeout = parseReadTimeout(requestConfig.getProperty(IClientConfigKey.Keys.ReadTimeout, null));
+                                                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/endpoint/ProxyEndpoint.java:1034: error: [NullAway] dereferenced expression originManager is @Nullable
+        NettyOrigin origin = originManager.getOrigin(name, vip, uri, ctx);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/NettyRequestAttemptFactory.java:71: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+        if (cause instanceof IllegalStateException && cause.getMessage().contains("server")) {
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/BaseZuulFilterRunner.java:107: error: [NullAway] passing @Nullable parameter 'ctx.get(RUNNING_FILTER_IDX_SESSION_CTX_KEY)' where @NonNull is required
+        return (AtomicInteger) Preconditions.checkNotNull(ctx.get(RUNNING_FILTER_IDX_SESSION_CTX_KEY), "runningFilterIndex");
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/BaseZuulFilterRunner.java:283: error: [NullAway] dereferenced expression zuulCtx.getFilterErrors() is @Nullable
+        zuulCtx.getFilterErrors().add(new FilterError(filter.filterName(), filter.filterType().toString(), t));
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/ZuulEndPointRunner.java:121: error: [NullAway] passing @Nullable parameter 'getEndpoint(zuulReq)' where @NonNull is required
+            ZuulFilter<HttpRequestMessage, HttpResponseMessage> endpoint = Preconditions.checkNotNull(getEndpoint(zuulReq), "endpoint");
+                                                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/ZuulEndPointRunner.java:133: error: [NullAway] passing @Nullable parameter 'filter(endpoint, zuulReq)' where @NonNull is required
+                    invokeNextStage(filter(endpoint, zuulReq));
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/filter/ZuulEndPointRunner.java:191: error: [NullAway] dereferenced expression resp is @Nullable
+            resp.finishBufferedBodyIfIncomplete();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/context/ZuulSessionContextDecorator.java:50: error: [NullAway] method returns @Nullable, but superclass method com.netflix.zuul.context.SessionContextDecorator.decorate(com.netflix.zuul.context.SessionContext) returns @NonNull
+    public SessionContext decorate(SessionContext ctx) {
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/plugins/Tracer.java:73: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/message/http/HttpRequestMessageImpl.java:418: error: [NullAway] method returns @Nullable, but superclass method com.netflix.zuul.message.http.HttpRequestMessage.getInboundRequest() returns @NonNull
+    public HttpRequestInfo getInboundRequest() {
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/insights/PassportStateServerHandler.java:57: error: [NullAway] dereferenced expression registry is @Nullable
+        registry.counter("server.connection.exception", "handler", handler, "id", throwable.getClass().getSimpleName()).increment();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:65: error: [NullAway] assigning @Nullable expression to @NonNull field
+        spectatorRegistry = null;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:107: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+                    } else if (cause instanceof SSLException && cause.getMessage().contains("handshake timed out")) {
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:109: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+                    } else if (cause instanceof SSLException && cause.getMessage().contains("failure when writing TLS control frames")) {
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:137: error: [NullAway] passing @Nullable parameter 'cause != null ? cause.getMessage() : "UNKNOWN"' where @NonNull is required
+                spectatorRegistry.counter("zuul.sni.parse.failure", cause != null ? cause.getMessage() : "UNKNOWN").increment();
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:162: error: [NullAway] dereferenced expression handshakeInfo is @Nullable
+                String proto = handshakeInfo.getProtocol().length() > 0 ? handshakeInfo.getProtocol() : "unknown";
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/SocketAddressProperty.java:160: error: [NullAway] dereferenced expression bindType.addressSupplier is @Nullable
+                    return new InetSocketAddress(bindType.addressSupplier.get(), port);
+                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/push/PushRegistrationHandler.java:70: error: [NullAway] initializer method does not guarantee @NonNull field ctx (line 48) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public PushRegistrationHandler(PushConnectionRegistry pushConnectionRegistry, PushProtocol pushProtocol) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ClientResponseWriter.java:192: error: [NullAway] dereferenced expression nativeReq is @Nullable
+        if (nativeReq.headers().contains(HttpConversionUtil.ExtensionHeaderNames.STREAM_ID.text())) {
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/Server.java:152: error: [NullAway] initializer method does not guarantee @NonNull field serverGroup (line 113) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Server(Registry registry, ServerStatusManager serverStatusManager, Map<? extends SocketAddress, ? extends ChannelInitializer<?>> addressesToInitializers, ClientConnectionsShutdown clientConnectionsShutdown, EventLoopGroupMetrics eventLoopGroupMetrics, EventLoopConfig eventLoopConfig) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/Server.java:298: error: [NullAway] initializer method does not guarantee @NonNull fields clientToProxyWorkerPool (line 283), transportChannelOptions (line 288) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        private ServerGroup(String name, int acceptorThreads, int workerThreads, EventLoopGroupMetrics eventLoopGroupMetrics) {
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/DirectMemoryMonitor.java:111: error: [NullAway] dereferenced expression reservedMemoryGetter is @Nullable
+            return reservedMemoryGetter.get();
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/DirectMemoryMonitor.java:120: error: [NullAway] dereferenced expression directMemoryLimitGetter is @Nullable
+            return directMemoryLimitGetter.get();
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/BaseServerStartup.java:179: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        Boolean value = new ChainedDynamicProperty.DynamicBooleanPropertyThatSupportsNull(listenAddressPropertyName, null).get();
+                                                                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:122: error: [NullAway] initializer method does not guarantee @NonNull fields clientConnFactory (line 116), channelInitializer (line 118) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public DefaultClientChannelManager(String originName, String vip, IClientConfig clientConfig, Registry spectatorRegistry) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:316: error: [NullAway] passing @Nullable parameter 'key' where @NonNull is required
+        final Server chosenServer = loadBalancer.chooseServer(key);
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:377: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* appGroupName= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:378: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* ipAddr= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:381: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* securePort= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:382: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* homePageUrl= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:383: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* statusPageUrl= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:384: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* healthCheckUrl= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:385: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* secureHealthCheckUrl= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:386: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* vipAddress= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:387: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* secureVipAddress= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:388: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null, /* countryId= */
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:389: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            0, null, null, null, null, null, null, null, null, null, null, null, null);
+                                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/passport/CurrentPassport.java:119: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return (CurrentPassport) ctx.get(CommonContextKeys.PASSPORT);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/origins/BasicNettyOrigin.java:173: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            final ExecutionContext<?> context = new ExecutionContext<>(zuulRequest, overriddenClientConfig, this.config, null);
+                                                                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/stats/status/StatusCategoryUtils.java:42: error: [NullAway] dereferenced expression ctx is @Nullable
+        return (StatusCategory) ctx.get(CommonContextKeys.STATUS_CATGEORY);
+                                   ^
+    (see http://t.uber.com/nullaway )
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+71 errors
+28 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':zuul-core:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s

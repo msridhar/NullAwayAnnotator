@@ -1,0 +1,366 @@
+Note: Processing Log4j annotations
+Note: Annotations processed
+Note: Processing Log4j annotations
+Note: No elements to process
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:127: error: [NullAway] dereferenced expression color is @Nullable
+            float[] lab = fromXyz(color.getColorComponents(XYZ_COLOR_SPACE, null));
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jta/bitronix/PoolingDataSourceBean.java:56: error: [NullAway] initializer method does not guarantee @NonNull field dataSource (line 51) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public PoolingDataSourceBean() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jta/bitronix/PoolingConnectionFactoryBean.java:55: error: [NullAway] initializer method does not guarantee @NonNull field connectionFactory (line 53) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public PoolingConnectionFactoryBean() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java:279: error: [NullAway] initializer method does not guarantee @NonNull fields initializers (line 233), listeners (line 235) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public SpringApplication(@Nullable ResourceLoader resourceLoader, Class<?>... primarySources) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/BeanDefinitionLoader.java:166: error: [NullAway] dereferenced expression ((GroovyBeanDefinitionReader) this.groovyReader) is @Nullable
+            ((GroovyBeanDefinitionReader) this.groovyReader).beans(loader.getBeans());
+                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/metrics/buffering/StartupTimeline.java:80: error: [NullAway] dereferenced expression startupDate is @Nullable
+            this.startTime = startupDate.plus(Duration.ofNanos(startupStep.getStartTime() - startupNanoTime));
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/InactiveConfigDataAccessException.java:65: error: [NullAway] dereferenced expression propertySource is @Nullable
+        message.append(propertySource.getName());
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] dereferenced expression type2 is @Nullable
+        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:295: error: [NullAway] dereferenced expression type1 is @Nullable
+        int result = Boolean.compare(type2.isIndexed(), type1.isIndexed());
+                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/ConfigurationPropertyName.java:708: error: [NullAway] dereferenced expression additional is @Nullable
+            int size = this.size + additional.size;
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataProperties.java:40: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private static final ConfigurationPropertyName NAME = ConfigurationPropertyName.of("spring.config");
+                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataProperties.java:98: error: [NullAway] dereferenced expression this.activate is @Nullable
+        return new ConfigDataProperties(this.imports, new Activate(this.activate.onCloudPlatform, legacyProfiles));
+                                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:305: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+        return bind(name, target, handler, context, false, create);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/Binder.java:405: error: [NullAway] passing @Nullable parameter 'source' where @NonNull is required
+            boolean allowRecursiveBinding = aggregateBinder.isAllowRecursiveBinding(source);
+                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/BindResult.java:101: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return (this.value != null) ? this.value : other;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataLoaders.java:117: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return result;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironment.java:99: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private static final ConfigurationPropertyName INCLUDE_PROFILES = ConfigurationPropertyName.of(Profiles.INCLUDE_PROFILES_PROPERTY_NAME);
+                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataEnvironment.java:292: error: [NullAway] dereferenced expression profiles is @Nullable
+        this.logger.trace(LogMessage.format("Setting default profiles: %s", profiles.getDefault()));
+                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:309: error: [NullAway] initializer method does not guarantee @NonNull fields profiles (line 299), processedProfiles (line 301), loaded (line 305) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        Loader(ConfigurableEnvironment environment, @Nullable ResourceLoader resourceLoader) {
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:347: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            this.profiles.add(null);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigFileApplicationListener.java:421: error: [NullAway] dereferenced expression ConfigDataLocation.of(location) is @Nullable
+                String nonOptionalLocation = ConfigDataLocation.of(location).getValue();
+                                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/InvalidConfigDataPropertyException.java:109: error: [NullAway] dereferenced expression property is @Nullable
+        message.append(property.getName());
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBean.java:258: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/AliasedConfigurationPropertySource.java:47: error: [NullAway] passing @Nullable parameter 'aliasedName' where @NonNull is required
+            result = getSource().getConfigurationProperty(aliasedName);
+                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/SpringConfigurationPropertySources.java:54: error: [NullAway] dereferenced expression this.sources is @Nullable
+        return new SourcesIterator(this.sources.iterator(), this::adapt);
+                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource.java:204: error: [NullAway] initializer method does not guarantee @NonNull fields mappings (line 191), descendants (line 196) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        Mappings(PropertyMapper[] mappers, boolean immutable, boolean trackDescendants) {
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBindingPostProcessor.java:68: error: [NullAway] read of @NonNull field applicationContext before initialization
+        this.registry = (BeanDefinitionRegistry) this.applicationContext.getAutowireCapableBeanFactory();
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/ConfigurationPropertiesBinder.java:223: error: [NullAway] passing @Nullable parameter 'this.applicationContext' where @NonNull is required
+            return new ConfigurationPropertiesBinder(this.applicationContext);
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/JavaBeanBinder.java:272: error: [NullAway] initializer method does not guarantee @NonNull fields getter (line 265), setter (line 267) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+        BeanProperty(String name, ResolvableType declaringClassType) {
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/IndexedElementsBinder.java:132: error: [NullAway] passing @Nullable parameter 'value' where @NonNull is required
+        value = getContext().getPlaceholdersResolver().resolvePlaceholders(value);
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/NotConstructorBoundInjectionFailureAnalyzer.java:49: error: [NullAway] dereferenced expression injectionPoint is @Nullable
+            String simpleName = injectionPoint.getMember().getDeclaringClass().getSimpleName();
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/AbstractInjectionFailureAnalyzer.java:41: error: [NullAway] passing @Nullable parameter 'getDescription(rootFailure)' where @NonNull is required
+        return analyze(rootFailure, cause, getDescription(rootFailure));
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:229: error: [NullAway] dereferenced expression this.loggingSystem is @Nullable
+        this.loggingSystem.beforeInitialize();
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:279: error: [NullAway] passing @Nullable parameter 'this.loggingSystem' where @NonNull is required
+        initializeSystem(environment, this.loggingSystem, this.logFile);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:386: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+                system.setLogLevel(name, level);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:386: error: [NullAway] dereferenced expression system is @Nullable
+                system.setLogLevel(name, level);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:396: error: [NullAway] dereferenced expression loggingSystem is @Nullable
+            Runnable shutdownHandler = loggingSystem.getShutdownHandler();
+                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/TypeExcludeFilter.java:77: error: [NullAway] dereferenced expression ((ListableBeanFactory) this.beanFactory) is @Nullable
+            delegates = ((ListableBeanFactory) this.beanFactory).getBeansOfType(TypeExcludeFilter.class).values();
+                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/util/Instantiator.java:65: error: [NullAway] parameter instance is @NonNull, but parameter in superclass method org.springframework.boot.util.Instantiator.AvailableParameters.add(java.lang.Class<?>,java.lang.Object) is @Nullable
+            public void add(Class<?> type, Object instance) {
+                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:54: error: [NullAway] dereferenced expression urlPatterns is @Nullable
+        if (urlPatterns.length > 0) {
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:55: error: [NullAway] dereferenced expression value is @Nullable
+            Assert.state(value.length == 0, "The urlPatterns and value attributes are mutually exclusive.");
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentHandler.java:63: error: [NullAway] enhanced-for expression (AnnotationAttributes[]) attributes.get("initParams") is @Nullable
+        for (AnnotationAttributes initParam : (AnnotationAttributes[]) attributes.get("initParams")) {
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/AbstractFilterRegistrationBean.java:223: error: [NullAway] dereferenced expression filter is @Nullable
+            if (ClassUtils.isPresent("org.springframework.web.filter.OncePerRequestFilter", filter.getClass().getClassLoader()) && filter instanceof OncePerRequestFilter) {
+                                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/ServletComponentRegisteringPostProcessor.java:58: error: [NullAway] initializer method does not guarantee @NonNull field applicationContext (line 56) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    ServletComponentRegisteringPostProcessor(Set<String> packagesToScan) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.java:67: error: [NullAway] initializer method does not guarantee @NonNull fields ssl (line 49), compression (line 57) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public AbstractConfigurableWebServerFactory() {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/AbstractConfigurableWebServerFactory.java:75: error: [NullAway] initializer method does not guarantee @NonNull fields ssl (line 49), compression (line 57) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public AbstractConfigurableWebServerFactory(int port) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.java:128: error: [NullAway] dereferenced expression this.logger is @Nullable
+            this.logger.info("Root context already created (using as parent).");
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/view/MustacheView.java:84: error: [NullAway] dereferenced expression this.compiler is @Nullable
+            return this.compiler.compile(reader);
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/WebFilterHandler.java:57: error: [NullAway] dereferenced expression dispatcherTypes is @Nullable
+        if (dispatcherTypes.length == 0) {
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/reactive/result/view/MustacheView.java:85: error: [NullAway] dereferenced expression this.compiler is @Nullable
+            Template template = this.compiler.compile(reader);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor.java:85: error: [NullAway] dereferenced expression this.beanFactory is @Nullable
+        return (Collection) this.beanFactory.getBeansOfType(WebServerFactoryCustomizer.class, false, false).values();
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/ErrorPageRegistrarBeanPostProcessor.java:75: error: [NullAway] dereferenced expression this.beanFactory is @Nullable
+            this.registrars = new ArrayList<>(this.beanFactory.getBeansOfType(ErrorPageRegistrar.class, false, false).values());
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/server/PortInUseException.java:84: error: [NullAway] dereferenced expression bindException.getMessage() is @Nullable
+            if (bindException.getMessage().toLowerCase().contains("in use")) {
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:704: error: [NullAway] dereferenced expression this.connectTimeout is @Nullable
+            int timeout = Math.toIntExact(this.connectTimeout.toMillis());
+                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/client/RestTemplateBuilder.java:710: error: [NullAway] dereferenced expression this.readTimeout is @Nullable
+            int timeout = Math.toIntExact(this.readTimeout.toMillis());
+                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/netty/GracefulShutdown.java:78: error: [NullAway] dereferenced expression this.shutdownThread is @Nullable
+            this.shutdownThread.interrupt();
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:109: error: [NullAway] initializer method does not guarantee @NonNull fields undertow (line 70), closeables (line 77) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public UndertowWebServer(Undertow.Builder builder, Iterable<HttpHandlerFactory> httpHandlerFactories, boolean autoStart) {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:179: error: [NullAway] passing @Nullable parameter 'handler' where @NonNull is required
+            handler = factory.getHandler(handler);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/UndertowWebServer.java:394: error: [NullAway] dereferenced expression CloseableHttpHandlerFactory.this.closeable is @Nullable
+                    CloseableHttpHandlerFactory.this.closeable.close();
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/embedded/undertow/AccessLogHttpHandlerFactory.java:77: error: [NullAway] dereferenced expression this.directory is @Nullable
+        if (!this.directory.isDirectory() && !this.directory.mkdirs()) {
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/admin/SpringApplicationAdminMXBeanRegistrar.java:64: error: [NullAway] initializer method does not guarantee @NonNull field applicationContext (line 54) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public SpringApplicationAdminMXBeanRegistrar(String name) throws MalformedObjectNameException {
+           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/DeferredLog.java:47: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.destinationSupplier = null;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/context/RSocketServerBootstrap.java:53: error: [NullAway] dereferenced expression this.eventPublisher is @Nullable
+        this.eventPublisher.publishEvent(new RSocketServerInitializedEvent(this.server));
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/rsocket/netty/NettyRSocketServer.java:66: error: [NullAway] dereferenced expression address() is @Nullable
+        logger.info("Netty RSocket started on port(s): " + address().getPort());
+                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:67: error: [NullAway] dereferenced expression this.beanFactory is @Nullable
+            BeanDefinition definition = this.beanFactory.getMergedBeanDefinition(beanName);
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:83: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+        if (cause.getMessage().contains("but found")) {
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/ValidationExceptionFailureAnalyzer.java:39: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+        if (cause.getMessage().startsWith(JAVAX_MISSING_IMPLEMENTATION_MESSAGE) || cause.getMessage().startsWith(JAKARTA_MISSING_IMPLEMENTATION_MESSAGE)) {
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/UnboundConfigurationPropertyFailureAnalyzer.java:40: error: [NullAway] dereferenced expression cause is @Nullable
+        StringBuilder description = new StringBuilder(String.format("Binding to target %s failed:%n", cause.getTarget()));
+                                                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoSuchMethodFailureAnalyzer.java:72: error: [NullAway] dereferenced expression message is @Nullable
+        int loadedFromIndex = message.indexOf(" (loaded from");
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplicationBannerPrinter.java:70: error: [NullAway] passing @Nullable parameter 'sourceClass' where @NonNull is required
+        banner.printBanner(environment, sourceClass, out);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplicationBannerPrinter.java:119: error: [NullAway] passing @Nullable parameter 'mainApplicationClass' where @NonNull is required
+        banner.printBanner(environment, mainApplicationClass, new PrintStream(baos));
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplicationBannerPrinter.java:168: error: [NullAway] passing @Nullable parameter 'sourceClass' where @NonNull is required
+            this.banner.printBanner(environment, sourceClass, out);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/StartupInfoLogger.java:107: error: [NullAway] dereferenced expression source is @Nullable
+        append(message, "v", () -> source.getPackage().getImplementationVersion());
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/liquibase/LiquibaseChangelogMissingFailureAnalyzer.java:47: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+        return cause.getMessage().substring("Error parsing ".length());
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/AbstractLoggingSystem.java:80: error: [NullAway] passing @Nullable parameter 'logFile' where @NonNull is required
+        loadDefaults(initializationContext, logFile);
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/logback/SpringProfileAction.java:51: error: [NullAway] initializer method does not guarantee @NonNull field events (line 49) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    SpringProfileAction(Environment environment) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodToStringConverter.java:60: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return style.print(source, unit);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:141: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        return parse(value, null);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:159: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        return print(value, null);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:191: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return detect(value).parse(value, unit);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:259: error: [NullAway] dereferenced expression this.intValue is @Nullable
+            return this.intValue.apply(value);
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToDurationConverter.java:66: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return style.parse(source, unit);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:99: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        return parse(value, null);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:117: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        return print(value, null);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationStyle.java:149: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return detect(value).parse(value, unit);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/StringToPeriodConverter.java:67: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return style.parse(source, unit);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/DurationToStringConverter.java:64: error: [NullAway] passing @Nullable parameter 'unit' where @NonNull is required
+        return style.print(source, unit);
+                                   ^
+    (see http://t.uber.com/nullaway )
+87 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':spring-boot-project:spring-boot:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s

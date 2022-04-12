@@ -1,0 +1,1348 @@
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieTask.java:43: error: [NullAway] assigning @Nullable expression to @NonNull field
+   private volatile LottieResult<T> result = null;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieResult.java:19: error: [NullAway] assigning @Nullable expression to @NonNull field
+    exception = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieResult.java:24: error: [NullAway] assigning @Nullable expression to @NonNull field
+    value = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieConfig.java:32: error: [NullAway] @NonNull field LottieConfig$Builder.networkFetcher not initialized
+    private LottieNetworkFetcher networkFetcher;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieConfig.java:34: error: [NullAway] @NonNull field LottieConfig$Builder.cacheProvider not initialized
+    private LottieNetworkCacheProvider cacheProvider;
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:44: error: [NullAway] @NonNull field precomps not initialized
+  private Map<String, List<Layer>> precomps;
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:45: error: [NullAway] @NonNull field images not initialized
+  private Map<String, LottieImageAsset> images;
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:47: error: [NullAway] @NonNull field fonts not initialized
+  private Map<String, Font> fonts;
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:48: error: [NullAway] @NonNull field markers not initialized
+  private List<Marker> markers;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:49: error: [NullAway] @NonNull field characters not initialized
+  private SparseArrayCompat<FontCharacter> characters;
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:50: error: [NullAway] @NonNull field layerMap not initialized
+  private LongSparseArray<Layer> layerMap;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:51: error: [NullAway] @NonNull field layers not initialized
+  private List<Layer> layers;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:53: error: [NullAway] @NonNull field bounds not initialized
+  private Rect bounds;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:163: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return precomps.get(id);
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:187: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:249: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      LottieCompositionFactory.fromJsonInputStream(stream, null).addListener(listener);
+                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:259: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      LottieCompositionFactory.fromJsonString(jsonString, null).addListener(listener);
+                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:269: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      LottieCompositionFactory.fromJsonReader(reader, null).addListener(listener);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:290: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonInputStreamSync(stream, null).getValue();
+                                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:305: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonInputStreamSync(stream, null).getValue();
+                                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:315: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonSync(json, null).getValue();
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:325: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonStringSync(json, null).getValue();
+                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieComposition.java:335: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonReaderSync(reader, null).getValue();
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieImageAsset.java:20: error: [NullAway] initializer method does not guarantee @NonNull field bitmap (line 17) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieImageAsset(int width, int height, String id, String fileName, String dirName) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:129: error: [NullAway] initializer method does not guarantee @NonNull fields composition (line 63), scaleType (line 80), imageAssetManager (line 82), imageAssetsFolder (line 84), imageAssetDelegate (line 86), fontAssetManager (line 88), fontAssetDelegate (line 90), textDelegate (line 92), compositionLayer (line 95) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieDrawable() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:275: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:326: error: [NullAway] assigning @Nullable expression to @NonNull field
+    composition = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:327: error: [NullAway] assigning @Nullable expression to @NonNull field
+    compositionLayer = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:328: error: [NullAway] assigning @Nullable expression to @NonNull field
+    imageAssetManager = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1063: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1076: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1082: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1086: error: [NullAway] assigning @Nullable expression to @NonNull field
+      imageAssetManager = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1103: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1109: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1123: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1129: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/BaseLayer.java:103: error: [NullAway] initializer method does not guarantee @NonNull fields mask (line 83), inOutAnimation (line 85), matteLayer (line 87), parentLayer (line 93), parentLayers (line 94), outlineMasksAndMattesPaint (line 101) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  BaseLayer(LottieDrawable lottieDrawable, Layer layerModel) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/BaseLayer.java:63: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/BaseKeyframeAnimation.java:36: error: [NullAway] initializer method does not guarantee @NonNull field valueCallback (line 29) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  BaseKeyframeAnimation(List<? extends Keyframe<K>> keyframes) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/BaseKeyframeAnimation.java:31: error: [NullAway] assigning @Nullable expression to @NonNull field
+   private A cachedGetValue = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/BaseKeyframeAnimation.java:146: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      this.valueCallback.setAnimation(null);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/BaseKeyframeAnimation.java:266: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private Keyframe<T> cachedCurrentKeyframe = null;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:45: error: [NullAway] initializer method does not guarantee @NonNull fields anchorPoint (line 33), position (line 34), scale (line 35), rotation (line 36), opacity (line 37), skewAngle (line 39), startOpacity (line 42), endOpacity (line 43) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public TransformKeyframeAnimation(AnimatableTransform animatableTransform) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:46: error: [NullAway] assigning @Nullable expression to @NonNull field
+    anchorPoint = animatableTransform.getAnchorPoint() == null ? null : animatableTransform.getAnchorPoint().createAnimation();
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:47: error: [NullAway] assigning @Nullable expression to @NonNull field
+    position = animatableTransform.getPosition() == null ? null : animatableTransform.getPosition().createAnimation();
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:48: error: [NullAway] assigning @Nullable expression to @NonNull field
+    scale = animatableTransform.getScale() == null ? null : animatableTransform.getScale().createAnimation();
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:49: error: [NullAway] assigning @Nullable expression to @NonNull field
+    rotation = animatableTransform.getRotation() == null ? null : animatableTransform.getRotation().createAnimation();
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:50: error: [NullAway] assigning @Nullable expression to @NonNull field
+    skew = animatableTransform.getSkew() == null ? null : (FloatKeyframeAnimation) animatableTransform.getSkew().createAnimation();
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:57: error: [NullAway] assigning @Nullable expression to @NonNull field
+      skewMatrix1 = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:58: error: [NullAway] assigning @Nullable expression to @NonNull field
+      skewMatrix2 = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:59: error: [NullAway] assigning @Nullable expression to @NonNull field
+      skewMatrix3 = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:60: error: [NullAway] assigning @Nullable expression to @NonNull field
+      skewValues = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:62: error: [NullAway] assigning @Nullable expression to @NonNull field
+    skewAngle = animatableTransform.getSkewAngle() == null ? null : (FloatKeyframeAnimation) animatableTransform.getSkewAngle().createAnimation();
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:69: error: [NullAway] assigning @Nullable expression to @NonNull field
+      startOpacity = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:74: error: [NullAway] assigning @Nullable expression to @NonNull field
+      endOpacity = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/ShapeData.java:24: error: [NullAway] initializer method does not guarantee @NonNull field initialPoint (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ShapeData() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/KeyPath.java:56: error: [NullAway] initializer method does not guarantee @NonNull field resolvedElement (line 54) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public KeyPath(String... keys) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieValueCallback.java:23: error: [NullAway] initializer method does not guarantee @NonNull field animation (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieValueCallback() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieValueCallback.java:26: error: [NullAway] initializer method does not guarantee @NonNull field animation (line 15) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieValueCallback( T staticValue) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieValueCallback.java:21: error: [NullAway] assigning @Nullable expression to @NonNull field
+   protected T value = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieFrameInfo.java:12: error: [NullAway] @NonNull field startValue not initialized
+  private T startValue;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/LottieFrameInfo.java:13: error: [NullAway] @NonNull field endValue not initialized
+  private T endValue;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/Keyframe.java:32: error: [NullAway] assigning @Nullable expression to @NonNull field
+  public PointF pathCp1 = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/Keyframe.java:33: error: [NullAway] assigning @Nullable expression to @NonNull field
+  public PointF pathCp2 = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/Keyframe.java:51: error: [NullAway] assigning @Nullable expression to @NonNull field
+    composition = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/value/Keyframe.java:54: error: [NullAway] assigning @Nullable expression to @NonNull field
+    interpolator = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null, null, null, null, null, null, null, null, null);
+                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/animatable/AnimatableTransform.java:106: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/LottieValueAnimator.java:30: error: [NullAway] initializer method does not guarantee @NonNull field composition (line 27) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieValueAnimator() {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/LottieValueAnimator.java:129: error: [NullAway] assigning @Nullable expression to @NonNull field
+    this.composition = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:30: error: [NullAway] initializer method does not guarantee @NonNull field delegate (line 27) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public ImageAssetManager(Drawable.Callback callback, String imagesFolder,
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:41: error: [NullAway] assigning @Nullable expression to @NonNull field
+      context = null;
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:60: error: [NullAway] dereferenced expression asset is @Nullable
+      Bitmap ret = asset.getBitmap();
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:61: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      asset.setBitmap(null);
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:64: error: [NullAway] dereferenced expression imageAssets.get(id) is @Nullable
+    Bitmap prevBitmap = imageAssets.get(id).getBitmap();
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:72: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:99: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:114: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/ImageAssetManager.java:127: error: [NullAway] dereferenced expression imageAssets.get(key) is @Nullable
+      imageAssets.get(key).setBitmap(bitmap);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/manager/FontAssetManager.java:33: error: [NullAway] assigning @Nullable expression to @NonNull field
+      assetManager = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/FontAssetDelegate.java:17: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/FontAssetDelegate.java:24: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/TextDelegate.java:27: error: [NullAway] assigning @Nullable expression to @NonNull field
+    animationView = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/TextDelegate.java:28: error: [NullAway] assigning @Nullable expression to @NonNull field
+    drawable = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/TextDelegate.java:34: error: [NullAway] assigning @Nullable expression to @NonNull field
+    drawable = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/TextDelegate.java:40: error: [NullAway] assigning @Nullable expression to @NonNull field
+    animationView = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/CompositionLayer.java:36: error: [NullAway] initializer method does not guarantee @NonNull fields timeRemapping (line 27), hasMatte (line 33), hasMasks (line 34) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public CompositionLayer(LottieDrawable lottieDrawable, Layer layerModel, List<Layer> layerModels,
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/CompositionLayer.java:47: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.timeRemapping = null;
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/CompositionLayer.java:211: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          timeRemapping.setValueCallback(null);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:127: error: [NullAway] initializer method does not guarantee @NonNull fields failureListener (line 98), animationName (line 103), compositionTask (line 123), composition (line 125) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieAnimationView(Context context) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:132: error: [NullAway] initializer method does not guarantee @NonNull fields failureListener (line 98), animationName (line 103), compositionTask (line 123), composition (line 125) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieAnimationView(Context context, AttributeSet attrs) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:137: error: [NullAway] initializer method does not guarantee @NonNull fields failureListener (line 98), animationName (line 103), compositionTask (line 123), composition (line 125) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public LottieAnimationView(Context context, AttributeSet attrs, int defStyleAttr) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:129: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    init(null, R.attr.lottieAnimationViewStyle);
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:389: error: [NullAway] assigning @Nullable expression to @NonNull field
+    animationName = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:399: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+              ? LottieCompositionFactory.fromRawResSync(getContext(), rawRes) : LottieCompositionFactory.fromRawResSync(getContext(), rawRes, null);
+                                                                                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:404: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          LottieCompositionFactory.fromRawRes(getContext(), rawRes) : LottieCompositionFactory.fromRawRes(getContext(), rawRes, null);
+                                                                                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:419: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+              LottieCompositionFactory.fromAssetSync(getContext(), assetName) : LottieCompositionFactory.fromAssetSync(getContext(), assetName, null);
+                                                                                                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:424: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+          LottieCompositionFactory.fromAsset(getContext(), assetName) : LottieCompositionFactory.fromAsset(getContext(), assetName, null);
+                                                                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:433: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    setAnimationFromJson(jsonString, null);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:471: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        LottieCompositionFactory.fromUrl(getContext(), url) : LottieCompositionFactory.fromUrl(getContext(), url, null);
+                                                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:946: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      setImageDrawable(null);
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:1019: error: [NullAway] assigning @Nullable expression to @NonNull field
+    composition = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:1159: error: [NullAway] initializer method does not guarantee @NonNull fields animationName (line 1151), imageAssetsFolder (line 1155) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    SavedState(Parcelable superState) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/MutablePair.java:15: error: [NullAway] @NonNull field first not initialized
+   T first;
+     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/MutablePair.java:16: error: [NullAway] @NonNull field second not initialized
+   T second;
+     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkCache.java:59: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkCache.java:62: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkCache.java:69: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkCache.java:142: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/DefaultLottieFetchResult.java:41: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return isSuccessful() ? null :
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/DefaultLottieFetchResult.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return e.getMessage();
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkFetcher.java:50: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkFetcher.java:54: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkFetcher.java:68: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkFetcher.java:132: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromZipStreamSync(new ZipInputStream(inputStream), null);
+                                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/network/NetworkFetcher.java:142: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return LottieCompositionFactory.fromJsonInputStreamSync(inputStream, null);
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/FillContent.java:42: error: [NullAway] initializer method does not guarantee @NonNull field colorFilterAnimation (line 39) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public FillContent(final LottieDrawable lottieDrawable, BaseLayer layer, ShapeFill fill) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/FillContent.java:48: error: [NullAway] assigning @Nullable expression to @NonNull field
+      colorAnimation = null;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/FillContent.java:49: error: [NullAway] assigning @Nullable expression to @NonNull field
+      opacityAnimation = null;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/FillContent.java:136: error: [NullAway] assigning @Nullable expression to @NonNull field
+        colorFilterAnimation = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/MergePaths.java:64: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/StrokeContent.java:27: error: [NullAway] initializer method does not guarantee @NonNull field colorFilterAnimation (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public StrokeContent(final LottieDrawable lottieDrawable, BaseLayer layer, ShapeStroke stroke) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/StrokeContent.java:66: error: [NullAway] assigning @Nullable expression to @NonNull field
+        colorFilterAnimation = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/BaseStrokeContent.java:55: error: [NullAway] initializer method does not guarantee @NonNull field colorFilterAnimation (line 53) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  BaseStrokeContent(final LottieDrawable lottieDrawable, BaseLayer layer, Paint.Cap cap,
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/BaseStrokeContent.java:70: error: [NullAway] assigning @Nullable expression to @NonNull field
+      dashPatternOffsetAnimation = null;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/BaseStrokeContent.java:130: error: [NullAway] passing @Nullable parameter 'trimPathContentBefore' where @NonNull is required
+          currentPathGroup = new PathGroup(trimPathContentBefore);
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/BaseStrokeContent.java:322: error: [NullAway] assigning @Nullable expression to @NonNull field
+        colorFilterAnimation = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/ShapeStroke.java:49: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:62: error: [NullAway] assigning @Nullable expression to @NonNull field
+      innerRadiusAnimation = null;
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:63: error: [NullAway] assigning @Nullable expression to @NonNull field
+      innerRoundednessAnimation = null;
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:72: error: [NullAway] read of @NonNull field innerRadiusAnimation before initialization
+      layer.addAnimation(innerRadiusAnimation);
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:73: error: [NullAway] read of @NonNull field innerRoundednessAnimation before initialization
+      layer.addAnimation(innerRoundednessAnimation);
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:82: error: [NullAway] read of @NonNull field innerRadiusAnimation before initialization
+      innerRadiusAnimation.addUpdateListener(this);
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:83: error: [NullAway] read of @NonNull field innerRoundednessAnimation before initialization
+      innerRoundednessAnimation.addUpdateListener(this);
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/content/PolystarShape.java:29: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/GradientStrokeContent.java:42: error: [NullAway] initializer method does not guarantee @NonNull field colorCallbackAnimation (line 40) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public GradientStrokeContent(
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/GradientStrokeContent.java:172: error: [NullAway] assigning @Nullable expression to @NonNull field
+        colorCallbackAnimation = null;
+                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/ValueCallbackKeyframeAnimation.java:16: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(valueCallback, null);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/ContentGroup.java:72: error: [NullAway] initializer method does not guarantee @NonNull fields pathContents (line 63), transformAnimation (line 64) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ContentGroup(final LottieDrawable lottieDrawable, BaseLayer layer,
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/ContentGroup.java:52: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/RepeaterContent.java:39: error: [NullAway] initializer method does not guarantee @NonNull field contentGroup (line 36) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public RepeaterContent(LottieDrawable lottieDrawable, BaseLayer layer, Repeater repeater) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/RepeaterContent.java:83: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    contentGroup = new ContentGroup(lottieDrawable, layer, "Repeater", hidden, contents, null);
+                                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/GradientFillContent.java:61: error: [NullAway] initializer method does not guarantee @NonNull fields colorFilterAnimation (line 56), colorCallbackAnimation (line 57) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public GradientFillContent(final LottieDrawable lottieDrawable, BaseLayer layer, GradientFill fill) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/GradientFillContent.java:243: error: [NullAway] assigning @Nullable expression to @NonNull field
+         colorFilterAnimation = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/GradientFillContent.java:256: error: [NullAway] assigning @Nullable expression to @NonNull field
+         colorCallbackAnimation = null;
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/SplitDimensionPathKeyframeAnimation.java:35: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    return getValue(null, 0);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/PathKeyframeAnimation.java:17: error: [NullAway] initializer method does not guarantee @NonNull field pathMeasureKeyframe (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public PathKeyframeAnimation(List<? extends Keyframe<PointF>> keyframes) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/PathKeyframe.java:16: error: [NullAway] initializer method does not guarantee @NonNull field path (line 12) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  public PathKeyframe(LottieComposition composition, Keyframe<PointF> keyframe) {
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/LogcatLogger.java:24: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    debug(message, null);
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/utils/LogcatLogger.java:34: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    warning(message, null);
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'type' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'points' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'position' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'rotation' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'innerRadius' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:81: error: [NullAway] passing @Nullable parameter 'outerRadius' where @NonNull is required
+        name, type, points, position, rotation, innerRadius, outerRadius,
+                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:82: error: [NullAway] passing @Nullable parameter 'innerRoundedness' where @NonNull is required
+        innerRoundedness, outerRoundedness, hidden);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/PolystarShapeParser.java:82: error: [NullAway] passing @Nullable parameter 'outerRoundedness' where @NonNull is required
+        innerRoundedness, outerRoundedness, hidden);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeTrimPathParser.java:58: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new ShapeTrimPath(name, type, start, end, offset, hidden);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeTrimPathParser.java:58: error: [NullAway] passing @Nullable parameter 'type' where @NonNull is required
+    return new ShapeTrimPath(name, type, start, end, offset, hidden);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeTrimPathParser.java:58: error: [NullAway] passing @Nullable parameter 'start' where @NonNull is required
+    return new ShapeTrimPath(name, type, start, end, offset, hidden);
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeTrimPathParser.java:58: error: [NullAway] passing @Nullable parameter 'end' where @NonNull is required
+    return new ShapeTrimPath(name, type, start, end, offset, hidden);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeTrimPathParser.java:58: error: [NullAway] passing @Nullable parameter 'offset' where @NonNull is required
+    return new ShapeTrimPath(name, type, start, end, offset, hidden);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:57: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        Layer.LayerType.PRE_COMP, -1, null, Collections.<Mask>emptyList(),
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:59: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        bounds.width(), bounds.height(), null, null, Collections.<Keyframe<Float>>emptyList(),
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:59: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        bounds.width(), bounds.height(), null, null, Collections.<Keyframe<Float>>emptyList(),
+                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:60: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        Layer.MatteType.NONE, null, false);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:259: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      Keyframe<Float> preKeyframe = new Keyframe<>(composition, 0f, 0f, null, 0f, inFrame);
+                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:266: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        new Keyframe<>(composition, 1f, 1f, null, inFrame, outFrame);
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:270: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        composition, 0f, 0f, null, outFrame, Float.MAX_VALUE);
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:277: error: [NullAway] passing @Nullable parameter 'layerType' where @NonNull is required
+    return new Layer(shapes, composition, layerName, layerId, layerType, parentId, refId,
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:277: error: [NullAway] passing @Nullable parameter 'refId' where @NonNull is required
+    return new Layer(shapes, composition, layerName, layerId, layerType, parentId, refId,
+                                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:278: error: [NullAway] passing @Nullable parameter 'transform' where @NonNull is required
+        masks, transform, solidWidth, solidHeight, solidColor, timeStretch, startFrame,
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:279: error: [NullAway] passing @Nullable parameter 'text' where @NonNull is required
+        preCompWidth, preCompHeight, text, textProperties, inOutKeyframes, matteType,
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:279: error: [NullAway] passing @Nullable parameter 'textProperties' where @NonNull is required
+        preCompWidth, preCompHeight, text, textProperties, inOutKeyframes, matteType,
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LayerParser.java:280: error: [NullAway] passing @Nullable parameter 'timeRemapping' where @NonNull is required
+        timeRemapping, hidden);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/FontCharacterParser.java:78: error: [NullAway] passing @Nullable parameter 'style' where @NonNull is required
+    return new FontCharacter(shapes, character, size, width, style, fontFamily);
+                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/FontCharacterParser.java:78: error: [NullAway] passing @Nullable parameter 'fontFamily' where @NonNull is required
+    return new FontCharacter(shapes, character, size, width, style, fontFamily);
+                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:92: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            rotation.getKeyframes().add(new Keyframe(composition, 0f, 0f, null, 0f, composition.getEndFrame()));
+                                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:94: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            rotation.getKeyframes().set(0, new Keyframe(composition, 0f, 0f, null, 0f, composition.getEndFrame()));
+                                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:121: error: [NullAway] passing @Nullable parameter 'anchorPoint' where @NonNull is required
+    if (isAnchorPointIdentity(anchorPoint)) {
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:124: error: [NullAway] passing @Nullable parameter 'position' where @NonNull is required
+    if (isPositionIdentity(position)) {
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:127: error: [NullAway] passing @Nullable parameter 'rotation' where @NonNull is required
+    if (isRotationIdentity(rotation)) {
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:130: error: [NullAway] passing @Nullable parameter 'scale' where @NonNull is required
+    if (isScaleIdentity(scale)) {
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:133: error: [NullAway] passing @Nullable parameter 'skew' where @NonNull is required
+    if (isSkewIdentity(skew)) {
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:136: error: [NullAway] passing @Nullable parameter 'skewAngle' where @NonNull is required
+    if (isSkewAngleIdentity(skewAngle)) {
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'anchorPoint' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'position' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'scale' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'rotation' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'opacity' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'startOpacity' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'endOpacity' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'skew' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTransformParser.java:139: error: [NullAway] passing @Nullable parameter 'skewAngle' where @NonNull is required
+    return new AnimatableTransform(anchorPoint, position, scale, rotation, opacity, startOpacity, endOpacity, skew, skewAngle);
+                                                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ContentModelParser.java:47: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ContentModelParser.java:103: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return model;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:100: error: [NullAway] switch expression n is @Nullable
+            switch (n) {
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'offset' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'color' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'width' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'capType' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+                                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeStrokeParser.java:127: error: [NullAway] passing @Nullable parameter 'joinType' where @NonNull is required
+        name, offset, lineDashPattern, color, opacity, width, capType, joinType, miterLimit, hidden);
+                                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapePathParser.java:49: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new ShapePath(name, ind, shape, hidden);
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapePathParser.java:49: error: [NullAway] passing @Nullable parameter 'shape' where @NonNull is required
+    return new ShapePath(name, ind, shape, hidden);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:135: error: [NullAway] dereferenced expression n is @Nullable
+            if (n.equals("o")) {
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'gradientType' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'color' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'startPoint' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'endPoint' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'width' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'capType' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:158: error: [NullAway] passing @Nullable parameter 'joinType' where @NonNull is required
+        name, gradientType, color, opacity, startPoint, endPoint, width, capType, joinType,
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientStrokeParser.java:159: error: [NullAway] passing @Nullable parameter 'offset' where @NonNull is required
+        miterLimit, lineDashPattern, offset, hidden);
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/MergePathsParser.java:39: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new MergePaths(name, mode, hidden);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/MergePathsParser.java:39: error: [NullAway] passing @Nullable parameter 'mode' where @NonNull is required
+    return new MergePaths(name, mode, hidden);
+                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatablePathValueParser.java:93: error: [NullAway] passing @Nullable parameter 'xAnimation' where @NonNull is required
+    return new AnimatableSplitDimensionPathValue(xAnimation, yAnimation);
+                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatablePathValueParser.java:93: error: [NullAway] passing @Nullable parameter 'yAnimation' where @NonNull is required
+    return new AnimatableSplitDimensionPathValue(xAnimation, yAnimation);
+                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RepeaterParser.java:55: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new Repeater(name, copies, offset, transform, hidden);
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RepeaterParser.java:55: error: [NullAway] passing @Nullable parameter 'copies' where @NonNull is required
+    return new Repeater(name, copies, offset, transform, hidden);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RepeaterParser.java:55: error: [NullAway] passing @Nullable parameter 'offset' where @NonNull is required
+    return new Repeater(name, copies, offset, transform, hidden);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RepeaterParser.java:55: error: [NullAway] passing @Nullable parameter 'transform' where @NonNull is required
+    return new Repeater(name, copies, offset, transform, hidden);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'gradientType' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'color' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'startPoint' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'endPoint' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+                                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/GradientFillParser.java:98: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        name, gradientType, fillType, color, opacity, startPoint, endPoint, null, null, hidden);
+                                                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/FontParser.java:46: error: [NullAway] passing @Nullable parameter 'family' where @NonNull is required
+    return new Font(family, name, style, ascent);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/FontParser.java:46: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new Font(family, name, style, ascent);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/FontParser.java:46: error: [NullAway] passing @Nullable parameter 'style' where @NonNull is required
+    return new Font(family, name, style, ascent);
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeFillParser.java:66: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new ShapeFill(name, fillEnabled, fillType, color, opacity, hidden);
+                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeFillParser.java:66: error: [NullAway] passing @Nullable parameter 'color' where @NonNull is required
+    return new ShapeFill(name, fillEnabled, fillType, color, opacity, hidden);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RectangleShapeParser.java:58: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new RectangleShape(name, position, size, roundedness, hidden);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RectangleShapeParser.java:58: error: [NullAway] passing @Nullable parameter 'position' where @NonNull is required
+    return new RectangleShape(name, position, size, roundedness, hidden);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RectangleShapeParser.java:58: error: [NullAway] passing @Nullable parameter 'size' where @NonNull is required
+    return new RectangleShape(name, position, size, roundedness, hidden);
+                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/RectangleShapeParser.java:58: error: [NullAway] passing @Nullable parameter 'roundedness' where @NonNull is required
+    return new RectangleShape(name, position, size, roundedness, hidden);
+                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:27: error: [NullAway] @NonNull static field pathInterpolatorCache not initialized
+  private static SparseArrayCompat<WeakReference<Interpolator>> pathInterpolatorCache;
+                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:147: error: [NullAway] dereferenced expression e.getMessage() is @Nullable
+          if (e.getMessage().equals("The Path cannot loop back on itself.")) {
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:172: error: [NullAway] passing @Nullable parameter 'startValue' where @NonNull is required
+        new Keyframe<>(composition, startValue, endValue, interpolator, startFrame, null);
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:172: error: [NullAway] passing @Nullable parameter 'endValue' where @NonNull is required
+        new Keyframe<>(composition, startValue, endValue, interpolator, startFrame, null);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:172: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+        new Keyframe<>(composition, startValue, endValue, interpolator, startFrame, null);
+                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:173: error: [NullAway] assigning @Nullable expression to @NonNull field
+    keyframe.pathCp1 = pathCp1;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/KeyframeParser.java:174: error: [NullAway] assigning @Nullable expression to @NonNull field
+    keyframe.pathCp2 = pathCp2;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:72: error: [NullAway] initializer method does not guarantee @NonNull fields entrySet (line 454), keySet (line 455) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  LinkedHashTreeMap(Comparator<? super K> comparator) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:59: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this(null);
+         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:87: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return node != null ? node.value : null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:113: error: [NullAway] assigning @Nullable expression to @NonNull field
+      e.next = e.prev = null;
+             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:113: error: [NullAway] assigning @Nullable expression to @NonNull field
+      e.next = e.prev = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:122: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return node != null ? node.value : null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:168: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:202: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return key != null ? find((K) key, false) : null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:204: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:220: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return valuesEqual ? mine : null;
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:249: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.next = node.prev = null; // Help the GC (for performance)
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:249: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.next = node.prev = null; // Help the GC (for performance)
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:275: error: [NullAway] assigning @Nullable expression to @NonNull field
+        node.left = null;
+                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:283: error: [NullAway] assigning @Nullable expression to @NonNull field
+        node.right = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:290: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.left = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:293: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.right = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:295: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      replaceInParent(node, null);
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:313: error: [NullAway] assigning @Nullable expression to @NonNull field
+    node.parent = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:479: error: [NullAway] initializer method does not guarantee @NonNull fields parent (line 468), left (line 469), right (line 470), value (line 475) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Node() {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:486: error: [NullAway] initializer method does not guarantee @NonNull fields left (line 469), right (line 470), value (line 475) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    Node(Node<K, V> parent, K key, int hash, Node<K, V> next, Node<K, V> prev) {
+    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:480: error: [NullAway] assigning @Nullable expression to @NonNull field
+      key = null;
+          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:624: error: [NullAway] @NonNull field LinkedHashTreeMap$AvlIterator.stackTop not initialized
+    private Node<K, V> stackTop;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:629: error: [NullAway] assigning @Nullable expression to @NonNull field
+        n.parent = stackTop;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:632: error: [NullAway] assigning @Nullable expression to @NonNull field
+      this.stackTop = stackTop;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:638: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:642: error: [NullAway] assigning @Nullable expression to @NonNull field
+      result.parent = null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:672: error: [NullAway] @NonNull field LinkedHashTreeMap$AvlBuilder.stack not initialized
+    private Node<K, V> stack;
+                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:683: error: [NullAway] assigning @Nullable expression to @NonNull field
+      stack = null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:687: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.left = node.parent = node.right = null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:687: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.left = node.parent = node.right = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:687: error: [NullAway] assigning @Nullable expression to @NonNull field
+      node.left = node.parent = node.right = null;
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:762: error: [NullAway] assigning @Nullable expression to @NonNull field
+    Node<K, V> lastReturned = null;
+               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/LinkedHashTreeMap.java:786: error: [NullAway] assigning @Nullable expression to @NonNull field
+      lastReturned = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/JsonUtf8Reader.java:93: error: [NullAway] initializer method does not guarantee @NonNull field peekedString (line 90) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  JsonUtf8Reader(BufferedSource source) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/JsonUtf8Reader.java:620: error: [NullAway] assigning @Nullable expression to @NonNull field
+      peekedString = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/JsonUtf8Reader.java:702: error: [NullAway] assigning @Nullable expression to @NonNull field
+    peekedString = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/moshi/JsonUtf8Reader.java:818: error: [NullAway] assigning @Nullable expression to @NonNull field
+    peekedString = null;
+                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:41: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return new AnimatableTextProperties(null, null, null, null);
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:41: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return new AnimatableTextProperties(null, null, null, null);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:41: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return new AnimatableTextProperties(null, null, null, null);
+                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:41: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+      return new AnimatableTextProperties(null, null, null, null);
+                                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:75: error: [NullAway] passing @Nullable parameter 'color' where @NonNull is required
+    return new AnimatableTextProperties(color, stroke, strokeWidth, tracking);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:75: error: [NullAway] passing @Nullable parameter 'stroke' where @NonNull is required
+    return new AnimatableTextProperties(color, stroke, strokeWidth, tracking);
+                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:75: error: [NullAway] passing @Nullable parameter 'strokeWidth' where @NonNull is required
+    return new AnimatableTextProperties(color, stroke, strokeWidth, tracking);
+                                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/AnimatableTextPropertiesParser.java:75: error: [NullAway] passing @Nullable parameter 'tracking' where @NonNull is required
+    return new AnimatableTextProperties(color, stroke, strokeWidth, tracking);
+                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/ShapeGroupParser.java:50: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new ShapeGroup(name, items, hidden);
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/MaskParser.java:63: error: [NullAway] passing @Nullable parameter 'maskMode' where @NonNull is required
+    return new Mask(maskMode, maskPath, opacity, inverted);
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/MaskParser.java:63: error: [NullAway] passing @Nullable parameter 'maskPath' where @NonNull is required
+    return new Mask(maskMode, maskPath, opacity, inverted);
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/MaskParser.java:63: error: [NullAway] passing @Nullable parameter 'opacity' where @NonNull is required
+    return new Mask(maskMode, maskPath, opacity, inverted);
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/CircleShapeParser.java:57: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+    return new CircleShape(name, position, size, reversed, hidden);
+                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/CircleShapeParser.java:57: error: [NullAway] passing @Nullable parameter 'position' where @NonNull is required
+    return new CircleShape(name, position, size, reversed, hidden);
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/CircleShapeParser.java:57: error: [NullAway] passing @Nullable parameter 'size' where @NonNull is required
+    return new CircleShape(name, position, size, reversed, hidden);
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LottieCompositionMoshiParser.java:195: error: [NullAway] passing @Nullable parameter 'id' where @NonNull is required
+            new LottieImageAsset(width, height, id, imageFileName, relativeFolder);
+                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LottieCompositionMoshiParser.java:195: error: [NullAway] passing @Nullable parameter 'relativeFolder' where @NonNull is required
+            new LottieImageAsset(width, height, id, imageFileName, relativeFolder);
+                                                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/LottieCompositionMoshiParser.java:268: error: [NullAway] passing @Nullable parameter 'comment' where @NonNull is required
+      markers.add(new Marker(comment, frame, durationFrames));
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/DocumentDataParser.java:91: error: [NullAway] passing @Nullable parameter 'text' where @NonNull is required
+    return new DocumentData(text, fontName, size, justification, tracking, lineHeight,
+                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/DocumentDataParser.java:91: error: [NullAway] passing @Nullable parameter 'fontName' where @NonNull is required
+    return new DocumentData(text, fontName, size, justification, tracking, lineHeight,
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/LottieCompositionCache.java:28: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/ImageLayer.java:28: error: [NullAway] initializer method does not guarantee @NonNull field colorFilterAnimation (line 26) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  ImageLayer(LottieDrawable lottieDrawable, Layer layerModel) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/ImageLayer.java:72: error: [NullAway] assigning @Nullable expression to @NonNull field
+         colorFilterAnimation = null;
+                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:73: error: [NullAway] initializer method does not guarantee @NonNull fields colorAnimation (line 53), colorCallbackAnimation (line 55), strokeColorAnimation (line 57), strokeColorCallbackAnimation (line 59), strokeWidthAnimation (line 61), strokeWidthCallbackAnimation (line 63), trackingAnimation (line 65), trackingCallbackAnimation (line 67), textSizeAnimation (line 69), textSizeCallbackAnimation (line 71) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  TextLayer(LottieDrawable lottieDrawable, Layer layerModel) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:464: error: [NullAway] assigning @Nullable expression to @NonNull field
+          colorCallbackAnimation = null;
+                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:476: error: [NullAway] assigning @Nullable expression to @NonNull field
+        strokeColorCallbackAnimation = null;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:488: error: [NullAway] assigning @Nullable expression to @NonNull field
+        strokeWidthCallbackAnimation = null;
+                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:500: error: [NullAway] assigning @Nullable expression to @NonNull field
+        trackingCallbackAnimation = null;
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/TextLayer.java:512: error: [NullAway] assigning @Nullable expression to @NonNull field
+        textSizeCallbackAnimation = null;
+                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/SolidLayer.java:27: error: [NullAway] initializer method does not guarantee @NonNull field colorFilterAnimation (line 25) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+  SolidLayer(LottieDrawable lottieDrawable, Layer layerModel) {
+  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/SolidLayer.java:85: error: [NullAway] assigning @Nullable expression to @NonNull field
+        colorFilterAnimation = null;
+                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieCompositionFactory.java:313: warning: [BadImport] Importing nested classes/static methods/static fields with commonly-used names can make code harder to read, because it may not be clear from the context exactly which type is being referred to. Qualifying the name with that of the containing class can make the code clearer.
+      return fromJsonReaderSync(of(buffer(source(stream))), cacheKey);
+                                ^
+    (see https://errorprone.info/bugpattern/BadImport)
+  Did you mean 'return fromJsonReaderSync(JsonReader.of(buffer(source(stream))), cacheKey);'?
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:25: error: [NullAway] @NonNull static field sections not initialized
+  private static String[] sections;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:26: error: [NullAway] @NonNull static field startTimeNs not initialized
+  private static long[] startTimeNs;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:30: error: [NullAway] @NonNull static field fetcher not initialized
+  private static LottieNetworkFetcher fetcher;
+                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:31: error: [NullAway] @NonNull static field cacheProvider not initialized
+  private static LottieNetworkCacheProvider cacheProvider;
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:33: error: [NullAway] @NonNull static field networkFetcher not initialized
+  private static volatile NetworkFetcher networkFetcher;
+                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:34: error: [NullAway] @NonNull static field networkCache not initialized
+  private static volatile NetworkCache networkCache;
+                                       ^
+    (see http://t.uber.com/nullaway )
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+331 errors
+1 warning
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':lottie:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s

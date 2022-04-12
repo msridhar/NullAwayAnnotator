@@ -1,0 +1,6 @@
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethodFinder.java:276: error: [NullAway] assigning @Nullable expression to @NonNull field
+                    clazz = null;
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/util/ErrorDialogManager.java:178: error: [NullAway] @NonNull static field factory not initialized
+    public static ErrorDialogFragmentFactory<?> factory;
+/Users/nima/Developer/NullAwayFixer/Projects/EventBus/EventBus/src/org/greenrobot/eventbus/SubscriberMethod.java:30: error: [NullAway] initializer method does not guarantee @NonNull field methodString (line 28) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public SubscriberMethod(Method method, Class<?> eventType, ThreadMode threadMode, int priority, boolean sticky) {

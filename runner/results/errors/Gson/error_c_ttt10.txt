@@ -1,0 +1,320 @@
+warning: [options] source value 1.6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:108: error: [NullAway] dereferenced expression created is @Nullable
+        V result = created.value;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:321: error: [NullAway] dereferenced expression right is @Nullable
+                Node<K, V> rightLeft = right.left;
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:340: error: [NullAway] dereferenced expression left is @Nullable
+                Node<K, V> leftLeft = left.left;
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:382: error: [NullAway] dereferenced expression pivot is @Nullable
+        Node<K, V> pivotLeft = pivot.left;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:404: error: [NullAway] dereferenced expression pivot is @Nullable
+        Node<K, V> pivotLeft = pivot.left;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:637: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return nextNode().key;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/TypeAdapter.java:201: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/TypeAdapter.java:203: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return TypeAdapter.this.read(reader);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/stream/JsonReader.java:855: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return result;
+        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/reflect/UnsafeReflectionAccessor.java:62: error: [NullAway] dereferenced expression unsafeClass is @Nullable
+                Method method = unsafeClass.getMethod("objectFieldOffset", Field.class);
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:115: error: [NullAway] dereferenced expression created is @Nullable
+        V result = created.value;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:129: error: [NullAway] assigning @Nullable expression to @NonNull field
+            e.next = e.prev = null;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:257: error: [NullAway] dereferenced expression node.prev is @Nullable
+            node.prev.next = node.next;
+                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:260: error: [NullAway] assigning @Nullable expression to @NonNull field
+            node.next = node.prev = null;
+                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:353: error: [NullAway] dereferenced expression right is @Nullable
+                Node<K, V> rightLeft = right.left;
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:372: error: [NullAway] dereferenced expression left is @Nullable
+                Node<K, V> leftLeft = left.left;
+                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:414: error: [NullAway] dereferenced expression pivot is @Nullable
+        Node<K, V> pivotLeft = pivot.left;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:436: error: [NullAway] dereferenced expression pivot is @Nullable
+        Node<K, V> pivotLeft = pivot.left;
+                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:515: error: [NullAway] dereferenced expression prev is @Nullable
+            prev.next = this;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:760: error: [NullAway] dereferenced expression right is @Nullable
+                    Node<K, V> center = right.parent;
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:761: error: [NullAway] dereferenced expression center is @Nullable
+                    Node<K, V> left = center.parent;
+                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:762: error: [NullAway] dereferenced expression left is @Nullable
+                    center.parent = left.parent;
+                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:773: error: [NullAway] dereferenced expression right is @Nullable
+                    Node<K, V> center = right.parent;
+                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:776: error: [NullAway] dereferenced expression center is @Nullable
+                    center.right = right;
+                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:788: error: [NullAway] dereferenced expression stackTop is @Nullable
+            if (stackTop.parent != null) {
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedHashTreeMap.java:886: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return nextNode().key;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java:131: error: [NullAway] @NonNull field Excluder$1.delegate not initialized
+            private TypeAdapter<T> delegate;
+                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java:137: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Excluder.java:139: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return delegate().read(in);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:318: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:346: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:380: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:407: error: [NullAway] dereferenced expression value is @Nullable
+                return new AtomicLong(value.longValue());
+                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/Gson.java:429: error: [NullAway] dereferenced expression longAdapter.read(in) is @Nullable
+                    long value = longAdapter.read(in).longValue();
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Streams.java:49: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return TypeAdapters.JSON_ELEMENT.read(reader);
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/Streams.java:118: error: [NullAway] @NonNull field Streams$AppendableWriter$CurrentWrite.chars not initialized
+            char[] chars;
+                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/DateTypeAdapter.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return typeToken.getRawType() == Date.class ? (TypeAdapter<T>) new DateTypeAdapter() : null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/MapTypeAdapterFactory.java:182: error: [NullAway] dereferenced expression JsonReaderInternalAccess.INSTANCE is @Nullable
+                    JsonReaderInternalAccess.INSTANCE.promoteNameToValue(in);
+                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TreeTypeAdapter.java:159: error: [NullAway] dereferenced expression hierarchyType is @Nullable
+            boolean matches = exactType != null ? exactType.equals(type) || matchRawType && exactType.getType() == type.getRawType() : hierarchyType.isAssignableFrom(type.getRawType());
+                                                                                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/SqlDateTypeAdapter.java:46: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return typeToken.getRawType() == java.sql.Date.class ? (TypeAdapter<T>) new SqlDateTypeAdapter() : null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:142: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:166: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:185: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:209: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:232: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:324: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:345: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:362: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:381: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:404: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:428: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:449: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:470: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:493: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:512: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:531: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:534: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return "null".equals(nextString) ? null : new URL(nextString);
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:551: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:555: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return "null".equals(nextString) ? null : new URI(nextString);
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:575: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:595: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:630: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:638: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return date != null ? new Timestamp(date.getTime()) : null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:667: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:728: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:883: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:900: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return typeToken.equals(type) ? (TypeAdapter<T>) typeAdapter : null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:912: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return typeToken.getRawType() == type ? (TypeAdapter<T>) typeAdapter : null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:930: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return (rawType == unboxed || rawType == boxed) ? (TypeAdapter<T>) typeAdapter : null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:948: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return (rawType == base || rawType == sub) ? (TypeAdapter<T>) typeAdapter : null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:970: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:985: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                        return result;
+                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ArrayTypeAdapter.java:46: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/ObjectTypeAdapter.java:46: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TimeTypeAdapter.java:48: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return typeToken.getRawType() == Time.class ? (TypeAdapter<T>) new TimeTypeAdapter() : null;
+            ^
+    (see http://t.uber.com/nullaway )
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+75 errors
+3 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gson:compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
