@@ -1,32 +1,3 @@
-warning: unknown enum constant DataSourceType.GAUGE
-  reason: class file for com.netflix.servo.annotations.DataSourceType not found
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.COUNTER
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.GAUGE
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
-warning: unknown enum constant DataSourceType.INFORMATIONAL
 /Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/ssl/ServerSslConfig.java:63: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
         this(protocols, ciphers, certChainFile, keyFile, ClientAuth.NONE, null, (File) null, false);
                                                                           ^
@@ -843,22 +814,3 @@ warning: unknown enum constant DataSourceType.INFORMATIONAL
     public static String stack;
                          ^
     (see http://t.uber.com/nullaway )
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-204 errors
-28 warnings
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':zuul-core:compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 10s

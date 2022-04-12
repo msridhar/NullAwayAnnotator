@@ -1298,11 +1298,6 @@
         colorFilterAnimation = null;
                              ^
     (see http://t.uber.com/nullaway )
-/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieCompositionFactory.java:313: warning: [BadImport] Importing nested classes/static methods/static fields with commonly-used names can make code harder to read, because it may not be clear from the context exactly which type is being referred to. Qualifying the name with that of the containing class can make the code clearer.
-      return fromJsonReaderSync(of(buffer(source(stream))), cacheKey);
-                                ^
-    (see https://errorprone.info/bugpattern/BadImport)
-  Did you mean 'return fromJsonReaderSync(JsonReader.of(buffer(source(stream))), cacheKey);'?
 /Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:25: error: [NullAway] @NonNull static field sections not initialized
   private static String[] sections;
                           ^
@@ -1327,22 +1322,3 @@
   private static volatile NetworkCache networkCache;
                                        ^
     (see http://t.uber.com/nullaway )
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-331 errors
-1 warning
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':lottie:compileDebugJavaWithJavac'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 5s

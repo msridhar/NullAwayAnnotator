@@ -85,5 +85,5 @@ def sample_remaining_errors(name):
         exit()
 
 # capture_errors_in_branches("Jadx")
-# helper("../results/errors/LitiEngine/error_nullaway.txt")
-sample_remaining_errors("LitiEngine")
+# helper("../results/errors/Zuul/error_nullaway.txt")
+# sample_remaining_errors("LitiEngine")

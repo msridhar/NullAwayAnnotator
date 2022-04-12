@@ -50,19 +50,3 @@
         call.enqueue(new okhttp3.Callback() {
             ^
     (see http://t.uber.com/nullaway )
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-13 errors
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':retrofit:compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 3s

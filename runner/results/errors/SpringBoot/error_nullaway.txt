@@ -1,7 +1,3 @@
-Note: Processing Log4j annotations
-Note: Annotations processed
-Note: Processing Log4j annotations
-Note: No elements to process
 /Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/ansi/AnsiColors.java:130: error: [NullAway] returning @Nullable expression from method with @NonNull return type
 		return closest;
 		^
@@ -2798,17 +2794,3 @@ Note: No elements to process
 			return null;
 			^
     (see http://t.uber.com/nullaway )
-699 errors
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':spring-boot-project:spring-boot:compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 19s
