@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:493: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:512: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:531: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:534: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return "null".equals(nextString) ? null : new URL(nextString);
+/Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/bind/TypeAdapters.java:551: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                return null;

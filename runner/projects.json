@@ -83,7 +83,7 @@
             "path": "jadx",
             "submodule": "jadx-core",
             "cloc": "39843",
-            "build": "./gradlew jadx-core:compileJava\n",
+            "build": "./gradlew jadx-core:compileJava",
             "annot": {
                 "init": "jadx.Initializer",
                 "nullable": "org.jetbrains.annotations.Nullable",

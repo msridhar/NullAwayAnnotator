@@ -1,0 +1,2332 @@
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/MethodInfo.java:64: error: [NullAway] passing @Nullable parameter 'includeRetType ? retType : null' where @NonNull is required
+				includeRetType ? retType : null);
+				               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:171: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:565: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:589: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:600: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:604: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:612: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:616: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:628: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:758: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java:851: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:23: error: [NullAway] initializer method does not guarantee @NonNull fields pkg (line 16), parentClass (line 19), alias (line 21) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private ClassInfo(RootNode root, ArgType type, boolean inner) {
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:65: error: [NullAway] assigning @Nullable expression to @NonNull field
+			this.alias = null;
+			           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:82: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			alias.setFullName(makeFullClsName(alias.getPkg(), alias.getShortName(), null, true, false));
+			                                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:137: error: [NullAway] assigning @Nullable expression to @NonNull field
+			pkg = null;
+			    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:142: error: [NullAway] assigning @Nullable expression to @NonNull field
+			parentClass = null;
+			            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:228: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassInfo.java:236: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.parentClass = null;
+		                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:72: error: [NullAway] initializer method does not guarantee @NonNull fields clsp (line 66), appPackage (line 68), appResClass (line 70) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public RootNode(JadxArgs args) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:267: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return clsMap.get(clsInfo);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:273: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:276: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:299: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:318: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:325: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:361: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:370: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:377: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java:407: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxArgs.java:76: error: [NullAway] initializer method does not guarantee @NonNull fields outDir (line 23), outDirSrc (line 24), outDirRes (line 25) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public JadxArgs() {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxArgs.java:47: error: [NullAway] assigning @Nullable expression to @NonNull field
+	private Predicate<String> classFilter = null;
+	                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/ErrorsCounter.java:57: error: [NullAway] passing @Nullable parameter 'details' where @NonNull is required
+			e = new JadxOverflowException(details);
+			                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/StringUtils.java:97: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/StringUtils.java:198: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/StringUtils.java:215: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:34: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return values.get(key);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:115: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:126: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+						return null;
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:149: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:156: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:160: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:164: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:174: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:181: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java:205: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/InfoStorage.java:18: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return classes.get(type);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/InfoStorage.java:30: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return methods.get(id);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdate.java:374: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdate.java:377: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdate.java:381: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdate.java:385: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/MethodUtils.java:49: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		return processMethodArgsOverloaded(startCls, mthInfo, null);
+		                                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/MethodUtils.java:67: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/Utils.java:268: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/Utils.java:276: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:122: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:126: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:184: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:188: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:201: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:207: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:210: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return replaceMap.get(replaceType);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:215: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:224: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/utils/TypeUtils.java:237: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:82: error: [NullAway] initializer method does not guarantee @NonNull fields accessFlags (line 53), superClass (line 54), smali (line 65), parentClass (line 67) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ClassNode(RootNode root, IClassData cls) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:149: error: [NullAway] initializer method does not guarantee @NonNull fields superClass (line 54), smali (line 65) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private ClassNode(RootNode root, String name, int accessFlags) {
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:97: error: [NullAway] assigning @Nullable expression to @NonNull field
+				this.superClass = null;
+				                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:133: error: [NullAway] dereferenced expression a.getValues().get("accessFlags") is @Nullable
+			accFlagsValue = (Integer) a.getValues().get("accessFlags").getValue();
+			                                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:151: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.clsData = null;
+		             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:294: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.smali = null;
+		           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:353: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:362: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:371: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:375: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return mthInfoMap.get(mth);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:384: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:399: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java:503: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/NotificationAttrNode.java:23: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		addWarnComment(warn, null);
+		                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:38: error: [NullAway] initializer method does not guarantee @NonNull field nameMap (line 34) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ClspGraph(RootNode rootNode) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:71: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return nameMap.get(type.getObject());
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:78: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:99: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return cls.getMethodsMap().get(methodInfo.getShortId());
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:158: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java:210: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return clspClass;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/ResourceFile.java:47: error: [NullAway] initializer method does not guarantee @NonNull fields zipRef (line 37), deobfName (line 38) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	protected ResourceFile(JadxDecompiler decompiler, String name, ResourceType type) {
+	          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/ResourceFile.java:42: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResourceStorage.java:19: error: [NullAway] @NonNull field appPackage not initialized
+	private String appPackage;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResourceStorage.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return renames.get(id);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResourceStorage.java:57: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return uniqNameEntries.get(resourceEntry);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java:66: error: [NullAway] initializer method does not guarantee @NonNull field strings (line 64) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ResTableParser(RootNode root) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java:163: error: [NullAway] passing @Nullable parameter 'typeStrings' where @NonNull is required
+		PackageChunk pkg = new PackageChunk(id, name, typeStrings, keyStrings);
+		                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java:163: error: [NullAway] passing @Nullable parameter 'keyStrings' where @NonNull is required
+		PackageChunk pkg = new PackageChunk(id, name, typeStrings, keyStrings);
+		                                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java:387: error: [NullAway] passing @Nullable parameter 'localeScript' where @NonNull is required
+				screenHeightDp, localeScript, localeVariant, screenLayout2,
+				                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResTableParser.java:387: error: [NullAway] passing @Nullable parameter 'localeVariant' where @NonNull is required
+				screenHeightDp, localeScript, localeVariant, screenLayout2,
+				                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/CommonBinaryParser.java:7: error: [NullAway] @NonNull field is not initialized
+	protected ParserStream is;
+	                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:84: error: [NullAway] initializer method does not guarantee @NonNull fields thisArg (line 64), argsList (line 65), instructions (line 66), blocks (line 67), enterBlock (line 68), exitBlocks (line 69), sVars (line 70), exceptionHandlers (line 71), loops (line 72), region (line 73) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private MethodNode(ClassNode classNode, IMethodData mthData) {
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:92: error: [NullAway] assigning @Nullable expression to @NonNull field
+			this.codeReader = null;
+			                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:95: error: [NullAway] dereferenced expression codeReader is @Nullable
+			this.codeReader = codeReader.copy();
+			                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:112: error: [NullAway] assigning @Nullable expression to @NonNull field
+		thisArg = null;
+		        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:113: error: [NullAway] assigning @Nullable expression to @NonNull field
+		argsList = null;
+		         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:115: error: [NullAway] assigning @Nullable expression to @NonNull field
+		instructions = null;
+		             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:116: error: [NullAway] assigning @Nullable expression to @NonNull field
+		blocks = null;
+		       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:117: error: [NullAway] assigning @Nullable expression to @NonNull field
+		enterBlock = null;
+		           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:118: error: [NullAway] assigning @Nullable expression to @NonNull field
+		exitBlocks = null;
+		           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:119: error: [NullAway] assigning @Nullable expression to @NonNull field
+		region = null;
+		       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:207: error: [NullAway] assigning @Nullable expression to @NonNull field
+			thisArg = null;
+			        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:317: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.instructions = null;
+		                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:363: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:370: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:442: error: [NullAway] dereferenced expression an.getDefaultValue() is @Nullable
+		List<EncodedValue> types = (List<EncodedValue>) an.getDefaultValue().getValue();
+		                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java:569: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return noCode ? null : codeReader.getDebugInfo();
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java:21: error: [NullAway] initializer method does not guarantee @NonNull field sVar (line 19) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public RegisterArg(int rn, ArgType type) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java:67: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java:95: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java:135: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		RegisterArg duplicate = duplicate(regNum, getInitType(), null);
+		                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/RegisterArg.java:156: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/InsnArg.java:26: error: [NullAway] @NonNull field parentInsn not initialized
+	protected InsnNode parentInsn;
+	                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/InsnArg.java:104: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/InsnArg.java:108: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/InsnArg.java:112: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/InsnArg.java:138: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			insn.setResult(null);
+			               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/Typed.java:7: error: [NullAway] @NonNull field type not initialized
+	protected ArgType type;
+	                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java:37: error: [NullAway] initializer method does not guarantee @NonNull field result (line 29) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public InsnNode(InsnType type, List<InsnArg> args) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java:136: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+				InsnRemover.unbindArgUsage(null, arg);
+				                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java:159: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		InsnRemover.unbindArgUsage(null, arg);
+		                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java:408: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		RegisterArg resDupArg = result.duplicate(regNum, null);
+		                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/BlockNode.java:40: error: [NullAway] initializer method does not guarantee @NonNull fields cleanSuccessors (line 29), domFrontier (line 34), idom (line 36) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public BlockNode(int id, int offset) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:40: error: [NullAway] initializer method does not guarantee @NonNull field codeVar (line 38) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public SSAVar(int regNum, int v, @NotNull RegisterArg assign) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:34: error: [NullAway] assigning @Nullable expression to @NonNull field
+	private List<PhiInsn> usedInPhi = null;
+	                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:78: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:138: error: [NullAway] assigning @Nullable expression to @NonNull field
+				usedInPhi = null;
+				          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:144: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.usedInPhi = null;
+		               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:158: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:215: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java:246: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.codeVar = null;
+		             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/trycatch/ExceptionHandler.java:37: error: [NullAway] initializer method does not guarantee @NonNull fields handlerBlock (line 27), handlerRegion (line 29), arg (line 30), tryBlock (line 32) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ExceptionHandler(int addr,  ClassInfo type) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LoopInfo.java:23: error: [NullAway] initializer method does not guarantee @NonNull field parentLoop (line 21) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public LoopInfo(BlockNode start, BlockNode end) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/exceptions/DecodeException.java:18: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		super(mth, msg, null);
+		                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/annotations/AnnotationsList.java:28: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/annotations/AnnotationsList.java:44: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return map.get(className);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumClassAttr.java:49: error: [NullAway] initializer method does not guarantee @NonNull field staticMethod (line 47) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public EnumClassAttr(List<EnumField> fields) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumClassAttr.java:19: error: [NullAway] initializer method does not guarantee @NonNull field cls (line 17) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+		public EnumField(FieldNode field, ConstructorInsn co) {
+		       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumMapAttr.java:27: error: [NullAway] @NonNull field fieldsMap not initialized
+	private Map<FieldNode, KeyValueMap> fieldsMap;
+	                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumMapAttr.java:18: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return map.get(key);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumMapAttr.java:32: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/EnumMapAttr.java:34: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return fieldsMap.get(field);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/CodeWriter.java:47: error: [NullAway] initializer method does not guarantee @NonNull field code (line 38) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public CodeWriter() {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/CodeWriter.java:251: error: [NullAway] assigning @Nullable expression to @NonNull field
+		buf = null;
+		    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/MethodInlineAttr.java:16: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+	private static final MethodInlineAttr INLINE_NOT_NEEDED = new MethodInlineAttr(null, null);
+	                                                                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/MethodInlineAttr.java:16: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+	private static final MethodInlineAttr INLINE_NOT_NEEDED = new MethodInlineAttr(null, null);
+	                                                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/PhiInsn.java:55: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/PhiInsn.java:91: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/PhiInsn.java:99: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/PhiInsn.java:115: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		InsnRemover.unbindArgUsage(null, from);
+		                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/CodeVar.java:8: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/CodeVar.java:9: error: [NullAway] @NonNull field type not initialized
+	private ArgType type; // before type inference can be null and set only for immutable types
+	                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/CodePosition.java:16: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.node = null;
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JavaClass.java:32: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.parent = null;
+		            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JavaClass.java:39: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.decompiler = null;
+		                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JavaClass.java:177: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return getCodeInfo().getLineMapping().get(decompiledLine);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:90: error: [NullAway] initializer method does not guarantee @NonNull fields root (line 76), classes (line 77), resources (line 78), xmlParser (line 80) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public JadxDecompiler(JadxArgs args) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:120: error: [NullAway] assigning @Nullable expression to @NonNull field
+		root = null;
+		     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:121: error: [NullAway] assigning @Nullable expression to @NonNull field
+		classes = null;
+		        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:122: error: [NullAway] assigning @Nullable expression to @NonNull field
+		resources = null;
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:123: error: [NullAway] assigning @Nullable expression to @NonNull field
+		xmlParser = null;
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:351: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:359: error: [NullAway] passing @Nullable parameter 'parentJavaClass' where @NonNull is required
+			loadJavaClass(parentJavaClass);
+			              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:367: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:381: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:389: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:403: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:411: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:419: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:423: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:448: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:452: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java:463: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:59: error: [NullAway] initializer method does not guarantee @NonNull fields nsMap (line 42), nsMapGenerated (line 43), writer (line 46), strings (line 47), valuesParser (line 50), resourceIds (line 54), appPackageName (line 57) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public BinaryXMLParser(RootNode rootNode) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:80: error: [NullAway] assigning @Nullable expression to @NonNull field
+		nsMap = null;
+		      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:287: error: [NullAway] passing @Nullable parameter 'shortNsName' where @NonNull is required
+			if (isDeobfCandidateAttr(shortNsName, attrName)) {
+			                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:294: error: [NullAway] passing @Nullable parameter 'shortNsName' where @NonNull is required
+					shortNsName, attrName);
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/BinaryXMLParser.java:303: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JavaPackage.java:34: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/JavaPackage.java:39: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ValuesParser.java:21: error: [NullAway] @NonNull static field androidResMap not initialized
+	private static Map<Integer, String> androidResMap;
+	                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ValuesParser.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ValuesParser.java:87: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ValuesParser.java:156: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/ResourceEntry.java:17: error: [NullAway] initializer method does not guarantee @NonNull fields simpleValue (line 14), namedValues (line 15) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ResourceEntry(int id, String pkgName, String typeName, String keyName, String config) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/mods/ConstructorInsn.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InvokeNode.java:55: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/EntryConfig.java:136: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.localeScript = localeScript;
+		                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/entry/EntryConfig.java:137: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.localeVariant = localeVariant;
+		                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspClass.java:23: error: [NullAway] initializer method does not guarantee @NonNull field parents (line 19) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ClspClass(ArgType clsType, int id) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java:63: error: [NullAway] initializer method does not guarantee @NonNull field classes (line 77) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ClsSet(RootNode root) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java:184: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return cls;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java:419: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java:434: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/AttributeStorage.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return (T) attributes.get(type);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/AttributeStorage.java:75: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return aList == null ? null : aList.get(cls);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/info/ClassAliasInfo.java:12: error: [NullAway] initializer method does not guarantee @NonNull field fullName (line 10) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	ClassAliasInfo( String pkg, String shortName) {
+	^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:187: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:197: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:479: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:482: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:491: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:495: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:500: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:521: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:528: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/Deobfuscator.java:543: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/PackageNode.java:22: error: [NullAway] initializer method does not guarantee @NonNull fields packageAlias (line 17), cachedPackageFullName (line 19), cachedPackageFullAlias (line 20) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public PackageNode(String packageName) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/PackageNode.java:123: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return result;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/DeobfPresets.java:144: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return clsPresetMap.get(cls.makeRawFullName());
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/DeobfPresets.java:148: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return fldPresetMap.get(fld.getRawFullId());
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/deobf/DeobfPresets.java:152: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return mthPresetMap.get(mth.getRawFullId());
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:66: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:75: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:87: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:91: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:319: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return container == block ? container : null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/RegionUtils.java:328: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/kotlin/KotlinMetadataUtils.java:31: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/kotlin/KotlinMetadataUtils.java:35: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/kotlin/KotlinMetadataUtils.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/kotlin/KotlinMetadataUtils.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/kotlin/KotlinMetadataUtils.java:55: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/exceptions/CodegenException.java:19: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		super(mth, msg, null);
+		                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/exceptions/CodegenException.java:27: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		super(mth, msg, null);
+		                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java:62: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		this(cls, null, jadxArgs.isUseImports(), jadxArgs.isFallbackMode(), jadxArgs.isShowInconsistentCode());
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/AnnotationGen.java:139: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return defAnnotation.getValues().get(name);
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/AnnotationGen.java:142: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:217: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		makeInsn(insn, code, null);
+		                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:755: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/InsnGen.java:768: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/MethodGen.java:320: error: [NullAway] passing @Nullable parameter 'prevInsn' where @NonNull is required
+			if (option != BLOCK_DUMP && needLabel(insn, prevInsn)) {
+			                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/MethodGen.java:401: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		ClassGen clsGen = new ClassGen(mth.getParentClass(), null, false, true, true);
+		                                                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/FillArrayInsn.java:15: error: [NullAway] initializer method does not guarantee @NonNull field arrayData (line 13) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public FillArrayInsn(InsnArg arg, int target) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/mods/TernaryInsn.java:32: error: [NullAway] initializer method does not guarantee @NonNull field condition (line 14) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private TernaryInsn() {
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/ArithNode.java:75: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		ArithNode insn = new ArithNode(op, null, res, a);
+		                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/ArithNode.java:114: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		ArithNode copy = new ArithNode(op, null, getArg(0).duplicate(), getArg(1).duplicate());
+		                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:48: error: [NullAway] assigning @Nullable expression to @NonNull field
+		this.compare = null;
+		             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:64: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:205: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:208: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:212: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java:250: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:70: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return first != node ? first : null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:76: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:183: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:187: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:195: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:208: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:222: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:233: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:239: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:246: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:256: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:275: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:289: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:315: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:341: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return s.isEmpty() ? null : s.get(0);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:358: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:442: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:476: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:481: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:484: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:503: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:730: error: [NullAway] dereferenced expression exitBitSet is @Nullable
+		exitBitSet.clear();
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:749: error: [NullAway] dereferenced expression d is @Nullable
+						d.and(scPDoms);
+						 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:752: error: [NullAway] dereferenced expression d is @Nullable
+				d.set(block.getId());
+				 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:762: error: [NullAway] dereferenced expression postDoms is @Nullable
+			postDoms.clear(block.getId());
+			        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:798: error: [NullAway] passing @Nullable parameter 'postDoms' where @NonNull is required
+		BitSet bs = copyBlocksBitSet(mth, postDoms);
+		                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/IfNode.java:23: error: [NullAway] initializer method does not guarantee @NonNull fields thenBlock (line 20), elseBlock (line 21) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public IfNode(InsnData insn, IfOp op) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/IfNode.java:41: error: [NullAway] initializer method does not guarantee @NonNull fields thenBlock (line 20), elseBlock (line 21) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private IfNode(IfOp op, int targetOffset) {
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java:206: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java:219: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java:223: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return OBJ_ALIAS.get(name);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java:256: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/NameGen.java:272: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return OBJ_ALIAS.get(Consts.CLASS_CLASS);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:68: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:79: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:101: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:107: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:110: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:119: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:129: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:139: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:155: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:163: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:171: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:179: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/files/FileUtils.java:57: error: [NullAway] dereferenced expression path.getParent() is @Nullable
+			makeDirs(path.getParent().toFile());
+			                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/files/FileUtils.java:214: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/files/FileUtils.java:291: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnRemover.java:40: error: [NullAway] initializer method does not guarantee @NonNull field instrList (line 34) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public InsnRemover(MethodNode mth, BlockNode block) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnRemover.java:37: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		this(mth, null);
+		          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/EncodedValueUtils.java:21: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/EncodedValueUtils.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/XmlSecurity.java:8: error: [NullAway] assigning @Nullable expression to @NonNull field
+	private static DocumentBuilderFactory secureDbf = null;
+	                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResourcesSaver.java:100: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ManifestAttributes.java:53: error: [NullAway] @NonNull static field instance not initialized
+	private static ManifestAttributes instance;
+	                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ManifestAttributes.java:169: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ManifestAttributes.java:172: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return attr.getValues().get(value);
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ManifestAttributes.java:187: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResXmlGen.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResXmlGen.java:172: error: [NullAway] passing @Nullable parameter 'quantity' where @NonNull is required
+				addSimpleValue(cw, typeName, itemTag, "quantity", quantity, valueStr);
+				                                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResXmlGen.java:175: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+				addSimpleValue(cw, typeName, itemTag, null, null, valueStr);
+				                                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResXmlGen.java:175: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+				addSimpleValue(cw, typeName, itemTag, null, null, valueStr);
+				                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/xmlgen/XmlDeobf.java:43: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return DEOBF_MAP.get(old);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/TypeGen.java:105: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/TypeGen.java:134: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonMthMapping.java:4: error: [NullAway] @NonNull field signature not initialized
+	private String signature;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonMthMapping.java:5: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonMthMapping.java:6: error: [NullAway] @NonNull field alias not initialized
+	private String alias;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonMthMapping.java:7: error: [NullAway] @NonNull field offset not initialized
+	private String offset;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonMapping.java:6: error: [NullAway] @NonNull field classes not initialized
+	private List<JsonClsMapping> classes;
+	                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:6: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:7: error: [NullAway] @NonNull field alias not initialized
+	private String alias;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:9: error: [NullAway] @NonNull field json not initialized
+	private String json;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:11: error: [NullAway] @NonNull field topClass not initialized
+	private String topClass;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:13: error: [NullAway] @NonNull field fields not initialized
+	private List<JsonFieldMapping> fields;
+	                               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonClsMapping.java:14: error: [NullAway] @NonNull field methods not initialized
+	private List<JsonMthMapping> methods;
+	                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonFieldMapping.java:4: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/mapping/JsonFieldMapping.java:5: error: [NullAway] @NonNull field alias not initialized
+	private String alias;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/JsonCodeGen.java:56: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		JsonClass jsonCls = processCls(cls, null);
+		                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/JsonCodeGen.java:194: error: [NullAway] passing @Nullable parameter 'lineMapping.get(line)' where @NonNull is required
+			jsonCodeLine.setSourceLine(lineMapping.get(line));
+			                                          ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:9: error: [NullAway] @NonNull field pkg not initialized
+	private String pkg;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:10: error: [NullAway] @NonNull field type not initialized
+	private String type; // class, interface, enum
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:12: error: [NullAway] @NonNull field superClass not initialized
+	private String superClass;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:14: error: [NullAway] @NonNull field interfaces not initialized
+	private List<String> interfaces;
+	                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:15: error: [NullAway] @NonNull field dex not initialized
+	private String dex;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:17: error: [NullAway] @NonNull field fields not initialized
+	private List<JsonField> fields;
+	                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:18: error: [NullAway] @NonNull field methods not initialized
+	private List<JsonMethod> methods;
+	                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:19: error: [NullAway] @NonNull field innerClasses not initialized
+	private List<JsonClass> innerClasses;
+	                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonClass.java:21: error: [NullAway] @NonNull field imports not initialized
+	private List<String> imports;
+	                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonNode.java:4: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonNode.java:5: error: [NullAway] @NonNull field alias not initialized
+	private String alias;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonNode.java:6: error: [NullAway] @NonNull field declaration not initialized
+	private String declaration;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonCodeLine.java:6: error: [NullAway] @NonNull field code not initialized
+	private String code;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonCodeLine.java:7: error: [NullAway] @NonNull field offset not initialized
+	private String offset;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonCodeLine.java:8: error: [NullAway] @NonNull field sourceLine not initialized
+	private Integer sourceLine;
+	                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonField.java:4: error: [NullAway] @NonNull field type not initialized
+	String type;
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonMethod.java:6: error: [NullAway] @NonNull field signature not initialized
+	private String signature;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonMethod.java:7: error: [NullAway] @NonNull field returnType not initialized
+	private String returnType;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonMethod.java:8: error: [NullAway] @NonNull field arguments not initialized
+	private List<String> arguments;
+	                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonMethod.java:9: error: [NullAway] @NonNull field lines not initialized
+	private List<JsonCodeLine> lines;
+	                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/json/cls/JsonMethod.java:10: error: [NullAway] @NonNull field offset not initialized
+	private String offset;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfRegion.java:24: error: [NullAway] initializer method does not guarantee @NonNull fields conditionBlocks (line 18), condition (line 20), thenRegion (line 21), elseRegion (line 22) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public IfRegion(IRegion parent) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/loops/LoopRegion.java:36: error: [NullAway] initializer method does not guarantee @NonNull fields preCondition (line 30), body (line 31), type (line 34) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public LoopRegion(IRegion parent, LoopInfo info,  BlockNode header, boolean reversed) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/loops/LoopRegion.java:131: error: [NullAway] assigning @Nullable expression to @NonNull field
+			preCondition = null;
+			             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/TryCatchRegion.java:23: error: [NullAway] initializer method does not guarantee @NonNull fields finallyRegion (line 20), tryCatchBlock (line 21) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public TryCatchRegion(IRegion parent, IContainer tryRegion) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:316: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+				return insn(InsnType.THROW, null, InsnArg.reg(insn, 0, ArgType.THROWABLE));
+				                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:326: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+						null,
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:443: error: [NullAway] passing @Nullable parameter '((IArrayPayload) insn.getPayload())' where @NonNull is required
+				return new FillArrayData(((IArrayPayload) insn.getPayload()));
+				                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:457: error: [NullAway] passing @Nullable parameter '((ISwitchPayload) insn.getPayload())' where @NonNull is required
+				return new SwitchData(((ISwitchPayload) insn.getPayload()));
+				                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:461: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+						null,
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:466: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+						null,
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/SwitchInsn.java:29: error: [NullAway] initializer method does not guarantee @NonNull fields switchData (line 21), modifiedKeys (line 25), targetBlocks (line 26), defTargetBlock (line 27) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public SwitchInsn(InsnArg arg, int dataTarget, boolean packed) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/VarName.java:4: error: [NullAway] @NonNull field name not initialized
+	private String name;
+	               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ProcessInstructionsVisitor.java:151: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/AttachTryCatchVisitor.java:130: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			tcBlock.addHandler(mth, addr, null);
+			                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:51: error: [NullAway] @NonNull field stringGetBytesMth not initialized
+	private MethodInfo stringGetBytesMth;
+	                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:128: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:169: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:186: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+							return null;
+							^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:206: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+							return null;
+							^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:212: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:217: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:239: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:308: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:359: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:364: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:370: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:378: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:392: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:411: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:472: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:527: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:532: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:561: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:571: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:577: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:583: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:588: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:595: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java:616: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java:196: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java:682: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java:810: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			block.setDoms(null);
+			              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java:811: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			block.setIDom(null);
+			              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/BlockProcessor.java:812: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			block.setDomFrontier(null);
+			                     ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocksmaker/helpers/InsnsSlice.java:41: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return insnMap.get(insn);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:150: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:225: error: [NullAway] passing @Nullable parameter 'out' where @NonNull is required
+			stack.addExit(out);
+			              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:245: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return out;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:304: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:334: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		LoopRegion loopRegion = new LoopRegion(curRegion, loop, null, false);
+		                                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:385: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return out;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:463: error: [NullAway] passing @Nullable parameter 'insertBlock' where @NonNull is required
+		EdgeInsnAttr.addEdgeInsn(insertBlock, insertBlock.getSuccessors().get(0), breakInsn);
+		                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:463: error: [NullAway] dereferenced expression insertBlock is @Nullable
+		EdgeInsnAttr.addEdgeInsn(insertBlock, insertBlock.getSuccessors().get(0), breakInsn);
+		                                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:464: error: [NullAway] passing @Nullable parameter 'exit' where @NonNull is required
+		stack.addExit(exit);
+		              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:466: error: [NullAway] passing @Nullable parameter 'exit' where @NonNull is required
+		addBreakLabel(exitEdge, exit, breakInsn);
+		                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:578: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:602: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return exit;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:651: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:662: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:676: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:682: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:699: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			ifRegion.setElseRegion(null);
+			                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:792: error: [NullAway] passing @Nullable parameter 'out' where @NonNull is required
+		stack.addExit(out);
+		              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:824: error: [NullAway] passing @Nullable parameter 'next' where @NonNull is required
+				stack.addExit(next);
+				              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:826: error: [NullAway] passing @Nullable parameter 'next' where @NonNull is required
+				stack.removeExit(next);
+				                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:839: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return out;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:854: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:947: error: [NullAway] passing @Nullable parameter 'fallThroughCases.get(b)' where @NonNull is required
+			} else if (a.equals(fallThroughCases.get(b))) {
+			                                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java:1042: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:44: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:67: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			IfInfo ifInfo = new IfInfo(info, null, null);
+			                                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:67: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			IfInfo ifInfo = new IfInfo(info, null, null);
+			                                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:74: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			info.setOutBlock(null);
+			                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:81: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:84: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			info = new IfInfo(info, thenBlock, null);
+			                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:88: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			info = new IfInfo(info, elseBlock, null);
+			                                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:111: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			info.setOutBlock(null);
+			                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:156: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:160: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:171: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:195: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:237: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:240: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:253: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:357: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:371: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:380: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:385: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:388: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfMakerHelper.java:421: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfInfo.java:31: error: [NullAway] initializer method does not guarantee @NonNull fields outBlock (line 18), ifBlock (line 19) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	private IfInfo(IfCondition condition, BlockNode thenBlock, BlockNode elseBlock,
+	        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionStack.java:33: error: [NullAway] initializer method does not guarantee @NonNull field region (line 31) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+		public State() {
+		       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:152: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:156: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:160: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:165: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:170: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:175: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:181: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:184: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:188: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:197: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:200: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:204: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:208: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:211: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java:255: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		if (!checkInvoke(assignInsn, null, "iterator()Ljava/util/Iterator;")) {
+		                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/variables/ProcessVariables.java:78: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+							insn.setResult(null);
+							               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/variables/ProcessVariables.java:120: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		VarUsage mergedUsage = new VarUsage(null);
+		                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/ProcessTryCatchRegions.java:103: error: [NullAway] passing @Nullable parameter 'tb' where @NonNull is required
+				if (!wrapBlocks(region, tb, dominator)) {
+				                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/TernaryMod.java:143: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			TernaryInsn ternInsn = new TernaryInsn(ifRegion.getCondition(), null, thenArg, elseArg);
+			                                                                ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/TernaryMod.java:185: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/IfRegionVisitor.java:154: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			ifRegion.setElseRegion(null);
+			                       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeSearch.java:358: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeSearch.java:368: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeSearch.java:375: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeSearchVarInfo.java:17: error: [NullAway] initializer method does not guarantee @NonNull fields currentType (line 12), candidateTypes (line 13), constraints (line 15) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public TypeSearchVarInfo(SSAVar var) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeBoundConst.java:14: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		this(bound, type, null);
+		                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:71: error: [NullAway] @NonNull field root not initialized
+	private RootNode root;
+	                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:72: error: [NullAway] @NonNull field typeUpdate not initialized
+	private TypeUpdate typeUpdate;
+	                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:73: error: [NullAway] @NonNull field resolvers not initialized
+	private List<Function<MethodNode, Boolean>> resolvers;
+	                                            ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:328: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:338: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:346: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:350: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:355: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:377: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			for (ArgType arrElemType : makePossibleTypesList(type.getArrayElement(), null)) {
+			                                                                         ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:672: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:675: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return phiArgType;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:712: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		RegisterArg resultArg = reg.duplicate(regNum, null);
+		                                              ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:728: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:737: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java:906: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/OverrideMethodVisitor.java:213: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/OverrideMethodVisitor.java:216: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/OverrideMethodVisitor.java:231: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:121: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:125: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:129: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:161: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java:176: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:61: error: [NullAway] @NonNull field enumValueOfMth not initialized
+	private MethodInfo enumValueOfMth;
+	                   ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:215: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:218: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:227: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:233: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:255: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:270: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:281: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:286: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:290: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:295: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:314: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:318: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:323: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:328: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:339: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:344: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:347: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:351: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:367: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:444: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:453: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:461: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:472: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:284: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:288: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:297: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:303: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:316: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:338: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+					return null;
+					^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkFinallyVisitor.java:369: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/usage/UseSet.java:22: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return useMap.get(obj);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/AttachMethodDetails.java:26: error: [NullAway] @NonNull field methodUtils not initialized
+	private MethodUtils methodUtils;
+	                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/shrink/ArgsInfo.java:24: error: [NullAway] initializer method does not guarantee @NonNull field inlinedInsn (line 22) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public ArgsInfo(InsnNode insn, List<ArgsInfo> argsList, int pos) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/shrink/ArgsInfo.java:64: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ShadowFieldVisitor.java:34: error: [NullAway] @NonNull field fixInfoMap not initialized
+	private Map<String, FieldFixInfo> fixInfoMap;
+	                                  ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ShadowFieldVisitor.java:59: error: [NullAway] @NonNull field ShadowFieldVisitor$FieldFixInfo.fieldFixMap not initialized
+		Map<FieldInfo, FieldFixType> fieldFixMap;
+		                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ShadowFieldVisitor.java:162: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/PrepareForCodeGen.java:193: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+					insn.setResult(null);
+					               ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/PrepareForCodeGen.java:225: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+				Region region = new Region(null);
+				                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/PrepareForCodeGen.java:258: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ssa/LiveVarAnalysis.java:26: error: [NullAway] initializer method does not guarantee @NonNull fields uses (line 21), defs (line 22), liveIn (line 23), assignBlocks (line 24) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public LiveVarAnalysis(MethodNode mth) {
+	       ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SignatureProcessor.java:23: error: [NullAway] @NonNull field root not initialized
+	private RootNode root;
+	                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SignatureProcessor.java:135: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SignatureProcessor.java:146: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SignatureProcessor.java:153: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:41: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:53: error: [NullAway] dereferenced expression a.getDefaultValue() is @Nullable
+		List<EncodedValue> values = (List<EncodedValue>) a.getDefaultValue().getValue();
+		                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:136: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return skipUntil(lastChar) ? inclusiveSlice() : null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:165: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java:188: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkMethodsForInline.java:53: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkMethodsForInline.java:91: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkMethodsForInline.java:96: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkMethodsForInline.java:103: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+			copy.replaceArg(regArg, regArg.duplicate(regArg.getRegNum(), null));
+			                                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/debuginfo/DebugInfoApplyVisitor.java:57: error: [NullAway] passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+			LOG.error("Error to apply debug info: {}", ErrorsCounter.formatMsg(mth, e.getMessage()), e);
+			                                                                                    ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/debuginfo/DebugInfoAttachVisitor.java:50: error: [NullAway] passing @Nullable parameter 'e.getMessage()' where @NonNull is required
+					+ ErrorsCounter.formatMsg(mth, e.getMessage())
+					                                           ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:229: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:268: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:273: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:277: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:281: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:285: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ReSugarCode.java:289: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:513: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:518: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:535: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java:540: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/DeboxingVisitor.java:41: error: [NullAway] @NonNull field valueOfMths not initialized
+	private Set<MethodInfo> valueOfMths;
+	                        ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/DeboxingVisitor.java:88: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/DeboxingVisitor.java:118: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/RenameVisitor.java:38: error: [NullAway] dereferenced expression inputFilePath.getParent() is @Nullable
+		Path deobfMapPath = inputFilePath.getParent().resolve(baseName + ".jobf");
+		                                             ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/RenameVisitor.java:142: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/RenameVisitor.java:236: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MethodInvokeVisitor.java:47: error: [NullAway] @NonNull field root not initialized
+	private RootNode root;
+	                 ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/EmptyAttrStorage.java:22: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/EmptyAttrStorage.java:27: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/export/TemplateFile.java:31: error: [NullAway] @NonNull field TemplateFile$ParserState.curVariable not initialized
+		private StringBuilder curVariable;
+		                      ^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/export/TemplateFile.java:106: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+				return null;
+				^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/export/TemplateFile.java:113: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+						return null;
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/export/TemplateFile.java:128: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+						return null;
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/export/TemplateFile.java:141: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/ProcessClass.java:30: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/ProcessClass.java:74: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+			^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/ResourcesLoader.java:69: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+						return null;
+						^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/impl/InMemoryCodeCache.java:27: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return storage.get(clsFullName);
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/impl/NoOpCodeCache.java:22: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+		^
+    (see http://t.uber.com/nullaway )
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/api/ResourceFileContent.java:9: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		super(null, name, type);
+		      ^
+    (see http://t.uber.com/nullaway )

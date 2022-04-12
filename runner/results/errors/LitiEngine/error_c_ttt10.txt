@@ -590,17 +590,3 @@
         return this.getNode(point.getX(), point.getY());
         ^
     (see http://t.uber.com/nullaway )
-148 errors
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 6s

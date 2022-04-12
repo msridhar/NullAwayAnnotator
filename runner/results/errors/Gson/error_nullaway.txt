@@ -1,6 +1,3 @@
-warning: [options] source value 1.6 is obsolete and will be removed in a future release
-warning: [options] target value 1.6 is obsolete and will be removed in a future release
-warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
 /Users/nima/Developer/NullAwayFixer/Projects/gson/gson/src/main/java/com/google/gson/internal/LinkedTreeMap.java:71: error: [NullAway] initializer method does not guarantee @NonNull fields root (line 47), entrySet (line 426), keySet (line 427) are initialized along all control-flow paths (remember to check for exceptions or early returns).
   public LinkedTreeMap(Comparator<? super K> comparator) {
          ^
@@ -645,20 +642,3 @@ warning: [options] To suppress warnings about obsolete options, use -Xlint:-opti
     out.value(value == null ? null : format.format(value));
                             ^
     (see http://t.uber.com/nullaway )
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-161 errors
-3 warnings
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':gson:compileJava'.
-> Compilation failed; see the compiler error output for details.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 7s

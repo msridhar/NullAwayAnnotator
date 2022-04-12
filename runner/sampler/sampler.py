@@ -2,7 +2,6 @@ import os
 import json
 import random
 
-config = json.load(open("../config.json", "r"))
 projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
@@ -14,6 +13,21 @@ def helper(path):
     for i, l in enumerate(lines):
         if i % 4 == 3 and (l != "    (see http://t.uber.com/nullaway )\n"):
             print(str(i) + " " + l)
+
+
+def remove_line_number(error):
+    start = error.index(".java:")
+    end = error.index(": error: [NullAway] ")
+    return error[0:start + 6] + error[end:], int(error[start+6:end])
+
+
+def list_contains_error(err, error_list):
+    err_body, err_line = remove_line_number(err.strip())
+    for e in error_list:
+        e_body, e_line = remove_line_number(e.strip())
+        if e_body == err_body and abs(err_line - e_line) < 40:
+            return True
+    return False
 
 
 def read_errors(path):
@@ -32,9 +46,9 @@ def read_errors(path):
     return errors
 
 
-def capture_errors_in_branches():
+def capture_errors_in_branches(name):
     for proj in projects['projects']:
-        if not proj['active']:
+        if proj['name'] != name:
             continue
         print("Working on {}".format(proj['name']))
         COMMAND = "cd {} && {}".format(root.format(proj['path']), "{}")
@@ -60,16 +74,16 @@ def sample_remaining_errors(name):
         after = read_errors("../results/errors/{}/error_c_ttt10.txt".format(proj['name']))
         to_remove = []
         for e in after:
-            if e not in before:
+            if not list_contains_error(e, before):
                 to_remove.append(e)
         for e in to_remove:
             after.remove(e)
         print("Choosing 5 from: {}".format(len(after)))
-        sampled = random.sample(after, 5)
-        with open("../results/errors/{}/remaining.txt".format(proj['name']), "w") as f:
+        sampled = random.sample(after, 1)
+        with open("../results/errors/{}/remaining1.txt".format(proj['name']), "w") as f:
             f.writelines(sampled)
         exit()
 
-
-# helper("../results/errors/EventBus/error_c_ttt10.txt")
-sample_remaining_errors("EventBus")
+# capture_errors_in_branches("Jadx")
+# helper("../results/errors/LitiEngine/error_nullaway.txt")
+sample_remaining_errors("LitiEngine")

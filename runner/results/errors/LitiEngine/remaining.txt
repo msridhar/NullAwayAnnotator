@@ -1,0 +1,4 @@
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/io/XmlUtilities.java:89: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/Game.java:652: error: [NullAway] assigning @Nullable expression to @NonNull field
+    gameLoop = null;
