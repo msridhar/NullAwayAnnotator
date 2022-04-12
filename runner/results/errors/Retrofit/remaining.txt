@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:200: error: [NullAway] dereferenced expression urlBuilder is @Nullable
+      urlBuilder.addQueryParameter(name, value);
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestBuilder.java:215: error: [NullAway] dereferenced expression multipartBuilder is @Nullable
+    multipartBuilder.addPart(headers, body);
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/RequestFactory.java:791: error: [NullAway] dereferenced expression parameterHandlers is @Nullable
+          ParameterHandler<?> otherHandler = parameterHandlers[i];
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:144: error: [NullAway] dereferenced expression call is @Nullable
+      call.cancel();
+/Users/nima/Developer/NullAwayFixer/Projects/retrofit/retrofit/src/main/java/retrofit2/OkHttpCall.java:147: error: [NullAway] dereferenced expression call is @Nullable
+    call.enqueue(

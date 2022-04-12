@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/context/SessionContext.java:329: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return (Map<String, Object>) this.get(KEY_EVENT_PROPS);
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/plugins/Tracer.java:73: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/Server.java:159: error: [NullAway] initializer method does not guarantee @NonNull field serverGroup (line 118) is initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public Server(Registry registry, ServerStatusManager serverStatusManager,
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/DefaultClientChannelManager.java:448: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+                    null,
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/server/ssl/SslHandshakeInfoHandler.java:65: error: [NullAway] assigning @Nullable expression to @NonNull field
+        spectatorRegistry = null;

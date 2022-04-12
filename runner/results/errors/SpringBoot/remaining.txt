@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/jta/bitronix/PoolingDataSourceBean.java:58: error: [NullAway] initializer method does not guarantee @NonNull fields dataSource (line 54), beanName (line 56) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public PoolingDataSourceBean() {
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/config/ConfigDataLoaders.java:122: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return result;
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/logging/LoggingApplicationListener.java:392: error: [NullAway] passing @Nullable parameter 'name' where @NonNull is required
+				system.setLogLevel(name, level);
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/NoUniqueBeanDefinitionFailureAnalyzer.java:88: error: [NullAway] dereferenced expression cause.getMessage() is @Nullable
+		if (cause.getMessage().contains("but found")) {
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/PeriodStyle.java:146: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		return parse(value, null);
