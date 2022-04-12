@@ -13,6 +13,20 @@
     "c_ttt9": 53,
     "c_ttt10": 53
   },
+  "Mockito": {
+    "nullaway": 205,
+    "c_ttt0": 56,
+    "c_ttt1": 50,
+    "c_ttt2": 48,
+    "c_ttt3": 205,
+    "c_ttt4": 43,
+    "c_ttt5": 43,
+    "c_ttt6": 43,
+    "c_ttt7": 43,
+    "c_ttt8": 43,
+    "c_ttt9": 43,
+    "c_ttt10": 43
+  },
   "Conductor": {
     "nullaway": 138,
     "c_ttt0": 78,
@@ -110,6 +124,20 @@
     "c_ttt8": 13,
     "c_ttt9": 13,
     "c_ttt10": 13
+  },
+  "LottieAndroid": {
+    "nullaway": 331,
+    "c_ttt0": 119,
+    "c_ttt1": 109,
+    "c_ttt2": 108,
+    "c_ttt3": 108,
+    "c_ttt4": 108,
+    "c_ttt5": 107,
+    "c_ttt6": 107,
+    "c_ttt7": 107,
+    "c_ttt8": 107,
+    "c_ttt9": 107,
+    "c_ttt10": 107
   },
   "SpringBoot": {
     "nullaway": 699,
