@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/keyframe/TransformKeyframeAnimation.java:60: error: [NullAway] assigning @Nullable expression to @NonNull field
+      skewValues = null;
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/L.java:25: error: [NullAway] @NonNull static field sections not initialized
+  private static String[] sections;
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:326: error: [NullAway] assigning @Nullable expression to @NonNull field
+    composition = null;
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/animation/content/PolystarContent.java:82: error: [NullAway] read of @NonNull field innerRadiusAnimation before initialization
+      innerRadiusAnimation.addUpdateListener(this);
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/layer/BaseLayer.java:103: error: [NullAway] initializer method does not guarantee @NonNull fields mask (line 83), inOutAnimation (line 85), matteLayer (line 87), parentLayer (line 93), parentLayers (line 94), outlineMasksAndMattesPaint (line 101) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+  BaseLayer(LottieDrawable lottieDrawable, Layer layerModel) {

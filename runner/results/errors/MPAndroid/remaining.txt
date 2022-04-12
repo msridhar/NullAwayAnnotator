@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java:29: error: [NullAway] assigning @Nullable expression to @NonNull field
+    protected List<Integer> mColors = null;
+/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java:78: error: [NullAway] initializer method does not guarantee @NonNull fields mYAxis (line 65), mYAxisRenderer (line 67), mXAxisRenderer (line 68) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public RadarChart(Context context, AttributeSet attrs, int defStyle) {
+/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java:312: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mData = null;
+/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java:769: error: [NullAway] @NonNull field LineChartRenderer$DataSetImageCache.circleBitmaps not initialized
+        private Bitmap[] circleBitmaps;
+/Users/nima/Developer/NullAwayFixer/Projects/MPAndroidChart/MPChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java:44: error: [NullAway] assigning @Nullable expression to @NonNull field
+    protected List<Fill> mFills = null;

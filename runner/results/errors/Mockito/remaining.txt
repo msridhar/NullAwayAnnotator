@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/util/Primitives.java:33: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return (Class<T>) PRIMITIVE_TYPES.get(clazz);
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java:51: error: [NullAway] initializer method does not guarantee @NonNull fields typeToMock (line 26), name (line 28), spiedInstance (line 29), defaultAnswer (line 30), mockName (line 31), outerClassInstance (line 47), constructorArgs (line 48) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+    public CreationSettings() {}
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/junit/JUnitSessionStore.java:55: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                    return null;
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java:41: error: [NullAway] dereferenced expression DISPATCHERS.get(identifier) is @Nullable
+        return DISPATCHERS.get(identifier).isConstructorMock(type);
+/Users/nima/Developer/NullAwayFixer/Projects/mockito/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java:56: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+                            return null;
