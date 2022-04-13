@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/model/MutablePair.java:16: error: [NullAway] @NonNull field second not initialized
+   T second;
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieResult.java:19: error: [NullAway] assigning @Nullable expression to @NonNull field
+    exception = null;
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/parser/CircleShapeParser.java:57: error: [NullAway] passing @Nullable parameter 'size' where @NonNull is required
+    return new CircleShape(name, position, size, reversed, hidden);
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieAnimationView.java:419: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+              LottieCompositionFactory.fromAssetSync(getContext(), assetName) : LottieCompositionFactory.fromAssetSync(getContext(), assetName, null);
+/Users/nima/Developer/NullAwayFixer/Projects/lottie-android/lottie/src/main/java/com/airbnb/lottie/LottieDrawable.java:1123: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
