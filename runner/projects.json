@@ -154,7 +154,7 @@
                 "nullable": "javax.annotation.Nullable",
                 "nonnull": "javax.annotation.Nonnull"
             },
-            "active": false
+            "active": true
         },
         {
             "name": "Glide",

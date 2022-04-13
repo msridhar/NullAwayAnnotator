@@ -1,5 +1,6 @@
 {
   "MPAndroid": {
+    "u_ttt4": 53,
     "nullaway": 174,
     "c_ttt0": 64,
     "c_ttt1": 57,
@@ -14,11 +15,12 @@
     "c_ttt10": 53
   },
   "Mockito": {
+    "u_ttt4": 44,
     "nullaway": 205,
     "c_ttt0": 56,
     "c_ttt1": 50,
     "c_ttt2": 48,
-    "c_ttt3": 205,
+    "c_ttt3": 43,
     "c_ttt4": 43,
     "c_ttt5": 43,
     "c_ttt6": 43,
@@ -28,6 +30,7 @@
     "c_ttt10": 43
   },
   "Conductor": {
+    "u_ttt4": 69,
     "nullaway": 138,
     "c_ttt0": 78,
     "c_ttt1": 73,
@@ -42,6 +45,7 @@
     "c_ttt10": 69
   },
   "LitiEngine": {
+    "u_ttt4": 146,
     "nullaway": 480,
     "c_ttt0": 198,
     "c_ttt1": 166,
@@ -56,6 +60,7 @@
     "c_ttt10": 146
   },
   "EventBus": {
+    "u_ttt4": 10,
     "nullaway": 49,
     "c_ttt0": 13,
     "c_ttt1": 11,
@@ -70,6 +75,7 @@
     "c_ttt10": 10
   },
   "Gson": {
+    "u_ttt4": 75,
     "nullaway": 161,
     "c_ttt0": 85,
     "c_ttt1": 75,
@@ -84,6 +90,7 @@
     "c_ttt10": 75
   },
   "Jadx": {
+    "u_ttt4": "time-out",
     "nullaway": 583,
     "c_ttt0": 145,
     "c_ttt1": 149,
@@ -98,6 +105,7 @@
     "c_ttt10": 152
   },
   "Zuul": {
+    "u_ttt4": 71,
     "nullaway": 204,
     "c_ttt0": 82,
     "c_ttt1": 72,
@@ -112,6 +120,7 @@
     "c_ttt10": 71
   },
   "Retrofit": {
+    "u_ttt4": 13,
     "nullaway": 26,
     "c_ttt0": 13,
     "c_ttt1": 13,
@@ -126,6 +135,7 @@
     "c_ttt10": 13
   },
   "LottieAndroid": {
+    "u_ttt4": 106,
     "nullaway": 331,
     "c_ttt0": 119,
     "c_ttt1": 109,
@@ -140,6 +150,7 @@
     "c_ttt10": 107
   },
   "SpringBoot": {
+    "u_ttt4": "time-out",
     "nullaway": 699,
     "c_ttt0": 183,
     "c_ttt1": 116,
@@ -168,6 +179,7 @@
     "c_ttt10": 495
   },
   "Glide": {
+    "u_ttt4": "time-out",
     "nullaway": 286,
     "c_ttt0": 116,
     "c_ttt1": 114,
@@ -182,6 +194,7 @@
     "c_ttt10": 113
   },
   "UCrop": {
+    "u_ttt4": 17,
     "nullaway": 51,
     "c_ttt0": 19,
     "c_ttt1": 19,
@@ -196,6 +209,7 @@
     "c_ttt10": 19
   },
   "Eureka": {
+    "u_ttt4": 27,
     "nullaway": 74,
     "c_ttt0": 31,
     "c_ttt1": 29,
