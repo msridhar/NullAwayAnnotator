@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java:239: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/utils/InsnUtils.java:139: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/InsnDecoder.java:466: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+						null,
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/codegen/MethodGen.java:320: error: [NullAway] passing @Nullable parameter 'prevInsn' where @NonNull is required
+			if (option != BLOCK_DUMP && needLabel(insn, prevInsn)) {
+/Users/nima/Developer/NullAwayFixer/Projects/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/EnumVisitor.java:444: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+			return null;
