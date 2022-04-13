@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:87: error: [NullAway] @NonNull field mOverlayView not initialized
+    private OverlayView mOverlayView;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java:91: error: [NullAway] @NonNull field mTextViewScalePercent not initialized
+    private TextView mTextViewRotateAngle, mTextViewScalePercent;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java:124: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+        return null;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java:74: error: [NullAway] assigning @Nullable expression to @NonNull field
+        mOutputUri = outputUri;
+/Users/nima/Developer/NullAwayFixer/Projects/uCrop/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java:93: error: [NullAway] assigning @Nullable expression to @NonNull field
+            mViewBitmap = null;
