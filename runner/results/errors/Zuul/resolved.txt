@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/netty/common/ssl/ServerSslConfig.java:75: error: [NullAway] assigning @Nullable expression to @NonNull field
+        this.ciphers = ciphers != null ? Arrays.asList(ciphers) : null;
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/filters/FilterError.java:27: error: [NullAway] assigning @Nullable expression to @NonNull field
+    private Throwable exception = null;
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/niws/RequestAttempt.java:329: error: [NullAway] assigning @Nullable expression to @NonNull field
+                error = t.getMessage();
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/ssl/ClientSslContextFactory.java:44: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+            null
+/Users/nima/Developer/NullAwayFixer/Projects/zuul/zuul-core/src/main/java/com/netflix/zuul/netty/connectionpool/PerServerConnectionPool.java:406: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+            return null;

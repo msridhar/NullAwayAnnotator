@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleShader.java:244: error: [NullAway] assigning @Nullable expression to @NonNull field
+		renderable = null;
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/glutils/InstanceBufferObject.java:235: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		unbind(shader, null);
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/PatchShapeBuilder.java:57: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		build(builder, vertTmp1.set(null).setPos(x00, y00, z00).setNor(normalX, normalY, normalZ).setUV(0f, 1f),
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Skin.java:498: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		json.setTypeName(null);
+/Users/nima/Developer/NullAwayFixer/Projects/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/ModelCache.java:241: error: [NullAway] assigning @Nullable expression to @NonNull field
+		result.shader = null;

@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/builder/SpringApplicationBuilder.java:96: error: [NullAway] initializer method does not guarantee @NonNull fields context (line 78), parent (line 80), environment (line 88) are initialized along all control-flow paths (remember to check for exceptions or early returns).
+	public SpringApplicationBuilder(Class<?>... sources) {
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/logging/LoggingSystemProperties.java:149: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+		apply(null);
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/convert/NumberToDataSizeConverter.java:44: error: [NullAway] passing @Nullable parameter '(source != null) ? source.toString() : null' where @NonNull is required
+		return this.delegate.convert((source != null) ? source.toString() : null, TypeDescriptor.valueOf(String.class),
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/context/properties/bind/DefaultBindConstructorProvider.java:58: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;
+/Users/nima/Developer/NullAwayFixer/Projects/spring-boot/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/diagnostics/analyzer/ValidationExceptionFailureAnalyzer.java:47: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+		return null;

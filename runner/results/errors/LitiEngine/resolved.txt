@@ -1,0 +1,10 @@
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/environment/tilemap/xml/TileLayer.java:45: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+    return tile.isPresent() ? tile.get() : null;
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/DropdownListField.java:102: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.chosenElementComponent = new ImageComponent(this.getX(), this.getY(), this.getWidth(), this.getHeight() / this.getNumberOfShownElements(), this.getEntrySprite(), "", null);
+ /Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/sound/SoundEngine.java:719: error: [NullAway] assigning @Nullable expression to @NonNull field
+        music = null;
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/util/ArrayUtilities.java:557: error: [NullAway] returning @Nullable expression from method with @NonNull return type
+      return null;
+/Users/nima/Developer/NullAwayFixer/Projects/litiengine/src/de/gurkenlabs/litiengine/gui/HorizontalSlider.java:31: error: [NullAway] passing @Nullable parameter 'null' where @NonNull is required
+    this.setButton2(new ImageComponent(this.getX() + this.getWidth() - this.getHeight(), this.getY(), this.getHeight(), this.getHeight(), this.getButtonSpritesheet(), ARROW_RIGHT.getText(), null));
