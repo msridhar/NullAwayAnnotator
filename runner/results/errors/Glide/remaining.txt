@@ -2,8 +2,8 @@
       pendingTarget = null;
 /Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/prefill/PreFillType.java:121: error: [NullAway] initializer method does not guarantee @NonNull field config (line ) is initialized along all control-flow paths (remember to check for exceptions or early returns).
     public Builder(int width, int height) {
-/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/ResourceLoader.java:36: error: [NullAway] returning @Nullable expression from method with @NonNull return type
-    return uri == null ? null : uriLoader.buildLoadData(uri, width, height, options);
+/Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/engine/DecodeJob.java:718: error: [NullAway] assigning @Nullable expression to @NonNull field
+      toEncode = null;
 /Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/resource/gif/StreamGifDecoder.java:51: error: [NullAway] returning @Nullable expression from method with @NonNull return type
       return null;
 /Users/nima/Developer/NullAwayFixer/Projects/glide/library/src/main/java/com/bumptech/glide/load/model/MultiModelLoader.java:86: error: [NullAway] initializer method does not guarantee @NonNull fields priority (line ), callback (line ) are initialized along all control-flow paths (remember to check for exceptions or early returns).

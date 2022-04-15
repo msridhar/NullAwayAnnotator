@@ -6,7 +6,7 @@ config = json.load(open("../config.json", "r"))
 projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
-branches = ["dummy"] + ["deep_{}".format(i) for i in range(0, 11)]
+branches = ["c_ttt{}".format(i) for i in range(0, 11)] + ["dummy", "u_ttt4"]
 
 
 def read_number_of_builds(branch, path):

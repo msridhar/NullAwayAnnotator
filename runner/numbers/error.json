@@ -1,5 +1,6 @@
 {
   "MPAndroid": {
+    "dummy": 489,
     "u_ttt4": 53,
     "nullaway": 174,
     "c_ttt0": 64,
@@ -15,6 +16,7 @@
     "c_ttt10": 53
   },
   "Mockito": {
+    "dummy": 113,
     "u_ttt4": 44,
     "nullaway": 205,
     "c_ttt0": 56,
@@ -30,6 +32,7 @@
     "c_ttt10": 43
   },
   "Conductor": {
+    "dummy": 163,
     "u_ttt4": 69,
     "nullaway": 138,
     "c_ttt0": 78,
@@ -45,6 +48,7 @@
     "c_ttt10": 69
   },
   "LitiEngine": {
+    "dummy": 551,
     "u_ttt4": 146,
     "nullaway": 480,
     "c_ttt0": 198,
@@ -60,6 +64,7 @@
     "c_ttt10": 146
   },
   "EventBus": {
+    "dummy": 18,
     "u_ttt4": 10,
     "nullaway": 49,
     "c_ttt0": 13,
@@ -75,6 +80,7 @@
     "c_ttt10": 10
   },
   "Gson": {
+    "dummy": 192,
     "u_ttt4": 75,
     "nullaway": 161,
     "c_ttt0": 85,
@@ -90,7 +96,8 @@
     "c_ttt10": 75
   },
   "Jadx": {
-    "u_ttt4": "time-out",
+    "dummy": 796,
+    "u_ttt4": 152,
     "nullaway": 583,
     "c_ttt0": 145,
     "c_ttt1": 149,
@@ -105,6 +112,7 @@
     "c_ttt10": 152
   },
   "Zuul": {
+    "dummy": 174,
     "u_ttt4": 71,
     "nullaway": 204,
     "c_ttt0": 82,
@@ -120,6 +128,7 @@
     "c_ttt10": 71
   },
   "Retrofit": {
+    "dummy": 13,
     "u_ttt4": 13,
     "nullaway": 26,
     "c_ttt0": 13,
@@ -135,6 +144,7 @@
     "c_ttt10": 13
   },
   "LottieAndroid": {
+    "dummy": 243,
     "u_ttt4": 106,
     "nullaway": 331,
     "c_ttt0": 119,
@@ -150,6 +160,7 @@
     "c_ttt10": 107
   },
   "SpringBoot": {
+    "dummy": 192,
     "u_ttt4": "time-out",
     "nullaway": 699,
     "c_ttt0": 183,
@@ -165,6 +176,8 @@
     "c_ttt10": 84
   },
   "LibGdx": {
+    "dummy": 2379,
+    "u_ttt4": "time-out",
     "nullaway": 1489,
     "c_ttt0": 572,
     "c_ttt1": 512,
@@ -179,6 +192,7 @@
     "c_ttt10": 495
   },
   "Glide": {
+    "dummy": 205,
     "u_ttt4": "time-out",
     "nullaway": 286,
     "c_ttt0": 116,
@@ -194,6 +208,7 @@
     "c_ttt10": 113
   },
   "UCrop": {
+    "dummy": 78,
     "u_ttt4": 17,
     "nullaway": 51,
     "c_ttt0": 19,
@@ -209,6 +224,7 @@
     "c_ttt10": 19
   },
   "Eureka": {
+    "dummy": 70,
     "u_ttt4": 27,
     "nullaway": 74,
     "c_ttt0": 31,
@@ -222,5 +238,41 @@
     "c_ttt8": 26,
     "c_ttt9": 26,
     "c_ttt10": 26
+  },
+  "TA": {
+    "nullaway": 825,
+    "c_ttt0": 266,
+    "c_ttt4": 240,
+    "dummy": 516
+  },
+  "T1":{
+    "c_ttt0": 55,
+    "nullaway": 131,
+    "c_ttt4": 53,
+    "dummy": 98
+  },
+  "T2":{
+    "c_ttt0":39,
+    "nullaway": 205,
+    "c_ttt4": 25,
+    "dummy": 111
+  },
+  "T3":{
+    "c_ttt0": 148,
+    "nullaway": 428,
+    "c_ttt4": 144,
+    "dummy": 240
+  },
+  "T4": {
+    "c_ttt0": 152,
+    "nullaway": 357,
+    "c_ttt4": 141,
+    "dummy": 496
+  },
+  "T5":{
+    "c_ttt0": 441,
+    "nullaway": 562,
+    "c_ttt4": 426,
+    "dummy": 496
   }
 }

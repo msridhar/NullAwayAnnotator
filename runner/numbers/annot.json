@@ -1,0 +1,812 @@
+{
+  "MPAndroid": {
+    "c_ttt0": {
+      "nullable": 132,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 160,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 181,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 328,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 181,
+      "initializer": 0
+    }
+  },
+  "Mockito": {
+    "c_ttt0": {
+      "nullable": 189,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 226,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 244,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 0,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 262,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 262,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 269,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 269,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 269,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 269,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 269,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 409,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 256,
+      "initializer": 0
+    }
+  },
+  "Conductor": {
+    "c_ttt0": {
+      "nullable": 84,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 90,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 103,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 103,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 114,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 157,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 103,
+      "initializer": 0
+    }
+  },
+  "LitiEngine": {
+    "c_ttt0": {
+      "nullable": 384,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 539,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 652,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 688,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 743,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 751,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 751,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 782,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 782,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 786,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 786,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 1143,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 691,
+      "initializer": 0
+    }
+  },
+  "EventBus": {
+    "c_ttt0": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt1": {
+      "nullable": 56,
+      "initializer": 1
+    },
+    "c_ttt2": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt3": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt4": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt5": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt6": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt7": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt8": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt9": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "c_ttt10": {
+      "nullable": 62,
+      "initializer": 1
+    },
+    "dummy": {
+      "nullable": 66,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 62,
+      "initializer": 1
+    }
+  },
+  "Gson": {
+    "c_ttt0": {
+      "nullable": 93,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 126,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 146,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 126,
+      "initializer": 0
+    }
+  },
+  "Jadx": {
+    "c_ttt0": {
+      "nullable": 437,
+      "initializer": 1
+    },
+    "c_ttt1": {
+      "nullable": 581,
+      "initializer": 1
+    },
+    "c_ttt2": {
+      "nullable": 651,
+      "initializer": 1
+    },
+    "c_ttt3": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt4": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt5": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt6": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt7": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt8": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt9": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "c_ttt10": {
+      "nullable": 683,
+      "initializer": 1
+    },
+    "dummy": {
+      "nullable": 1028,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 537,
+      "initializer": 1
+    }
+  },
+  "Zuul": {
+    "c_ttt0": {
+      "nullable": 195,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 232,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 245,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 364,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 245,
+      "initializer": 0
+    }
+  },
+  "LottieAndroid": {
+    "c_ttt0": {
+      "nullable": 451,
+      "initializer": 3
+    },
+    "c_ttt1": {
+      "nullable": 496,
+      "initializer": 3
+    },
+    "c_ttt2": {
+      "nullable": 504,
+      "initializer": 3
+    },
+    "c_ttt3": {
+      "nullable": 507,
+      "initializer": 3
+    },
+    "c_ttt4": {
+      "nullable": 507,
+      "initializer": 3
+    },
+    "c_ttt5": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "c_ttt6": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "c_ttt7": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "c_ttt8": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "c_ttt9": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "c_ttt10": {
+      "nullable": 516,
+      "initializer": 3
+    },
+    "dummy": {
+      "nullable": 0,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 520,
+      "initializer": 3
+    }
+  },
+  "Retrofit": {
+    "c_ttt0": {
+      "nullable": 13,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 13,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 16,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 16,
+      "initializer": 0
+    }
+  },
+  "SpringBoot": {
+    "c_ttt0": {
+      "nullable": 757,
+      "initializer": 2
+    },
+    "c_ttt1": {
+      "nullable": 936,
+      "initializer": 2
+    },
+    "c_ttt2": {
+      "nullable": 1058,
+      "initializer": 2
+    },
+    "c_ttt3": {
+      "nullable": 1162,
+      "initializer": 2
+    },
+    "c_ttt4": {
+      "nullable": 1171,
+      "initializer": 2
+    },
+    "c_ttt5": {
+      "nullable": 1190,
+      "initializer": 2
+    },
+    "c_ttt6": {
+      "nullable": 1218,
+      "initializer": 2
+    },
+    "c_ttt7": {
+      "nullable": 1229,
+      "initializer": 2
+    },
+    "c_ttt8": {
+      "nullable": 1229,
+      "initializer": 2
+    },
+    "c_ttt9": {
+      "nullable": 1229,
+      "initializer": 2
+    },
+    "c_ttt10": {
+      "nullable": 1229,
+      "initializer": 2
+    },
+    "dummy": {
+      "nullable": 1472,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 609,
+      "initializer": 2
+    }
+  },
+  "LibGdx": {
+    "c_ttt0": {
+      "nullable": 789,
+      "initializer": 7
+    },
+    "c_ttt1": {
+      "nullable": 926,
+      "initializer": 7
+    },
+    "c_ttt2": {
+      "nullable": 1004,
+      "initializer": 7
+    },
+    "c_ttt3": {
+      "nullable": 1019,
+      "initializer": 7
+    },
+    "c_ttt4": {
+      "nullable": 1035,
+      "initializer": 7
+    },
+    "c_ttt5": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "c_ttt6": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "c_ttt7": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "c_ttt8": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "c_ttt9": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "c_ttt10": {
+      "nullable": 1073,
+      "initializer": 7
+    },
+    "dummy": {
+      "nullable": 2071,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 784,
+      "initializer": 7
+    }
+  },
+  "Glide": {
+    "c_ttt0": {
+      "nullable": 198,
+      "initializer": 2
+    },
+    "c_ttt1": {
+      "nullable": 206,
+      "initializer": 2
+    },
+    "c_ttt2": {
+      "nullable": 234,
+      "initializer": 2
+    },
+    "c_ttt3": {
+      "nullable": 237,
+      "initializer": 2
+    },
+    "c_ttt4": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt5": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt6": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt7": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt8": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt9": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "c_ttt10": {
+      "nullable": 245,
+      "initializer": 2
+    },
+    "dummy": {
+      "nullable": 385,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 147,
+      "initializer": 2
+    }
+  },
+  "UCrop": {
+    "c_ttt0": {
+      "nullable": 44,
+      "initializer": 1
+    },
+    "c_ttt1": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt2": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt3": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt4": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt5": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt6": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt7": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt8": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt9": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "c_ttt10": {
+      "nullable": 51,
+      "initializer": 1
+    },
+    "dummy": {
+      "nullable": 74,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 39,
+      "initializer": 1
+    }
+  },
+  "Eureka": {
+    "c_ttt0": {
+      "nullable": 69,
+      "initializer": 0
+    },
+    "c_ttt1": {
+      "nullable": 85,
+      "initializer": 0
+    },
+    "c_ttt2": {
+      "nullable": 102,
+      "initializer": 0
+    },
+    "c_ttt3": {
+      "nullable": 102,
+      "initializer": 0
+    },
+    "c_ttt4": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt5": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt6": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt7": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt8": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt9": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "c_ttt10": {
+      "nullable": 113,
+      "initializer": 0
+    },
+    "dummy": {
+      "nullable": 207,
+      "initializer": 0
+    },
+    "u_ttt4": {
+      "nullable": 105,
+      "initializer": 0
+    }
+  }
+}
