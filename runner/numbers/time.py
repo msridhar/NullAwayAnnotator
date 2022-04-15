@@ -39,5 +39,5 @@ for proj in projects['projects']:
         times[branch] = time_spent("{}/NullAwayFix/log.txt".format(proj_path))
         os.system(COMMAND.format("rm -rvf NullAwayFix"))
     infos[proj['name']] = times
-    with open("time.json", "w") as f:
+    with open("time1.json", "w") as f:
         json.dump(infos, f)

@@ -26,8 +26,6 @@ def read_number_of_builds(branch, path):
 
 
 for proj in projects['projects']:
-    if not proj['active']:
-        continue
     print("Working on {}".format(proj['name']))
     proj_path = root.format(proj['path'])
     COMMAND = "cd {} && {}".format(proj_path, "{}")
@@ -45,5 +43,5 @@ for proj in projects['projects']:
         builds[branch]["total"], builds[branch]["opt"] = read_number_of_builds(branch, "{}/NullAwayFix/log.txt".format(proj_path))
         os.system(COMMAND.format("rm -rvf NullAwayFix"))
     infos[proj['name']] = builds
-    with open("build.json", "w") as f:
+    with open("build1.json", "w") as f:
         json.dump(infos, f)
