@@ -6,7 +6,8 @@ config = json.load(open("../config.json", "r"))
 projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
-branches = ["c_ttt{}".format(i) for i in range(0, 11)] + ["u_ttt4"]
+# branches = ["c_ttt{}".format(i) for i in range(0, 11)] + ["u_ttt4"]
+branches = ["c_ftt4"]
 
 
 def time_spent(path):
@@ -39,5 +40,5 @@ for proj in projects['projects']:
         times[branch] = time_spent("{}/NullAwayFix/log.txt".format(proj_path))
         os.system(COMMAND.format("rm -rvf NullAwayFix"))
     infos[proj['name']] = times
-    with open("time1.json", "w") as f:
+    with open("./ftt/time.json", "w") as f:
         json.dump(infos, f)

@@ -5,7 +5,7 @@ config = json.load(open("../config.json", "r"))
 projects = json.load(open("../projects.json", "r"))
 root = "/Users/nima/Developer/NullAwayFixer/Projects/{}"
 infos = {}
-branches = ["dummy"]
+branches = ["c_ftt4"]
 
 
 def read_errors_num():
@@ -34,5 +34,5 @@ for proj in projects['projects']:
         os.system("{} > /dev/null 2>&1".format(COMMAND.format(proj['build'])))
         errors[branch] = read_errors_num()
     infos[proj['name']] = errors
-    with open("error4.json", "w") as f:
+    with open("ftt/error.json", "w") as f:
         json.dump(infos, f)

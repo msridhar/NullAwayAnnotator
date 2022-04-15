@@ -1,0 +1,92 @@
+{
+  "MPAndroid": {
+    "c_ftt4": {
+      "total": 636,
+      "opt": 88
+    }
+  },
+  "Mockito": {
+    "c_ftt4": {
+      "total": 701,
+      "opt": 78
+    }
+  },
+  "Conductor": {
+    "c_ftt4": {
+      "total": 280,
+      "opt": 64
+    }
+  },
+  "LitiEngine": {
+    "c_ftt4": {
+      "total": 2196,
+      "opt": 89
+    }
+  },
+  "EventBus": {
+    "c_ftt4": {
+      "total": 77,
+      "opt": 27
+    }
+  },
+  "Gson": {
+    "c_ftt4": {
+      "total": 431,
+      "opt": 40
+    }
+  },
+  "Jadx": {
+    "c_ftt4": {
+      "total": 1622,
+      "opt": 89
+    }
+  },
+  "Zuul": {
+    "c_ftt4": {
+      "total": -1,
+      "opt": -1
+    }
+  },
+  "LottieAndroid": {
+    "c_ftt4": {
+      "total": 801,
+      "opt": 105
+    }
+  },
+  "Retrofit": {
+    "c_ftt4": {
+      "total": 19,
+      "opt": 11
+    }
+  },
+  "SpringBoot": {
+    "c_ftt4": {
+      "total": 2144,
+      "opt": 126
+    }
+  },
+  "LibGdx": {
+    "c_ftt4": {
+      "total": 5502,
+      "opt": 161
+    }
+  },
+  "Glide": {
+    "c_ftt4": {
+      "total": 789,
+      "opt": 99
+    }
+  },
+  "UCrop": {
+    "c_ftt4": {
+      "total": 88,
+      "opt": 0
+    }
+  },
+  "Eureka": {
+    "c_ftt4": {
+      "total": 231,
+      "opt": 0
+    }
+  }
+}

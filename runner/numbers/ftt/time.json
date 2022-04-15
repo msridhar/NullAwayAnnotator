@@ -1,0 +1,47 @@
+{
+  "MPAndroid": {
+    "c_ftt4": 379.212
+  },
+  "Mockito": {
+    "c_ftt4": 717.5139999999999
+  },
+  "Conductor": {
+    "c_ftt4": 472.793
+  },
+  "LitiEngine": {
+    "c_ftt4": 558.3679999999999
+  },
+  "EventBus": {
+    "c_ftt4": 87.39699999999999
+  },
+  "Gson": {
+    "c_ftt4": 167.538
+  },
+  "Jadx": {
+    "c_ftt4": 999.196
+  },
+  "Zuul": {
+    "c_ftt4": -1
+  },
+  "LottieAndroid": {
+    "c_ftt4": 646.37
+  },
+  "Retrofit": {
+    "c_ftt4": 51.773
+  },
+  "SpringBoot": {
+    "c_ftt4": 1123.148
+  },
+  "LibGdx": {
+    "c_ftt4": 1482.4389999999999
+  },
+  "Glide": {
+    "c_ftt4": 517.324
+  },
+  "UCrop": {
+    "c_ftt4": 16.201999999999998
+  },
+  "Eureka": {
+    "c_ftt4": 68.893
+  }
+}
