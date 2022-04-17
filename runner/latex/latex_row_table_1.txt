@@ -1,15 +1,15 @@
-& \hspace{1em} \texttt{Conductor} &  & 138 & 163 & 78 & 69+ & 18.12 & -43.48\\\cline{2-10}
-& \hspace{1em} \texttt{Mockito} &  & 205 & 113 & 56 & 43 & -44.88 & -72.68\\\cline{2-10}
-& \hspace{1em} \texttt{SpringBoot} &  & 699 & 192 & 183 & 85 & -72.53 & -73.82\\\cline{2-10}
-& \hspace{1em} \texttt{LitiEngine} &  & 480 & 551 & 198 & 146+ & 14.79 & -58.75\\\cline{2-10}
-& \hspace{1em} \texttt{LibGdx} &  & 1489 & 2379 & 572 & 495+ & 59.77 & -61.58\\\cline{2-10}
-& \hspace{1em} \texttt{MPAndroid} &  & 174 & 489 & 64 & 53+ & 181.03 & -63.22\\\cline{2-10}
-& \hspace{1em} \texttt{Glide} &  & 286 & 205 & 116 & 113 & -28.32 & -59.44\\\cline{2-10}
-& \hspace{1em} \texttt{EventBus} &  & 49 & 18 & 13 & 10 & -63.27 & -73.47\\\cline{2-10}
-& \hspace{1em} \texttt{LottieAndroid} &  & 331 & 243 & 119 & 108 & -26.59 & -64.05\\\cline{2-10}
-& \hspace{1em} \texttt{UCrop} &  & 51 & 78 & 19 & 19+ & 52.94 & -62.75\\\cline{2-10}
-& \hspace{1em} \texttt{Gson} &  & 161 & 192 & 85 & 75+ & 19.25 & -47.20\\\cline{2-10}
-& \hspace{1em} \texttt{Eureka} &  & 74 & 70 & 31 & 26 & -5.41 & -58.11\\\cline{2-10}
-& \hspace{1em} \texttt{Retrofit} &  & 26 & 13 & 13 & 13 & -50.00 & -50.00\\\cline{2-10}
-& \hspace{1em} \texttt{Jadx} &  & 583 & 796 & 152 & 147+ & 36.54 & -73.93\\\cline{2-10}
-& \hspace{1em} \texttt{Zuul} &  & 204 & 174 & 82 & 71 & -14.71 & -59.80\\\cline{2-10}
+& \hspace{1em} \texttt{Conductor} &  & 138 & 163 (+18.1 \%) & 78 (-43.5 \%) & 69 (-50.0 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Mockito} &  & 205 & 113 (-44.9 \%) & 56 (-72.7 \%) & 43 (-79.0 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{SpringBoot} &  & 699 & 192 (-72.5 \%) & 183 (-73.8 \%) & 85 (-87.8 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{LitiEngine} &  & 480 & 551 (+14.8 \%) & 198 (-58.8 \%) & 146 (-69.6 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{LibGdx} &  & 1489 & 2379 (+59.8 \%) & 572 (-61.6 \%) & 495 (-66.8 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{MPAndroid} &  & 174 & 489 (+181.0 \%) & 64 (-63.2 \%) & 53 (-69.5 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Glide} &  & 286 & 205 (-28.3 \%) & 116 (-59.4 \%) & 113 (-60.5 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{EventBus} &  & 49 & 18 (-63.3 \%) & 13 (-73.5 \%) & 10 (-79.6 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{LottieAndroid} &  & 331 & 243 (-26.6 \%) & 119 (-64.0 \%) & 108 (-67.4 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{UCrop} &  & 51 & 78 (+52.9 \%) & 19 (-62.7 \%) & 19 (-62.7 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Gson} &  & 161 & 192 (+19.3 \%) & 85 (-47.2 \%) & 75 (-53.4 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Eureka} &  & 74 & 70 (-5.4 \%) & 31 (-58.1 \%) & 26 (-64.9 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Retrofit} &  & 26 & 13 (-50.0 \%) & 13 (-50.0 \%) & 13 (-50.0 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Jadx} &  & 583 & 796 (+36.5 \%) & 152 (-73.9 \%) & 147 (-74.8 \%)\\\cline{2-7}
+& \hspace{1em} \texttt{Zuul} &  & 204 & 174 (-14.7 \%) & 82 (-59.8 \%) & 71 (-65.2 \%)\\\cline{2-7}
